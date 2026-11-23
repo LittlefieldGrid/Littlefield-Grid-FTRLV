@@ -1,0 +1,9 @@
+{
+  "path": "llplugin/d3dcompiler_47.dll",
+  "version": "10.0.22621.1778",
+  "sha256": "b23e7b820ed5c6ea7dcd77817e2cd79f1cec9561d457172287ee634a8bd658c3",
+  "current_installed_sdk_redist_byte_match": false,
+  "permission_reference": "https://learn.microsoft.com/en-us/legal/windows-sdk/license",
+  "desktop_app_local_redist_reference": "https://learn.microsoft.com/en-us/windows/win32/directx-sdk--august-2009-",
+  "finding": "Redistributable family established; exact older DLL acquisition/provenance and end-user terms still need a documented compliance route."
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+Littlefield Grid FTRLV modified version, 2026-11-22.
+Changes relative to Kokua 7.2.0.61057 are documented in doc/CHANGES-FTRLV.md.
+Existing upstream copyright and license notices are retained.
+-->
+<!--
+  Not can_close / no title to avoid window chrome
+  Single instance - only have one at a time, recycle it each spawn
+-->
+<floater name="inspect_group">
+	<string name="PrivateGroup">
+		Grupo privado
+	</string>
+	<string name="FreeToJoin">
+		Inscripción gratuita
+	</string>
+	<string name="CostToJoin">
+		Inscribirse cuesta [AMOUNT] OS$
+	</string>
+	<string name="YouAreMember">
+		Eres miembro
+	</string>
+	<button label="Inscribirse" name="join_btn"/>
+	<button label="Abandonar" name="leave_btn"/>
+	<button label="Ver el perfil" name="view_profile_btn"/>
+</floater>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<!--
+Littlefield Grid FTRLV modified version, 2026-11-22.
+Changes relative to Kokua 7.2.0.61057 are documented in doc/CHANGES-FTRLV.md.
+Existing upstream copyright and license notices are retained.
+-->
+<panel name="status">
+	<panel.string name="packet_loss_tooltip">
+		Utracone pakiety
+	</panel.string>
+	<panel.string name="bandwidth_tooltip">
+		Przepustowość
+	</panel.string>
+	<panel.string name="time">
+		[hour, datetime, slt]:[min, datetime, slt] [timezone,datetime, slt]
+	</panel.string>
+	<panel.string name="buycurrencylabel">
+		[AMT] OS$
+	</panel.string>
+	<panel name="balance_bg">
+		<text name="balance" tool_tip="Kliknij aby odświeżyć saldo OS$" />
+	</panel>
+	<text name="TimeText" tool_tip="Obecny czas (Pacyficzny)" />
+	<button name="media_toggle_btn" tool_tip="Odtwórz/Zatrzymaj wszystkie media (Muzyka, Wideo, WWW)" />
+</panel>

@@ -1,0 +1,29 @@
+{
+  "dullahan-autobuild": {
+    "url": "https://raw.githubusercontent.com/secondlife/dullahan/ead65e7ba782ccd4c9e1bb1e6247484ffbe980b1/autobuild.xml",
+    "bytes": 6358,
+    "sha256": "07f3b3f8e88bd8f71ff1e50fb76cc5c12dcd818b5e19946c4c872dbce782596b"
+  },
+  "openal-build": {
+    "url": "https://raw.githubusercontent.com/secondlife/3p-openal-soft/e33e940c00e8447bcf164dc6df3aa6096b86946b/build-cmd.sh",
+    "bytes": 10480,
+    "sha256": "01cea292f960bfa55778299661cb6c81143ed03ad3b677ed9b117ce1bde5b33b"
+  },
+  "chromium-ffmpeg-readme": {
+    "url": "https://raw.githubusercontent.com/chromium/chromium/118.0.5993.54/third_party/ffmpeg/README.chromium",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "cef-credits-route": {
+    "url": "https://raw.githubusercontent.com/chromiumembedded/cef/3dd607849786b271d95e1a3e8013f59572fa9779/libcef/browser/other/other_host_impl.cc",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "vlc-source-build-win32": {
+    "url": "https://raw.githubusercontent.com/videolan/vlc/3.0.21/doc/BUILD-win32.txt",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "vlc-source-build-msys2": {
+    "url": "https://raw.githubusercontent.com/videolan/vlc/3.0.21/extras/package/win32/build.sh",
+    "bytes": 11212,
+    "sha256": "31b48b334c5678fcda85b6957e6539d23cfaf6921fd6349e888f284c10a16eec"
+  }
+}

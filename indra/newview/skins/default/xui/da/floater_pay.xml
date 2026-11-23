@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+Littlefield Grid FTRLV modified version, 2026-11-22.
+Changes relative to Kokua 7.2.0.61057 are documented in doc/CHANGES-FTRLV.md.
+Existing upstream copyright and license notices are retained.
+-->
+<floater name="Give Money" title="">
+	<string name="payee_group">
+		Betal gruppe
+	</string>
+	<string name="payee_resident">
+		Betal beboer
+	</string>
+	<text left="5" name="payee_label" width="81">
+		Betal:
+	</text>
+	<icon name="icon_person" tool_tip="Person"/>
+	<text name="payee_name">
+		Test navn der er meget lang for at checke afkortning
+	</text>
+	<button label="OS$1" label_selected="OS$1" name="fastpay 1"/>
+	<button label="OS$5" label_selected="OS$5" name="fastpay 5"/>
+	<button label="OS$10" label_selected="OS$10" name="fastpay 10"/>
+	<button label="OS$20" label_selected="OS$20" name="fastpay 20"/>
+	<text left="4" name="amount text">
+		eler vælg beløb:
+	</text>
+	<button label="Betal" label_selected="Betal" name="pay btn"/>
+	<button label="Annullér" label_selected="Annullér" name="cancel btn"/>
+</floater>

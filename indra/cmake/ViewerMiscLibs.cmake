@@ -1,0 +1,28 @@
+# Littlefield Grid FTRLV modified version, 2026-11-22.
+# Changes relative to Kokua 7.2.0.61057 are documented in doc/CHANGES-FTRLV.md.
+# Existing upstream copyright and license notices are retained.
+# -*- cmake -*-
+include(Prebuilt)
+
+if (LINUX)
+  use_prebuilt_binary(libuuid)
+  add_library( ll::fontconfig INTERFACE IMPORTED )
+
+  if( NOT USE_CONAN )
+    use_prebuilt_binary(fontconfig)
+  else()
+    target_link_libraries( ll::fontconfig INTERFACE CONAN_PKG::fontconfig )
+  endif()
+endif (LINUX)
+
+if( NOT USE_CONAN )
+  use_prebuilt_binary(libhunspell)
+endif()
+
+if (USE_VIVOX)
+    use_prebuilt_binary(slvoice)
+endif()
+
+use_prebuilt_binary(nanosvg)
+use_prebuilt_binary(viewer-fonts)
+use_prebuilt_binary(emoji_shortcodes)

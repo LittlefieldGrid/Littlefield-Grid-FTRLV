@@ -1,0 +1,329 @@
+{
+  "version_from_pinned_dullahan": "CEF 118.4.1+g3dd6078 / Chromium 118.0.5993.54",
+  "distributed_files": [
+    {
+      "path": "llplugin/libcef.dll",
+      "bytes": 211360256,
+      "sha256": "a353501e9654586743c5d90543440f713625e289cda6e33ec6c944c0ad2fd856"
+    },
+    {
+      "path": "llplugin/chrome_elf.dll",
+      "bytes": 1510912,
+      "sha256": "304d73616a46e1fc1974468b99a9c6f5f4c8d0fa60c080ace37b98548a518c2f"
+    },
+    {
+      "path": "llplugin/libEGL.dll",
+      "bytes": 482816,
+      "sha256": "296f0ac984f9021a5379db194ff38344124407401c8939f3cd892e098663a910"
+    },
+    {
+      "path": "llplugin/libGLESv2.dll",
+      "bytes": 7570432,
+      "sha256": "503f21b18006d329a37d746b1f0786a00ce362a99edfe6c1e7340e958afa6c9f"
+    },
+    {
+      "path": "llplugin/d3dcompiler_47.dll",
+      "bytes": 4916728,
+      "sha256": "b23e7b820ed5c6ea7dcd77817e2cd79f1cec9561d457172287ee634a8bd658c3"
+    },
+    {
+      "path": "llplugin/icudtl.dat",
+      "bytes": 10717392,
+      "sha256": "f5170aa2b388d23bebf98784dd488a9bcb741470384a6a9a8d7a2638d768defb"
+    },
+    {
+      "path": "llplugin/resources.pak",
+      "bytes": 8226920,
+      "sha256": "b57b6bfad509e02e541d2e3825eceda2c7935aa693b79d1efd22bfcb8cf8ed52"
+    },
+    {
+      "path": "llplugin/chrome_100_percent.pak",
+      "bytes": 656206,
+      "sha256": "58aff61167d362ad0913b1310fe50b97bc965ccb8c3ffb9b98c69ea0a6a68770"
+    },
+    {
+      "path": "llplugin/chrome_200_percent.pak",
+      "bytes": 1016534,
+      "sha256": "300c494b86ad99d8cacfe6df00a797fe75a93a07f71fdc685c6682d7f4c493a9"
+    },
+    {
+      "path": "llplugin/snapshot_blob.bin",
+      "bytes": 275914,
+      "sha256": "83f17bbb6bed24275f08175c186fb204896337fa6b636608d4530f4d0deeddcb"
+    },
+    {
+      "path": "llplugin/v8_context_snapshot.bin",
+      "bytes": 637677,
+      "sha256": "d2ce52e08906cd78d8f83b595f72db40b3162b5d946b4ff117708d6c0d02811a"
+    },
+    {
+      "path": "llplugin/dullahan_host.exe",
+      "bytes": 271360,
+      "sha256": "219c4cde71aeb05caede04374679cd791101b993b962f5161aa4b59a0ed05a15"
+    },
+    {
+      "path": "llplugin/media_plugin_cef.dll",
+      "bytes": 1111552,
+      "sha256": "6a3d4ad1c37d2b76f655f3e50f8aa132c27b735070f971b212bcff83731dc806"
+    }
+  ],
+  "embedded_license_resources": [
+    {
+      "file": "chrome_100_percent.pak",
+      "id": 63001,
+      "gzip": false,
+      "bytes": 1662,
+      "sha256": "058c3827ffb827ff3edda471ae7e1bb1d1aa5931985f0126043ccd33409e792f",
+      "extracted_notice": "CEF-chrome_100_percent.pak-resource-63001.html",
+      "redistribution_occurrences": 1,
+      "title": null
+    },
+    {
+      "file": "chrome_200_percent.pak",
+      "id": 63001,
+      "gzip": false,
+      "bytes": 1662,
+      "sha256": "058c3827ffb827ff3edda471ae7e1bb1d1aa5931985f0126043ccd33409e792f",
+      "extracted_notice": "CEF-chrome_200_percent.pak-resource-63001.html",
+      "redistribution_occurrences": 1,
+      "title": null
+    },
+    {
+      "file": "resources.pak",
+      "id": 37031,
+      "brotli": true,
+      "bytes": 9121546,
+      "sha256": "912385ff7b47e4bfe5d6f1b52372d71b4c7ab40806c041434fc48c39134fe533",
+      "extracted_notice": "CEF-resources.pak-resource-37031.html",
+      "redistribution_occurrences": 532,
+      "title": "Credits"
+    },
+    {
+      "file": "resources.pak",
+      "id": 41622,
+      "brotli": true,
+      "bytes": 4507,
+      "sha256": "a87f540b106d5d60b3532074c3f953219cdfba1eb3d322aa3e820e3b31a423ae",
+      "extracted_notice": "CEF-resources.pak-resource-41622.html",
+      "redistribution_occurrences": 1,
+      "title": null
+    },
+    {
+      "file": "resources.pak",
+      "id": 41623,
+      "brotli": true,
+      "bytes": 2687,
+      "sha256": "68b477e85e06e84b92c4cb956b6072fc44c77e0418718ae0732645d659ae98d4",
+      "extracted_notice": "CEF-resources.pak-resource-41623.html",
+      "redistribution_occurrences": 1,
+      "title": null
+    },
+    {
+      "file": "resources.pak",
+      "id": 41625,
+      "brotli": true,
+      "bytes": 2017,
+      "sha256": "301fe36d8e1b6c1aa8fd3244368f24fce9cb998fe729e82ef4fe40001ad8988c",
+      "extracted_notice": "CEF-resources.pak-resource-41625.html",
+      "redistribution_occurrences": 1,
+      "title": null
+    },
+    {
+      "file": "resources.pak",
+      "id": 41631,
+      "brotli": true,
+      "bytes": 3723,
+      "sha256": "bcf80bc68a433419b2d9024f8cae288399582b796a61a67bfc53c4c9f6b25240",
+      "extracted_notice": "CEF-resources.pak-resource-41631.html",
+      "redistribution_occurrences": 1,
+      "title": null
+    },
+    {
+      "file": "resources.pak",
+      "id": 41633,
+      "brotli": true,
+      "bytes": 3984,
+      "sha256": "3422c296e2800c2c5382fef143c20ec24ed70734b63f064b99823a702399de51",
+      "extracted_notice": "CEF-resources.pak-resource-41633.html",
+      "redistribution_occurrences": 1,
+      "title": null
+    },
+    {
+      "file": "resources.pak",
+      "id": 41643,
+      "brotli": true,
+      "bytes": 12904,
+      "sha256": "2c90178ecfefc9fa6421a0038b9d41477eec3cecbf09ff29ca2cf211ec9d97b8",
+      "extracted_notice": "CEF-resources.pak-resource-41643.html",
+      "redistribution_occurrences": 1,
+      "title": null
+    },
+    {
+      "file": "resources.pak",
+      "id": 41644,
+      "brotli": true,
+      "bytes": 1518,
+      "sha256": "e3eb8a1d4f20b4409996047cda8d59943bf4d42b4dec4262556e887b21253e74",
+      "extracted_notice": "CEF-resources.pak-resource-41644.html",
+      "redistribution_occurrences": 1,
+      "title": null
+    },
+    {
+      "file": "resources.pak",
+      "id": 41645,
+      "brotli": true,
+      "bytes": 18529,
+      "sha256": "577c0b54b2b4d2037b0f242ff858239a83b0e3dd67ea74d552a0c05854a80fb3",
+      "extracted_notice": "CEF-resources.pak-resource-41645.html",
+      "redistribution_occurrences": 1,
+      "title": null
+    },
+    {
+      "file": "resources.pak",
+      "id": 41646,
+      "brotli": true,
+      "bytes": 140484,
+      "sha256": "275dbc8ac33c7e102664cb37fa9f2e64dcd815d512f901c038e9a3dc4be8d741",
+      "extracted_notice": "CEF-resources.pak-resource-41646.html",
+      "redistribution_occurrences": 1,
+      "title": null
+    },
+    {
+      "file": "resources.pak",
+      "id": 41652,
+      "brotli": true,
+      "bytes": 13506,
+      "sha256": "87a5e63aad7f15d1ca9ab0f26f82b4e260f635edbb5429a2cf29f7ab0e3278c3",
+      "extracted_notice": "CEF-resources.pak-resource-41652.html",
+      "redistribution_occurrences": 1,
+      "title": null
+    },
+    {
+      "file": "resources.pak",
+      "id": 41654,
+      "brotli": true,
+      "bytes": 4100,
+      "sha256": "9c421afcc6128a04e75c27e38cef7479deb1846bff47487d7c1fe171a282003c",
+      "extracted_notice": "CEF-resources.pak-resource-41654.html",
+      "redistribution_occurrences": 1,
+      "title": null
+    },
+    {
+      "file": "resources.pak",
+      "id": 41655,
+      "brotli": true,
+      "bytes": 7877,
+      "sha256": "b9b6201609c8c37c624858108bad546e5def00898f3c5cb4c2f380df5c2eaf9b",
+      "extracted_notice": "CEF-resources.pak-resource-41655.html",
+      "redistribution_occurrences": 1,
+      "title": null
+    },
+    {
+      "file": "resources.pak",
+      "id": 48235,
+      "brotli": true,
+      "bytes": 68961,
+      "sha256": "c76063b6180a03dcc651a6d75850421babd24fe339b1c6db086873ff1af5c761",
+      "extracted_notice": "CEF-resources.pak-resource-48235.html",
+      "redistribution_occurrences": 1,
+      "title": null
+    }
+  ],
+  "standalone_notice_files": [
+    {
+      "path": "LICENSES/ca-license.txt",
+      "bytes": 197,
+      "sha256": "69489a9113574602befc5fa57c0688f1513e5b2185017f706349a342803a7ab8"
+    },
+    {
+      "path": "LICENSES/CEF_LICENSE.txt",
+      "bytes": 1661,
+      "sha256": "cf434dc88afe0441288828bd07ca374beabee591cb4a6247d7baf0b97563feea"
+    },
+    {
+      "path": "LICENSES/CUBEMAPTOEQUIRECTANGULAR_LICENSE.txt",
+      "bytes": 1107,
+      "sha256": "f09f69493de1f83a1b485fd298966a46ae939c38222a99c70ad474b273c1be0b"
+    },
+    {
+      "path": "LICENSES/DejaVu-license.txt",
+      "bytes": 4816,
+      "sha256": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+    },
+    {
+      "path": "LICENSES/emojibase-license.txt",
+      "bytes": 1075,
+      "sha256": "5c4e1582dcae9429a5d00ec0a64185c3a711f9757b2308fdf275d90b120f6149"
+    },
+    {
+      "path": "LICENSES/en_gb-dictionary-license.txt",
+      "bytes": 1430,
+      "sha256": "b6d9a05e1cb793b41c021ab5082cfc89de4e3266968d1a5cd3357f394741d9bb"
+    },
+    {
+      "path": "LICENSES/en_us-dictionary-license.txt",
+      "bytes": 1017,
+      "sha256": "7fa76b7fe8c639b4995ced7088f157f3cf27499f2b1fda7fd80e1928221aab5f"
+    },
+    {
+      "path": "LICENSES/es_es-dictionary-license.txt",
+      "bytes": 7354,
+      "sha256": "b2fb999aafab10fcd486ed87b37165d323a2782841611a361d596d040e5b0d8c"
+    },
+    {
+      "path": "LICENSES/glm_license.txt",
+      "bytes": 1081,
+      "sha256": "19d105a986017bc706b097798d2981620e3b742933c36fc0e79459fd3e223f53"
+    },
+    {
+      "path": "LICENSES/JPEG_ENCODER_BASIC_LICENSE.txt",
+      "bytes": 1748,
+      "sha256": "fbd637fe9df1e93202c1900be2d410fe9291d156587b759b3c977887a92aae93"
+    },
+    {
+      "path": "LICENSES/Kokua-LICENSE.txt",
+      "bytes": 26530,
+      "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+    },
+    {
+      "path": "LICENSES/LICENSE.txt",
+      "bytes": 1066,
+      "sha256": "5060854c3548697ddfc8fe1f6ad602f278f2e9f93a279ef2bd61167e17c72f99"
+    },
+    {
+      "path": "LICENSES/pt_br-dictionary-license.txt",
+      "bytes": 2600,
+      "sha256": "bb5cc79a33d14e72376f8c34463651daf85cb5208c215f60eb4298252bee68cb"
+    },
+    {
+      "path": "LICENSES/THREEJS_LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "7dddf7c5b8fd10ee654db8857d75d104b5557889aa5a91fc4ca545ea7c07062f"
+    },
+    {
+      "path": "LICENSES/tinyexr_license.txt",
+      "bytes": 3478,
+      "sha256": "df9107f2280efec69fd150cfbfc00b9364a79926ff021aaafd38f51a0ab26dfd"
+    },
+    {
+      "path": "LICENSES/tinygltf_license.txt",
+      "bytes": 1112,
+      "sha256": "2ae461f8c8b78ed77c14e9c3b7e353ba277e44cb3dbfb5a6d380f76f2ae081a2"
+    },
+    {
+      "path": "LICENSES/Twemoji-Artwork-CC-BY-license.txt",
+      "bytes": 18525,
+      "sha256": "435963326c65d4de8e5fbd3582fd5a00873f6c8d67a87606584b410c0c42608f"
+    },
+    {
+      "path": "LICENSES/Twemoji-MIT-license.txt",
+      "bytes": 1102,
+      "sha256": "09ba14242a7bb72b62a74bfbf345549b4b85dde1ae36889166f7e0599b739e87"
+    },
+    {
+      "path": "LICENSES/webrtc-license.txt",
+      "bytes": 54824,
+      "sha256": "c76ea76ea4815eb64ba6167c1c4053388a578a992f48b769745c26d0e11bb515"
+    }
+  ]
+}

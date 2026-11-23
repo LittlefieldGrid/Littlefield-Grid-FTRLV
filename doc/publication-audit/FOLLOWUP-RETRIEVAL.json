@@ -1,0 +1,32 @@
+{
+  "commons-thumb": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/WebRTC_Logo.svg/1280px-WebRTC_Logo.svg.png",
+    "sha256": "ddc81f8d7bd6ea092a5093d3a89fd3112aba89543155f106f318960e257a57cd",
+    "bytes": 35761
+  },
+  "cef-tree": {
+    "url": "https://api.github.com/repos/chromiumembedded/cef/git/trees/3dd607849786b271d95e1a3e8013f59572fa9779?recursive=1",
+    "sha256": "d9ce80fe156836ad05c74a3d48d3970c328db37948b82fa158f48522cf5df4a2",
+    "bytes": 561871
+  },
+  "cef-wrapper-commit": {
+    "url": "https://api.github.com/repos/secondlife/cef/commits/9522e46",
+    "sha256": "f7d9464deda6cda93131bf480401fc74e133060859e1ec1f931a0564cbfa92eb",
+    "bytes": 4404
+  },
+  "cef-wrapper-build": {
+    "url": "https://raw.githubusercontent.com/secondlife/cef/9522e46/build-cmd.sh",
+    "sha256": "625f2553162b86a9b7907bc8f2115756e995aaa1922a38cb7136661018426c44",
+    "bytes": 9017
+  },
+  "chromium-deps": {
+    "url": "https://raw.githubusercontent.com/chromium/chromium/118.0.5993.54/DEPS",
+    "sha256": "3cf1b7d64ef74e1e725ac52d0e0ddbc79a2a1a3007245486ef8a25ca1e1ddca1",
+    "bytes": 203306
+  },
+  "vlc-contrib-ffmpeg": {
+    "url": "https://download.videolan.org/pub/contrib/ffmpeg/",
+    "sha256": "2164cb81e4a47faef6df1ef878eb8563d9080c03e9b9b07625894fce65eaba78",
+    "bytes": 2837
+  }
+}

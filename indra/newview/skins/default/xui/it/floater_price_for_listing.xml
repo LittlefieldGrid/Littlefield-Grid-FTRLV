@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+Littlefield Grid FTRLV modified version, 2026-11-22.
+Changes relative to Kokua 7.2.0.61057 are documented in doc/CHANGES-FTRLV.md.
+Existing upstream copyright and license notices are retained.
+-->
+<floater name="price_for_listing" title="PUBBLICA L&apos;ANNUNCIO PUBBLICITARIO">
+	<text name="explanation_text">
+		La tua inserzione sarà visibile per una settimana dal giorno della sua pubblicazione.
+
+La posizione del tuo annuncio nella lista delle inserzioni è determinata dalla somma pagata.
+
+Le inserzioni con un pagamento più alto saranno più visibili nella lista dei risultati della ricerca.
+	</text>
+	<text name="price_text">
+		Prezzo per inserzione:
+	</text>
+	<text name="price_symbol">
+		OS$
+	</text>
+	<button label="OK" name="set_price_btn"/>
+	<button label="Annulla" name="cancel_btn"/>
+</floater>

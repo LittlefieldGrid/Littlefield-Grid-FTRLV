@@ -1,0 +1,5 @@
+{
+  "sha": "9522e46a765a5eedc4bbe238896da5f7845bbf72",
+  "url": "https://github.com/secondlife/cef/commit/9522e46a765a5eedc4bbe238896da5f7845bbf72",
+  "message": "SL-20359: Tweak the Windows build batch file for CEF version 118 changes from Google"
+}

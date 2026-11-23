@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-22",
+  "owner_declaration": {
+    "creator_and_attribution": "Littlefield Grid",
+    "assets": [
+      "indra/newview/skins/default/textures/windows/lfglogo.png",
+      "indra/newview/res/littlefield.ico"
+    ],
+    "evidence": "Project owner directly stated they created both files and selected CC BY-SA 3.0 for their redistribution.",
+    "license": "CC-BY-SA-3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "webrtc": {
+    "path": "indra/newview/skins/default/textures/3p_icons/webrtc.png",
+    "original_sha256": "2ab489e11fcefe1bed4f36e4619b59f78f97b21f20dca97f471e1ce57eb320f7",
+    "replacement_sha256": "8d941406e66df5291458d9fb62ee2f27c06642bd182c3d22c39b3e256ac597ed",
+    "source_url": "https://raw.githubusercontent.com/webrtc/webrtc-org/afd199f3e0b075d44e24eef247f38e94d5c16a99/assets/images/webrtc-logo-horiz-retro-750x140.png",
+    "source_revision": "afd199f3e0b075d44e24eef247f38e94d5c16a99",
+    "license": "BSD-3-Clause website repository notice; separate press-kit invitation; no endorsement or trademark grant",
+    "reason": "Replace untraced raster with unchanged official press-kit PNG in staging only."
+  },
+  "public_retrievals": [
+    {
+      "file": "official-webrtc.png",
+      "url": "https://raw.githubusercontent.com/webrtc/webrtc-org/afd199f3e0b075d44e24eef247f38e94d5c16a99/assets/images/webrtc-logo-horiz-retro-750x140.png",
+      "bytes": 20833,
+      "sha256": "8d941406e66df5291458d9fb62ee2f27c06642bd182c3d22c39b3e256ac597ed",
+      "status": "downloaded"
+    },
+    {
+      "file": "webrtc-pinned-license.txt",
+      "url": "https://raw.githubusercontent.com/webrtc/webrtc-org/afd199f3e0b075d44e24eef247f38e94d5c16a99/LICENSE.md",
+      "bytes": 1511,
+      "sha256": "f3f540c257be1962bd10f75acd1af5c8bdf9b28b0afc498306f724c34c536323",
+      "status": "downloaded"
+    },
+    {
+      "file": "cc-by-sa-3.0.txt",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0/legalcode.txt",
+      "bytes": 22240,
+      "sha256": "3f941b3b89cf7b8370ceb83cc76d2120d471b58735d8ca60238a751a48d7f72f",
+      "status": "downloaded"
+    }
+  ],
+  "scope": "Staged source only; original development files and immutable installer unchanged."
+}

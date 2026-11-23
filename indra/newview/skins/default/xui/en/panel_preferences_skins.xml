@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Littlefield Grid FTRLV modified version, 2026-11-22.
+Changes relative to Kokua 7.2.0.61057 are documented in doc/CHANGES-FTRLV.md.
+Existing upstream copyright and license notices are retained.
+-->
+<panel name="skins_panel" label="Skins" layout="topleft" width="517" height="408" follows="all">
+    <text name="theme_label" layout="topleft" top="20" left="20" width="350" height="20"
+          font="SansSerifLarge" follows="top|left">Interface theme</text>
+    <radio_group name="skin_selection" layout="topleft" top="52" left="20" width="340"
+                 height="120" follows="top|left">
+        <radio_item name="default" value="default" label="Littlefield Dark" layout="topleft" left="0" top="0" width="320" height="22" />
+        <radio_item name="classic_kokua" value="classic_kokua" label="Classic Kokua" layout="topleft" left="0" top="28" width="320" height="22" />
+        <radio_item name="midnight_blue" value="midnight_blue" label="Midnight Blue" layout="topleft" left="0" top="56" width="320" height="22" />
+        <radio_item name="charcoal" value="charcoal" label="Charcoal" layout="topleft" left="0" top="84" width="320" height="22" />
+    </radio_group>
+    <text name="theme_restart" layout="topleft" top="181" left="20" right="-20" height="36"
+          follows="top|left|right" word_wrap="true">Select a theme and click Apply. Close and restart the viewer to see the change.</text>
+    <text name="theme_colors" layout="topleft" top="222" left="20" right="-20" height="40"
+          follows="top|left|right" word_wrap="true">Use Preferences > Colors to customize individual supported colors.</text>
+    <button name="apply_skin" label="Apply" layout="topleft" top="280" left="20" width="95" height="23"
+            follows="top|left" />
+    <button name="reset_skin" label="Reset to Default" layout="topleft" top="280" left="125" width="146" height="23"
+            follows="top|left" />
+</panel>

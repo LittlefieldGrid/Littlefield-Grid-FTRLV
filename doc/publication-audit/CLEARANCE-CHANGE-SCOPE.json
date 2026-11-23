@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-22",
+  "public_source": "PASS",
+  "windows_installer": "FAIL / NOT CLEARED",
+  "completed_build_and_static_suites_repeated": false,
+  "existing_files_changed": [
+    "DEPENDENCIES.md",
+    "PROVENANCE.md",
+    "README.md",
+    "THIRD_PARTY_NOTICES.md",
+    "doc/ARTWORK_PROVENANCE.md",
+    "doc/FINAL_VALIDATION.md",
+    "doc/PUBLICATION_STATUS.md"
+  ],
+  "scope": "Documentation/notices/evidence and source manifest only; no viewer code/artwork/installer changes.",
+  "previous_source_archive": "Unchanged; predates this clearance update. Use updated staged directory.",
+  "existing_non_documentation_hash_changes": [],
+  "immutable_installer_sha256_verified": "E69392E0D16091ED9E2BD9C2B8904B0FD949FC8C6A2863E3607FAAAB5903C3DB",
+  "unmodified_artifacts": "Original development source/Git, installer, installed viewer and prior draft source ZIP were never written by clearance tooling."
+}

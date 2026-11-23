@@ -1,0 +1,47 @@
+{
+  "installed_raster_sha256": "2ab489e11fcefe1bed4f36e4619b59f78f97b21f20dca97f471e1ce57eb320f7",
+  "bytes": 10228,
+  "comparisons": {
+    "webrtc-commons-thumb": {
+      "byte_identical": false,
+      "sha256": "ddc81f8d7bd6ea092a5093d3a89fd3112aba89543155f106f318960e257a57cd"
+    },
+    "webrtc-commons-thumb-new": {
+      "byte_identical": false,
+      "sha256": "ddc81f8d7bd6ea092a5093d3a89fd3112aba89543155f106f318960e257a57cd"
+    },
+    "webrtc-commons-svg": {
+      "byte_identical": false,
+      "sha256": "aa16d3c02e01b805ed7fc52faee7d8f702691d7d1b49491d2bf930f1ef57d866",
+      "svg_matches_pinned_official_svg": true
+    }
+  },
+  "decoded_rgba_comparison": {
+    "installer_dimensions": [
+      1280,
+      239
+    ],
+    "official_thumb_dimensions": [
+      1280,
+      239
+    ],
+    "pixels_identical": false,
+    "installer_rgba_sha256": "047053028c98e9020b214f13657d47dcfc4f378369968264955120981d80193d",
+    "commons_rgba_sha256": "7678eac250b625e32ced91cdfd1a95d5488321e1783c2e97ad2818677ead1df8",
+    "changed_rgba_bytes": 848139
+  },
+  "composited_pixel_comparison": {
+    "black": {
+      "identical": false,
+      "differing_rgb_bytes": 288819,
+      "mean_absolute_channel_difference": 1.0069538877266389,
+      "max_channel_difference": 106
+    },
+    "white": {
+      "identical": false,
+      "differing_rgb_bytes": 290849,
+      "mean_absolute_channel_difference": 1.3435723936541144,
+      "max_channel_difference": 109
+    }
+  }
+}

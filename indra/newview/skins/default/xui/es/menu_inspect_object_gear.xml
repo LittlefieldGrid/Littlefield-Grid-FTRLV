@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Littlefield Grid FTRLV modified version, 2026-11-22.
+Changes relative to Kokua 7.2.0.61057 are documented in doc/CHANGES-FTRLV.md.
+Existing upstream copyright and license notices are retained.
+-->
+<toggleable_menu name="Gear Menu">
+	<menu_item_call label="Tocar" name="touch"/>
+	<menu_item_call label="Sentarse" name="sit"/>
+	<menu_item_call label="Pagar" name="pay"/>
+	<menu_item_call label="Comprar" name="buy"/>
+	<menu_item_call label="Tomar" name="take"/>
+	<menu_item_call label="Coger una copia" name="take_copy"/>
+	<menu_item_call label="Abrir" name="open"/>
+	<menu_item_call label="Editar" name="edit"/>
+	<menu_item_call label="Ponerse" name="wear"/>
+	<menu_item_call label="Añadir" name="add"/>
+	
+	<menu_item_call label="Ignorar" name="block"/>
+	<menu_item_call label="No ignorar" name="unblock"/>
+	<menu_item_call label="Acercar el zoom" name="zoom_in"/>
+	<menu_item_call label="Quitar" name="remove"/>
+	<menu_item_call label="Más información" name="more_info"/>
+</toggleable_menu>

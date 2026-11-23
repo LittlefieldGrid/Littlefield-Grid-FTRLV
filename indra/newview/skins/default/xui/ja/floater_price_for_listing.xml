@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+Littlefield Grid FTRLV modified version, 2026-11-22.
+Changes relative to Kokua 7.2.0.61057 are documented in doc/CHANGES-FTRLV.md.
+Existing upstream copyright and license notices are retained.
+-->
+<floater name="price_for_listing" title="クラシファイド広告の掲載">
+	<text name="explanation_text">
+		あなたのクラシファイド広告は、公開された日から１週間有効です。
+クラシファイドリストのあなたの広告の位置は、広告費をいくら支払うかで決まります。
+
+最高金額を支払った広告がリストのトップに載り、検索で上位に表示されます。
+	</text>
+	<text name="price_text">
+		広告掲載費：
+	</text>
+	<text name="price_symbol">
+		OS$
+	</text>
+	<button label="ＯＫ" name="set_price_btn"/>
+	<button label="キャンセル" name="cancel_btn"/>
+</floater>

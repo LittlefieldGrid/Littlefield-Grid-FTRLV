@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel
+  bevel_style="none"
+  border_style="line"
+  follows="left|top|right|bottom"
+ height="522"
+  layout="topleft"
+  left="0"
+  name="script panel"
+  width="497">
+  <panel.string
+    name="loading">
+    Loading...
+  </panel.string>
+  <panel.string
+    name="can_not_view">
+    You can not view or edit this script, since it has been set as &quot;no copy&quot;. You need full permissions to view or edit a script inside an object.
+  </panel.string>
+  <panel.string
+    name="public_objects_can_not_run">
+    Public Objects cannot run scripts
+  </panel.string>
+  <panel.string
+    name="script_running">
+    Running
+  </panel.string>
+  <panel.string
+    name="Title">
+    Script: [NAME]
+  </panel.string>
+  <menu_bar
+    bg_visible="false"
+    follows="left|top"
+    height="18"
+    layout="topleft"
+    left="0"
+    mouse_opaque="false"
+    name="script_menu"
+    width="476">
+    <menu
+      top="0"
+      height="62"
+      label="File"
+      layout="topleft"
+      left="0"
+      mouse_opaque="false"
+      font="SansSerif"
+      name="File"
+      width="138">
+      <menu_item_call
+        label="Save"
+        shortcut="control|S"
+        layout="topleft"
+        name="Save" />
+      <menu_item_separator
+        layout="topleft" />
+      <menu_item_call
+        label="Revert All Changes"
+        layout="topleft"
+        name="Revert All Changes" />
+      <menu_item_separator
+        layout="topleft" />
+      <menu_item_call
+        label="Load from file..."
+        layout="topleft"
+        name="LoadFromFile" />
+      <menu_item_call
+        label="Save to file..."
+        layout="topleft"
+        name="SaveToFile" />
+    </menu>
+    <menu
+      top="0"
+      height="198"
+      label="Edit"
+      layout="topleft"
+      mouse_opaque="false"
+      font="SansSerif"
+      name="Edit"
+      width="139">
+      <menu_item_call
+        enabled="false"
+        label="Undo"
+        layout="topleft"
+        name="Undo" />
+      <menu_item_call
+        enabled="false"
+        label="Redo"
+        layout="topleft"
+        name="Redo" />
+      <menu_item_separator
+        layout="topleft" />
+      <menu_item_call
+        enabled="false"
+        label="Cut"
+        layout="topleft"
+        name="Cut" />
+      <menu_item_call
+        enabled="false"
+        label="Copy"
+        layout="topleft"
+        name="Copy" />
+      <menu_item_call
+        enabled="false"
+        label="Paste"
+        layout="topleft"
+        name="Paste" />
+      <menu_item_separator
+        layout="topleft"
+        name="separator2" />
+      <menu_item_call
+        label="Select All"
+        shortcut="control|A"
+        layout="topleft"
+        name="Select All" />
+      <menu_item_call
+        enabled="false"
+        label="Deselect"
+        layout="topleft"
+        name="Deselect" />
+      <menu_item_separator
+        layout="topleft"
+        name="separator3" />
+      <menu_item_call
+        label="Search / Replace..."
+        layout="topleft"
+        name="Search / Replace..." />
+            <menu_item_call
+             label="Go to line..."
+             layout="topleft"
+             name="Go to line..." />
+    </menu>
+    <menu
+      top="0"
+      height="34"
+      label="Help"
+      layout="topleft"
+      mouse_opaque="false"
+      font="SansSerif"
+      name="Help"
+      width="112">
+      <menu_item_call
+        label="Keyword Help..."
+        layout="topleft"
+        name="Keyword Help..." />
+    </menu>
+  </menu_bar>
+  <button
+   follows="right|top"
+   height="24"
+   image_overlay="Icon_Color_Palette"
+   layout="topleft"
+   top_delta="-8"
+   right="487"
+   name="color_btn"
+   width="32">
+    <button.commit_callback
+      function="Floater.Toggle"
+      parameter="script_colors"/>
+  </button>
+        <combo_box
+         allow_text_entry="false"
+         top_pad="-24"
+         left_pad="-114"
+        layout="topleft"
+        follows="right|top"
+        height="24"
+         max_chars="20"
+         mouse_opaque="true"
+         name="FSScriptingFontSize"
+         width="80"
+         control_name="FSScriptingFontSize"
+         tool_tip="Size of the font used in the LSL script editor">
+             <combo_item name="Monospace" value="Monospace" label="Monospace"/>
+             <combo_item name="Scripting" value="Scripting" label="Scripting"/>
+             <combo_item name="Cascadia" value="Cascadia" label="Cascadia"/>
+             <combo_item name="LektonCode" value="LektonCode" label="LektonCode"/>
+             <combo_item name="SmallLSL" value="SmallLSL" label="SmallLSL"/>
+             <combo_item name="Small" value="Small" label="Small"/>
+             <combo_item name="Medium" value="Medium" label="Medium"/>
+             <combo_item name="Large" value="Large" label="Large"/>
+             <combo_item name="HugeLSL" value="HugeLSL" label="HugeLSL"/>
+        </combo_box>
+        <combo_box
+         allow_text_entry="false"
+         top_pad="-24"
+         left_pad="-162"
+         height="24"
+        layout="topleft"
+        follows="right|top"
+         max_chars="20"
+         mouse_opaque="true"
+         name="FSScriptingFontName"
+         width="80"
+         control_name="FSScriptingFontName"
+         tool_tip="Name of the font used in the LSL script editor">
+             <combo_item name="Monospace" value="Monospace" label="Monospace"/>
+             <combo_item name="Scripting" value="Scripting" label="Scripting"/>
+             <combo_item name="Cascadia" value="Cascadia" label="Cascadia"/>
+             <combo_item name="LektonCode" value="LektonCode" label="LektonCode"/>
+        </combo_box>
+        <text
+         top_pad="-18"
+        layout="topleft"
+        follows="right|top"
+         left_pad="-190"
+         name="text_box_scripting_font"
+         width="100">
+          Font Name and Size:
+        </text>
+    <script_editor
+    top_pad="16"
+    left="0"
+    type="string"
+    length="1"
+    follows="left|top|right|bottom"
+
+     height="376"
+    ignore_tab="false"
+    layout="topleft"
+     max_length="262144"
+    name="Script Editor"
+     width="487"
+     text_color="ScriptText"
+     default_color="ScriptText"
+     bg_writeable_color="ScriptBackground"
+     bg_focus_color="ScriptBackground"
+     text_readonly_color="ScriptText"
+     bg_readonly_color="ScriptBackground"
+     cursor_color="ScriptCursorColor"
+    enable_tooltip_paste="true"
+     word_wrap="true"
+     show_context_menu="true">
+    Loading...
+    </script_editor>
+  <scroll_list
+    top_pad="10"
+    left="0"
+    follows="left|right|bottom"
+    height="60"
+    layout="topleft"
+    name="lsl errors"
+     width="487" />
+  <text
+    follows="left|bottom"
+    height="12"
+    layout="topleft"
+     left="0"
+    name="line_col"
+    width="128" />
+  <combo_box
+    follows="left|bottom"
+    height="23"
+    label="Insert..."
+    layout="topleft"
+    name="Insert..."
+     width="128" />
+  <button
+    follows="right|bottom"
+    height="23"
+    label="Save"
+    label_selected="Save"
+    layout="topleft"
+    top_pad="-35"
+     right="487"
+    name="Save_btn"
+    width="81" />
+  <button
+    enabled="false"
+    follows="right|bottom"
+    height="23"
+    label="Edit..."
+    layout="topleft"
+    top_pad="-23"
+     right="400"
+    name="Edit_btn"
+    width="81" />
+</panel>

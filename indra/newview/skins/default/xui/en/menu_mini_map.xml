@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<menu
+ height="101"
+ layout="topleft"
+ left="100"
+ mouse_opaque="false"
+ name="Popup"
+ top="724"
+ visible="false"
+ width="128">
+  <menu_item_call
+   label="View Profile"
+   name="View Profile">
+    <menu_item_call.on_click
+     function="Minimap.ShowProfile"
+     parameter="closest" />
+  </menu_item_call>
+    <menu
+     label="Chat Distance Rings"
+     name="Chat Distance Rings Menu">
+      <menu_item_check
+         label="Show Chat Distance Rings"
+         name="Chat Distance Rings">
+            <menu_item_check.on_check
+               control="MiniMapChatRing" />
+            <menu_item_check.on_click
+               function="ToggleControl"
+               parameter="MiniMapChatRing" />
+      </menu_item_check>
+      <menu_item_separator />
+      <menu_item_check
+         label="Show Whisper Distance Ring"
+         name="Whisper Distance Ring">
+            <menu_item_check.on_check
+               control="FSMiniMapWhisperRing" />
+            <menu_item_check.on_click
+               function="ToggleControl"
+               parameter="FSMiniMapWhisperRing" />
+      </menu_item_check>
+      <menu_item_check
+         label="Show Chat Distance Ring"
+         name="Chat Distance Ring">
+            <menu_item_check.on_check
+               control="FSMiniMapChatRing" />
+            <menu_item_check.on_click
+               function="ToggleControl"
+               parameter="FSMiniMapChatRing" />
+      </menu_item_check>
+      <menu_item_check
+         label="Show Shout Distance Ring"
+         name="Shout Distance Ring">
+            <menu_item_check.on_check
+               control="FSMiniMapShoutRing" />
+            <menu_item_check.on_click
+               function="ToggleControl"
+               parameter="FSMiniMapShoutRing" />
+      </menu_item_check>
+    </menu>
+	<menu name="MarkAvatar" label="Mark...">
+		<menu_item_call
+			label="Red"
+			name="MarkRed">
+			<menu_item_call.on_click
+				function="Minimap.Mark"
+				parameter="LtRed"/>
+		</menu_item_call>
+		<menu_item_call
+		label="Green"
+		name="MarkGreen">
+			<menu_item_call.on_click
+				function="Minimap.Mark"
+				parameter="Lime"/>
+		</menu_item_call>
+		<menu_item_call
+		label="Blue"
+		name="MarkBlue">
+			<menu_item_call.on_click
+				function="Minimap.Mark"
+				parameter="LtBlue"/>
+		</menu_item_call>
+		<menu_item_call
+			label="Purple"
+			name="MarkPurple">
+			<menu_item_call.on_click
+				function="Minimap.Mark"
+				parameter="Purple"/>
+		</menu_item_call>
+		<menu_item_call
+			label="Light Yellow"
+			name="MarkLightYellow">
+			<menu_item_call.on_click
+				function="Minimap.Mark"
+				parameter="Orange"/>
+		</menu_item_call>
+		<menu_item_separator/>
+		<menu_item_call
+			label="Clear Mark(s)"
+			name="Clear Mark">
+			<menu_item_call.on_click
+				function="Minimap.ClearMark"/>
+		</menu_item_call>
+		<menu_item_separator/>
+		<menu_item_call
+			label="Clear all Marks"
+			name="Clear Marks">
+			<menu_item_call.on_click
+				function="Minimap.ClearMarks"/>
+		</menu_item_call>
+	</menu>
+	<menu_item_call
+		label="Add to Set"
+		name="Add to Set Multiple">
+		<menu_item_call.on_click
+			function="Minimap.AddToContactSet"/>
+	</menu_item_call>
+    <menu_item_check
+      label="World Map Textures"
+      name="World Map Textures">
+        <menu_item_check.on_click
+          function="Minimap.ToggleOverlay"
+          parameter="MiniMapWorldMapTextures" />
+        <menu_item_check.on_check
+          control="MiniMapWorldMapTextures" />
+    </menu_item_check>
+    <menu_item_check
+       label="Rotate Map"
+       name="Rotate Map">
+          <menu_item_check.on_check
+             control="MiniMapRotate" />
+          <menu_item_check.on_click
+             function="ToggleControl"
+             parameter="MiniMapRotate" />
+    </menu_item_check>
+    <menu_item_check
+       label="Auto Center"
+       name="Auto Center">
+          <menu_item_check.on_check
+             control="MiniMapAutoCenter" />
+          <menu_item_check.on_click
+             function="ToggleControl"
+             parameter="MiniMapAutoCenter" />
+    </menu_item_check>
+    <menu_item_separator />
+    <menu_item_check
+      label="Show Objects"
+      name="Show Objects">
+        <menu_item_check.on_click
+          function="ToggleControl"
+          parameter="MiniMapObjects" />
+        <menu_item_check.on_check
+          control="MiniMapObjects" />
+    </menu_item_check>
+    <menu_item_check
+      label="Physical Objects"
+      name="Physical Objects">
+        <menu_item_check.on_click
+          function="ToggleControl"
+          parameter="MiniMapPhysical" />
+        <menu_item_check.on_check
+          function="CheckControl"
+          parameter="MiniMapPhysical" />
+        <menu_item_check.on_enable
+          control="MiniMapObjects" />
+    </menu_item_check>
+    <menu_item_check
+      label="Scripted Objects"
+      name="Scripted Objects">
+        <menu_item_check.on_click
+          function="ToggleControl"
+          parameter="MiniMapScripted" />
+        <menu_item_check.on_check
+          function="CheckControl"
+          parameter="MiniMapScripted" />
+        <menu_item_check.on_enable
+          control="MiniMapObjects" />
+    </menu_item_check>
+    <menu_item_check
+      label="Temporary Objects"
+      name="Temporary Objects">
+        <menu_item_check.on_click
+          function="ToggleControl"
+          parameter="MiniMapTempOnRez" />
+        <menu_item_check.on_check
+          function="CheckControl"
+          parameter="MiniMapTempOnRez" />
+        <menu_item_check.on_enable
+          control="MiniMapObjects" />
+    </menu_item_check>
+    <menu_item_separator />
+    <menu_item_check
+      label="Show Parcel Borders"
+      name="Show Parcel Borders">
+        <menu_item_check.on_click
+          function="Minimap.ToggleOverlay"
+          parameter="MiniMapPropertyLines" />
+        <menu_item_check.on_check
+          control="MiniMapPropertyLines" />
+    </menu_item_check>
+    <menu_item_check
+      label="Parcels For Sale"
+      name="Parcels For Sale">
+        <menu_item_check.on_click
+          function="Minimap.ToggleOverlay"
+          parameter="MiniMapForSaleParcels" />
+        <menu_item_check.on_check
+          control="MiniMapForSaleParcels" />
+        <menu_item_check.on_enable
+          control="MiniMapPropertyLines" />
+    </menu_item_check>
+    <menu_item_check
+      label="Land Owners"
+      name="Land Owners">
+        <menu_item_check.on_click
+          function="Minimap.ToggleOverlay"
+          parameter="MiniMapLandOwners" />
+        <menu_item_check.on_check
+          control="MiniMapLandOwners" />
+        <menu_item_check.on_enable
+          control="MiniMapPropertyLines" />
+    </menu_item_check>
+    <menu_item_separator />
+    <menu
+       label="Zoom"
+       name="Zoom">
+    <menu_item_check
+     label="Zoom very close"
+     name="Zoom very close">
+        <menu_item_check.on_check
+         function="Minimap.Zoom.Check"
+         parameter="very close" />
+        <menu_item_check.on_click
+         function="Minimap.Zoom.Set"
+         parameter="very close" />
+    </menu_item_check>
+    <menu_item_check
+     label="Zoom close"
+     name="Zoom close">
+        <menu_item_check.on_check
+         function="Minimap.Zoom.Check"
+         parameter="close" />
+        <menu_item_check.on_click
+         function="Minimap.Zoom.Set"
+         parameter="close" />
+    </menu_item_check>
+    <menu_item_check
+     label="Zoom medium"
+     name="Zoom medium">
+        <menu_item_check.on_check
+         function="Minimap.Zoom.Check"
+         parameter="medium" />
+        <menu_item_check.on_click
+         function="Minimap.Zoom.Set"
+         parameter="medium" />
+    </menu_item_check>
+    <menu_item_check
+     label="Zoom far"
+     name="Zoom far">
+        <menu_item_check.on_check
+         function="Minimap.Zoom.Check"
+         parameter="far" />
+        <menu_item_check.on_click
+         function="Minimap.Zoom.Set"
+         parameter="far" />
+    </menu_item_check>
+    <menu_item_check
+     label="Zoom default"
+     name="Zoom far">
+        <menu_item_check.on_check
+         function="Minimap.Zoom.Check"
+         parameter="default" />
+        <menu_item_check.on_click
+         function="Minimap.Zoom.Set"
+         parameter="default" />
+    </menu_item_check>
+    </menu>
+    <menu_item_call
+      label="Stop Tracking"
+      name="Stop Tracking">
+        <menu_item_call.on_click
+          function="Minimap.Tracker"
+          parameter="task_properties" />
+    </menu_item_call>
+    <menu_item_call
+     label="Place Profile"
+     name="Place Profile">
+        <menu_item_call.on_click
+         function="Minimap.ShowProfile"
+         parameter="place" />
+    </menu_item_call>
+    <menu_item_call
+     label="About Land"
+     name="About Land">
+        <menu_item_call.on_click
+         function="Minimap.AboutLand" />
+    </menu_item_call>
+    <menu_item_call
+      label="Open World Map"
+      name="Open World Map">
+        <menu_item_call.on_click
+          function="Floater.Show"
+          parameter="world_map" />
+     </menu_item_call>
+</menu>

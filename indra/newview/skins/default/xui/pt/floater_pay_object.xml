@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+Littlefield Grid FTRLV modified version, 2026-11-22.
+Changes relative to Kokua 7.2.0.61057 are documented in doc/CHANGES-FTRLV.md.
+Existing upstream copyright and license notices are retained.
+-->
+<floater name="Give Money" title="">
+	<string halign="left" name="payee_group" width="100">Pagar grupo</string>
+	<string halign="left" name="payee_resident" width="120">Pagar residente</string>
+	<text name="paying_text">Você está pagando:</text>
+	<text left="105" name="payee_name">Ericacita Moostopolison</text>
+	<text halign="left" left="5" name="object_name_label" width="95">Via objeto:</text>
+	<icon name="icon_object" tool_tip="Objects"/>
+	<text left="105" name="object_name_text">Meu objeto maravilho, fantástico e com nome comprido e imaginativo</text>
+	<panel label="Buscar" name="PatternsPanel">
+		<button label="Pagar OS$ 1" label_selected="Pagar OS$ 1" name="fastpay 1"/>
+		<button label="Pagar OS$ 5" label_selected="Pagar OS$ 5" name="fastpay 5"/>
+		<button label="Pagar OS$ 10" label_selected="Pagar OS$ 10" name="fastpay 10"/>
+		<button label="Pagar OS$ 20" label_selected="Pagar OS$ 20" name="fastpay 20"/>
+	</panel>
+	<panel label="Buscar" name="InputPanel">
+		<text name="amount text">Outro valor:</text>
+		<button label="Pagar" label_selected="Pagar" name="pay btn"/>
+		<button label="Cancelar" label_selected="Cancelar" name="cancel btn"/>
+	</panel>
+</floater>

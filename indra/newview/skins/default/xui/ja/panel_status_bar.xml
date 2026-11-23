@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+Littlefield Grid FTRLV modified version, 2026-11-22.
+Changes relative to Kokua 7.2.0.61057 are documented in doc/CHANGES-FTRLV.md.
+Existing upstream copyright and license notices are retained.
+-->
+<panel name="status" title="ステータスバー">
+	<panel.string name="packet_loss_tooltip">
+		パケット損失
+	</panel.string>
+	<panel.string name="bandwidth_tooltip">
+		帯域幅
+	</panel.string>
+	<panel.string name="time">
+		[ampm, datetime, slt]　[hour12, datetime, slt]：[min, datetime, slt]　[timezone,datetime, slt]
+	</panel.string>
+	<panel.string name="timeTooltip">
+		[year, datetime, slt]年[month, datetime, slt]月[day, datetime, slt]日（[weekday, datetime, slt]）
+	</panel.string>
+	<panel.string name="buycurrencylabel">
+		OS$ [AMT]
+	</panel.string>
+	<panel name="menu_search_panel">
+		<search_editor label="メニューの検索" name="search_menu_edit" tool_tip="検索したい内容をここに入力してください。メニューに部分的に一致する結果が表示されます。"/>
+	</panel>
+	<panel name="balance_bg">
+		<text tool_tip="クリックしてOS$残高を更新" value="OS$ ??"/>
+	</panel>
+	<text name="TimeText" tool_tip="現在時刻（太平洋）">
+		午前　24：00 PST
+	</text>
+	<icon image_name="Cam_FreeCam_Off" name="presets_icon_camera" tool_tip="カメラ"/>
+	<icon image_name="Presets_Icon" name="presets_icon_graphic" tool_tip="グラフィックのプリセット"/>
+	<button name="media_toggle_btn" tool_tip="すべてのメディアを開始・停止（音楽、ビデオ、Webページ）"/>
+	<button name="volume_btn" tool_tip="ボリューム"/>
+</panel>

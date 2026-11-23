@@ -1,0 +1,58 @@
+{
+  "brotli-metadata": {
+    "url": "https://pypi.org/pypi/Brotli/json",
+    "resolved_url": "https://pypi.org/pypi/Brotli/json",
+    "bytes": 660460,
+    "sha256": "5e6ba73f6e7ccdc331de8780a253a0352605966f7a947f6e1d1c923162b8cc7c"
+  },
+  "brotli-temporary-decoder": {
+    "url": "https://files.pythonhosted.org/packages/96/c2/0c7abb25013043d4bcf7dd768d343bf7dee6ce99ac8c172f7ee4aef1c772/brotli-1.2.1-cp313-cp313-win_amd64.whl",
+    "resolved_url": "https://files.pythonhosted.org/packages/96/c2/0c7abb25013043d4bcf7dd768d343bf7dee6ce99ac8c172f7ee4aef1c772/brotli-1.2.1-cp313-cp313-win_amd64.whl",
+    "bytes": 371072,
+    "sha256": "e6c4fa55eab6b5684b33239597876a18a35ce1280b63ab960164032afbb8783f"
+  },
+  "chromium-ffmpeg": {
+    "url": "https://raw.githubusercontent.com/chromium/chromium/118.0.5993.54/third_party/ffmpeg/README.chromium",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "cef-about-handler": {
+    "url": "https://raw.githubusercontent.com/chromiumembedded/cef/3dd607849786b271d95e1a3e8013f59572fa9779/libcef/browser/internal_scheme_handler.cc",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "chromium-source-license": {
+    "url": "https://raw.githubusercontent.com/chromium/chromium/118.0.5993.54/LICENSE",
+    "resolved_url": "https://raw.githubusercontent.com/chromium/chromium/118.0.5993.54/LICENSE",
+    "bytes": 1536,
+    "sha256": "368cca1106be99d39ecd32a38d8305585d802a475effb66380b91ffc9bcf709b"
+  },
+  "dullahan-build": {
+    "url": "https://raw.githubusercontent.com/secondlife/dullahan/ead65e7ba782ccd4c9e1bb1e6247484ffbe980b1/build-cmd.sh",
+    "resolved_url": "https://raw.githubusercontent.com/secondlife/dullahan/ead65e7ba782ccd4c9e1bb1e6247484ffbe980b1/build-cmd.sh",
+    "bytes": 11051,
+    "sha256": "e5b4fe0ef1c51a8530a9974318c18c0a0a1467aa12b0a81912e81d5d3d5c9309"
+  },
+  "cef-resource-bundle": {
+    "url": "https://raw.githubusercontent.com/chromium/chromium/118.0.5993.54/ui/base/resource/resource_bundle.cc",
+    "resolved_url": "https://raw.githubusercontent.com/chromium/chromium/118.0.5993.54/ui/base/resource/resource_bundle.cc",
+    "bytes": 45604,
+    "sha256": "c2a5fdb3c511b4fafaeee24b2799e870432f36c775992961e6c6f7e167a35278"
+  },
+  "webrtc-thumb": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/WebRTC_Logo.svg/1280px-WebRTC_Logo.svg.png",
+    "resolved_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/WebRTC_Logo.svg/1280px-WebRTC_Logo.svg.png",
+    "bytes": 35761,
+    "sha256": "ddc81f8d7bd6ea092a5093d3a89fd3112aba89543155f106f318960e257a57cd"
+  },
+  "vlc-contrib-index": {
+    "url": "https://download.videolan.org/pub/contrib/",
+    "resolved_url": "https://download.videolan.org/pub/contrib/",
+    "bytes": 22621,
+    "sha256": "93dca128809418c0e231adb0852bbf2bcfd55a1bfd4c800db627cdccd9d00167"
+  },
+  "ms-v14-redist": {
+    "url": "https://aka.ms/vc14/vc_redist.x64.exe",
+    "resolved_url": "https://download.visualstudio.microsoft.com/download/pr/78d061c5-9ef3-42ab-98ed-3309d1095dc4/9C02C9ED120F671B900E6B9471D890E3B2414117A7E53F4AE2E855466FA2B7C9/VC_redist.x64.exe",
+    "bytes": 18863624,
+    "sha256": "9c02c9ed120f671b900e6b9471d890e3b2414117a7e53f4ae2e855466fa2b7c9"
+  }
+}

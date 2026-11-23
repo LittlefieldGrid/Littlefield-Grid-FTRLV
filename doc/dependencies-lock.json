@@ -1,0 +1,1235 @@
+{
+  "format": 1,
+  "scope": "43 installed packages in successful Release environment; not all are necessarily shipped",
+  "packages": [
+    {
+      "name": "apr_suite",
+      "version": "1.7.4-10338381102",
+      "build_id": "10338381102",
+      "platform": "windows64",
+      "configuration": "Release",
+      "license_metadata": "apache",
+      "license_file": "LICENSES/apr_suite.txt",
+      "source_repository": "https://github.com/secondlife/3p-apr_suite",
+      "source_revision": "945d742f59a908ec7fac83c3144dc6fd1a1f4cbe",
+      "source_branch_or_tag": "refs/tags/v1.7.4-r2",
+      "archive": {
+        "hash": "7eb6b8f294c4563a07fec3578be2d04af17a60cb",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-apr_suite/releases/download/v1.7.4-r2/apr_suite-1.7.4-10338381102-windows64-10338381102.tar.zst"
+      },
+      "license_file_sha256": "f854aeef66ecd55a126226e82b3f26793fc3b1c584647f6a0edc5639974c38ad",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "apr_suite-1.7.4-10338381102-windows64-10338381102.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "b18ed72e41188d00c802f8394afad9f2a3bd20d13910a9d03376606697f229f8",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "boost",
+      "version": "1.86",
+      "build_id": "10475904468",
+      "platform": "windows64",
+      "configuration": "Release",
+      "license_metadata": "boost 1.0",
+      "license_file": "LICENSES/boost.txt",
+      "source_repository": "https://github.com/secondlife/3p-boost",
+      "source_revision": "e2bee1e1b4c8a101134df6863a491d54bd933025",
+      "source_branch_or_tag": "refs/tags/v1.86.0-e2bee1e",
+      "archive": {
+        "hash": "d1dd5d629b254d1b361c5a0fa210b5f3283e8a20",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-boost/releases/download/v1.86.0-e2bee1e/boost-1.86-windows64-10475904468.tar.zst"
+      },
+      "license_file_sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "boost-1.86-windows64-10475904468.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "609e9174886c831780c50de74e0278902eb16d3a8784e43c106b59d900af9dc8",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "colladadom",
+      "version": "2.3.0-r8",
+      "build_id": "10476582237",
+      "platform": "windows64",
+      "configuration": "RelWithDebInfo",
+      "license_metadata": "SCEA",
+      "license_file": "LICENSES/collada.txt",
+      "source_repository": "https://github.com/secondlife/3p-colladadom",
+      "source_revision": "60a1fc06fdb7da878ccd1b10a4950d55802b3673",
+      "source_branch_or_tag": "refs/tags/v2.3-r8",
+      "archive": {
+        "hash": "8bfa9f1a78d077f3bd422f14ae360150b98c82f9",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-colladadom/releases/download/v2.3-r8/colladadom-2.3.0-r8-windows64-10476582237.tar.zst"
+      },
+      "license_file_sha256": "8b230d0434ced73e60316710b2c864c86002fb6891c45779b05b07e68b14ced6",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "colladadom-2.3.0-r8-windows64-10476582237.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "86a30e4bb9f2461897343028dc0e8adc19ff99800ea4aba841d7069cc88ff207",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "cubemaptoequirectangular",
+      "version": "1.1.0",
+      "build_id": "d7afe27",
+      "platform": "windows64",
+      "configuration": "default",
+      "license_metadata": "MIT",
+      "license_file": "LICENSES/CUBEMAPTOEQUIRECTANGULAR_LICENSE.txt",
+      "source_repository": "https://github.com/secondlife/3p-cubemap_to_eqr_js",
+      "source_revision": "d7afe27f1184445fb2a6f6ce98d65ccb93f8ac4c",
+      "source_branch_or_tag": "HEAD",
+      "archive": {
+        "hash": "6c51855bcf3a8628289881fdaea08c25cf7b1b90",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-cubemap_to_eqr_js/releases/download/v1.1.0-d7afe27/cubemaptoequirectangular-1.1.0-windows64-d7afe27.tar.zst"
+      },
+      "license_file_sha256": "f09f69493de1f83a1b485fd298966a46ae939c38222a99c70ad474b273c1be0b",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "cubemaptoequirectangular-1.1.0-windows64-d7afe27.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "7fd05057b378b587c4954c3c15e58428b742d337bcf4dd324c290f1aae7cc500",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "curl",
+      "version": "7.54.1-10342910827",
+      "build_id": "10342910827",
+      "platform": "windows64",
+      "configuration": "default",
+      "license_metadata": "curl",
+      "license_file": "LICENSES/curl.txt",
+      "source_repository": "https://github.com/secondlife/3p-curl",
+      "source_revision": "4dd010c35e56b5b36e47a0aa2646b72a380a5794",
+      "source_branch_or_tag": "refs/tags/v7.54.1-r1",
+      "archive": {
+        "hash": "794480208e72a928552760cd048438b90aa1c80d",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-curl/releases/download/v7.54.1-r1/curl-7.54.1-10342910827-windows64-10342910827.tar.zst"
+      },
+      "license_file_sha256": "cbcf511f5702f7baf5424193a792bc9c18fab22bcbec2e6a587598389dc632c2",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "curl-7.54.1-10342910827-windows64-10342910827.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "2eb65028c409e770099fd512dc630400248012644d6c725819cbc96ae0340560",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "dictionaries",
+      "version": "1.a01bb6c",
+      "build_id": "a01bb6c",
+      "platform": "common",
+      "configuration": "Release",
+      "license_metadata": "various open source",
+      "license_file": "LICENSES/dictionaries.txt",
+      "source_repository": "https://github.com/secondlife/3p-dictionaries-git",
+      "source_revision": "a01bb6c48927c44e138382a608ad805c790819a9",
+      "source_branch_or_tag": "HEAD",
+      "archive": {
+        "hash": "e03eb77224290c875ff84f75b7fe3d0e7c162c94",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-dictionaries/releases/download/v1-a01bb6c/dictionaries-1.a01bb6c-common-a01bb6c.tar.zst"
+      },
+      "license_file_sha256": "bdc02b004adbac3f04cde3e1d9a5e02c717dd330c2ae8f1a5e355af11320227e",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "dictionaries-1.a01bb6c-common-a01bb6c.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "d080b9af588c74574ac00302b05573cead35399fa789bd2339cb76e54e3b25a6",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "dullahan",
+      "version": "1.14.0.202408091639_118.4.1_g3dd6078_chromium-118.0.5993.54",
+      "build_id": "10322607516",
+      "platform": "windows64",
+      "configuration": "Release",
+      "license_metadata": "MPL",
+      "license_file": "LICENSES/LICENSE.txt",
+      "source_repository": "https://github.com/secondlife/dullahan",
+      "source_revision": "ead65e7ba782ccd4c9e1bb1e6247484ffbe980b1",
+      "source_branch_or_tag": "refs/tags/v1.14.0-r3",
+      "archive": {
+        "hash": "4124c79d8b0e319877ffa4c12581d5c1318b4d93",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/dullahan/releases/download/v1.14.0-r3/dullahan-1.14.0.202408091639_118.4.1_g3dd6078_chromium-118.0.5993.54-windows64-10322607516.tar.zst"
+      },
+      "license_file_sha256": "5060854c3548697ddfc8fe1f6ad602f278f2e9f93a279ef2bd61167e17c72f99",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "license_resolution": {
+        "effective_license": "MIT",
+        "status": "verified exact upstream commit license matches packaged notice",
+        "upstream_license": "https://raw.githubusercontent.com/secondlife/dullahan/ead65e7ba782ccd4c9e1bb1e6247484ffbe980b1/LICENSE.txt",
+        "sha256": "5060854c3548697ddfc8fe1f6ad602f278f2e9f93a279ef2bd61167e17c72f99",
+        "metadata_discrepancy": "original metadata says MPL; preserved as historical evidence, not authoritative license text"
+      },
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "dullahan-1.14.0.202408091639_118.4.1_g3dd6078_chromium-118.0.5993.54-windows64-10322607516.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "e2f494b2c9d5787d12cc3bbd0b8d62e388797a5c48b9c4a9117abb0175924b95",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "emoji_shortcodes",
+      "version": "15.3.2.10207138275",
+      "build_id": "10207138275",
+      "platform": "common",
+      "configuration": "default",
+      "license_metadata": "MIT",
+      "license_file": "LICENSES/emojibase-license.txt",
+      "source_repository": "https://github.com/secondlife/3p-emoji-shortcodes",
+      "source_revision": "35e785db417237795d49582aa8462e9647b97f1d",
+      "source_branch_or_tag": "refs/tags/v15.3.2-r1",
+      "archive": {
+        "hash": "9c58108270fbad15a321f75501cdfb9c6b78a6f2",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-emoji-shortcodes/releases/download/v15.3.2-r1/emoji_shortcodes-15.3.2.10207138275-common-10207138275.tar.zst"
+      },
+      "license_file_sha256": "5c4e1582dcae9429a5d00ec0a64185c3a711f9757b2308fdf275d90b120f6149",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "emoji_shortcodes-15.3.2.10207138275-common-10207138275.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "4102e01f22e0c1b1cb3a3ac37ac1e99b166408f77537d3f6bd2ab8ed0aa76c69",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "expat",
+      "version": "2.6.2-r5",
+      "build_id": "10337781902",
+      "platform": "windows64",
+      "configuration": "Release",
+      "license_metadata": "expat",
+      "license_file": "LICENSES/expat.txt",
+      "source_repository": "https://github.com/secondlife/3p-expat",
+      "source_revision": "73123f6b06c94246395e80c4c8c395846896f442",
+      "source_branch_or_tag": "refs/tags/v2.6.2-r5",
+      "archive": {
+        "hash": "f11d91205bb753d7389a73e629627b200219c62f",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-expat/releases/download/v2.6.2-r5/expat-2.6.2-r5-windows64-10337781902.tar.zst"
+      },
+      "license_file_sha256": "122f2c27000472a201d337b9b31f7eb2b52d091b02857061a8880371612d9534",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "expat-2.6.2-r5-windows64-10337781902.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "994d224ce196c8caa8803b78e24c7f77e2159c321207d4bed8ab41158abd2cb0",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "freetype",
+      "version": "2.13.3-cb2e120",
+      "build_id": "10475886095",
+      "platform": "windows64",
+      "configuration": "default",
+      "license_metadata": "FreeType",
+      "license_file": "LICENSES/freetype.txt",
+      "source_repository": "https://github.com/secondlife/3p-freetype",
+      "source_revision": "cb2e120693c93e30537a1728b8a18cacd52dccb7",
+      "source_branch_or_tag": "refs/tags/v2.13.3-cb2e120",
+      "archive": {
+        "hash": "01971b998122a17c97e3616c428cc77077a0c39a",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-freetype/releases/download/v2.13.3-cb2e120/freetype-2.13.3-cb2e120-windows64-10475886095.tar.zst"
+      },
+      "license_file_sha256": "2e3bbb7d7c5c396368dd0853a790ec29ce5b8647163dde42a0493fb0d6556b2b",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "freetype-2.13.3-cb2e120-windows64-10475886095.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "abc0d760d65d184200af0aa8580b893e636d4438aedf08df1a23def5671b527b",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "glext",
+      "version": "68",
+      "build_id": "685b36e",
+      "platform": "common",
+      "configuration": "default",
+      "license_metadata": "Copyright (c) 2007-2010 The Khronos Group Inc.",
+      "license_file": "LICENSES/glext.txt",
+      "source_repository": "https://github.com/secondlife/3p-glext",
+      "source_revision": "685b36e812a9aabf3b52ec548515251553539f67",
+      "source_branch_or_tag": "HEAD",
+      "archive": {
+        "hash": "7cc58b3acb230a7e65ea5f0ff800be393eb4aa1b",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-glext/releases/download/v69/glext-68-common-685b36e.tar.zst"
+      },
+      "license_file_sha256": "0842f8c435281679f7614f7b6b9878044e510dc1e520aefd53e8064ff4c8fe56",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "glext-68-common-685b36e.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "8a8c0dbd71daee91d724cf7d90a3e98979ed146a22c65e6e82914dbf3197f941",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "glh_linear",
+      "version": "1.0.1-dev4",
+      "build_id": "984c397",
+      "platform": "common",
+      "configuration": "default",
+      "license_metadata": "BSD",
+      "license_file": "LICENSES/glh-linear.txt",
+      "source_repository": "https://github.com/secondlife/3p-glh_linear",
+      "source_revision": "984c3971bd7b442e37d20b0fb85b4df3e1c9ee31",
+      "source_branch_or_tag": "HEAD",
+      "archive": {
+        "hash": "066625e7aa7f697a4b6cd461aad960c57181011f",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-glh_linear/releases/download/v1.0.1-dev4-984c397/glh_linear-1.0.1-dev4-common-984c397.tar.zst"
+      },
+      "license_file_sha256": "dafb06df71f7c3d0597c8d94a6d5b582991a05e90cee42f88fe80802dbbfa1b0",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "glh_linear-1.0.1-dev4-common-984c397.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "e09b8177a82968abdbd11ad0d69ae7c6d8197cf08448956faa3f19f915a3e9b6",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "glm",
+      "version": "v1.0.1",
+      "build_id": "9066386153",
+      "platform": "common",
+      "configuration": "RelWithDebInfo",
+      "license_metadata": "MIT",
+      "license_file": "LICENSES/glm_license.txt",
+      "source_repository": "https://github.com/secondlife/3p-glm",
+      "source_revision": "399cd5ba57a9267a560ce07e50a0f8c5fe3dc66f",
+      "source_branch_or_tag": "refs/tags/v1.0.1-r1",
+      "archive": {
+        "hash": "353ae3a560143732503a8e14499ae12db1e66056",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-glm/releases/download/v1.0.1-r1/glm-v1.0.1-common-9066386153.tar.zst"
+      },
+      "license_file_sha256": "19d105a986017bc706b097798d2981620e3b742933c36fc0e79459fd3e223f53",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "glm-v1.0.1-common-9066386153.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "5fb43852d6b5887c11afe0a1507041ceee6b3068dae4015705ce8c5a646cd109",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "jpegencoderbasic",
+      "version": "1.0",
+      "build_id": "9165e47",
+      "platform": "windows64",
+      "configuration": "default",
+      "license_metadata": "NONE",
+      "license_file": "LICENSES/JPEG_ENCODER_BASIC_LICENSE.txt",
+      "source_repository": "https://github.com/secondlife/3p-jpeg_encoder_js",
+      "source_revision": "9165e472422d94ee196b35ec9384982703eb17c0",
+      "source_branch_or_tag": "HEAD",
+      "archive": {
+        "hash": "8ec22e9fc8734ba3d1826f4b88171a6017cc8676",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-jpeg_encoder_js/releases/download/v1.0-9165e47/jpegencoderbasic-1.0-windows64-9165e47.tar.zst"
+      },
+      "license_file_sha256": "fbd637fe9df1e93202c1900be2d410fe9291d156587b759b3c977887a92aae93",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "license_resolution": {
+        "effective_license": "BSD-style three-condition notice in supplied license file",
+        "status": "license text supplied; metadata NONE is not a denial of permission"
+      },
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "jpegencoderbasic-1.0-windows64-9165e47.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "b8979dd2de3c192a0474f57ae0d72a9e8b81c0044693ef2574598e65353aad35",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "libhunspell",
+      "version": "1.7.2.10207243663",
+      "build_id": "10207243663",
+      "platform": "windows64",
+      "configuration": "Release",
+      "license_metadata": "LGPL",
+      "license_file": "LICENSES/hunspell.txt",
+      "source_repository": "https://github.com/secondlife/3p-libhunspell",
+      "source_revision": "ebe43929028a244c1e2ff84b407b65ffc7e346ef",
+      "source_branch_or_tag": "refs/tags/v1.7.2-r1",
+      "archive": {
+        "hash": "89ff24e93eaeca7949ccdb5cc368f938f5b1f307",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-libhunspell/releases/download/v1.7.2-r1/libhunspell-1.7.2.10207243663-windows64-10207243663.tar.zst"
+      },
+      "license_file_sha256": "3f7ddd07c296edbfe0a47c7bcc82038ad347a2c4f672345b24f95c624db68513",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "libhunspell-1.7.2.10207243663-windows64-10207243663.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "a7c8a189ece39b4e417dd47d2371e3918a21098bcb3b10369ea96a41355fbda5",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "libjpeg-turbo",
+      "version": "3.0.3-r2",
+      "build_id": "10341191820",
+      "platform": "windows64",
+      "configuration": "default",
+      "license_metadata": "libjpeg-turbo",
+      "license_file": "LICENSES/libjpeg-turbo.txt",
+      "source_repository": "https://github.com/secondlife/3p-libjpeg-turbo",
+      "source_revision": "02d1aa1af062afe5356569639b9dcc928f2a011c",
+      "source_branch_or_tag": "refs/tags/v3.0.3-r2",
+      "archive": {
+        "hash": "34cf4fdbbc999e67b0528f7ca3c7f31f35267ecf",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-libjpeg-turbo/releases/download/v3.0.3-r2/libjpeg_turbo-3.0.3-r2-windows64-10341191820.tar.zst"
+      },
+      "license_file_sha256": "e548c96c0c09397c94b5c5531836c02ff2c403f1f2b130cad8e3ec9439b5a7cc",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "libjpeg_turbo-3.0.3-r2-windows64-10341191820.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "2f41d81bd74d7ef1d1cdf7473d89ba82398905e881660b3316ff59a956303b12",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "libndofdev",
+      "version": "0.1.8e9edc7",
+      "build_id": "8e9edc7",
+      "platform": "windows64",
+      "configuration": "default",
+      "license_metadata": "BSD",
+      "license_file": "LICENSES/libndofdev.txt",
+      "source_repository": "https://github.com/secondlife/3p-libndofdev",
+      "source_revision": "8e9edc71886af143e0446da12273b2aa21baefb1",
+      "source_branch_or_tag": "HEAD",
+      "archive": {
+        "hash": "ae9d554e8839f42230b8ed6c850445d54654a38f",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-libndofdev/releases/download/v0.1.8e9edc7/libndofdev-0.1.8e9edc7-windows64-8e9edc7.tar.zst"
+      },
+      "license_file_sha256": "31f9fc2788f7fd777c0110d843235c9d937934f558bd5861bc73a4381af8b43a",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "libndofdev-0.1.8e9edc7-windows64-8e9edc7.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "c130b12180d625c903bde56016055b537bccf4398a210019c6a60bc472d73f7c",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "libpng",
+      "version": "1.6.43-r2",
+      "build_id": "10329429325",
+      "platform": "windows64",
+      "configuration": "default",
+      "license_metadata": "libpng",
+      "license_file": "LICENSES/libpng.txt",
+      "source_repository": "https://github.com/secondlife/3p-libpng",
+      "source_revision": "5de9b9bdb4a4e353ce83e09af82a5c94f487cfcd",
+      "source_branch_or_tag": "refs/tags/v1.6.43-r2",
+      "archive": {
+        "hash": "eddb96c73c8916bf71eaa5d0edb812d20e72c255",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-libpng/releases/download/v1.6.43-r2/libpng-1.6.43-r2-windows64-10329429325.tar.zst"
+      },
+      "license_file_sha256": "7317e078e2d3b5d7ba5a6159e650945153262b44b76f6700f8e9edb261c5143e",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "libpng-1.6.43-r2-windows64-10329429325.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "6719125f29b7c461ab5c2b98866a48710b5afacd312637180684cdfaf7740a06",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "libxml2",
+      "version": "2.13.3-r1",
+      "build_id": "10329675166",
+      "platform": "windows64",
+      "configuration": "Release",
+      "license_metadata": "mit",
+      "license_file": "LICENSES/libxml2.txt",
+      "source_repository": "https://github.com/secondlife/3p-libxml2",
+      "source_revision": "8c41b2cba1c2e849a58ab7c380c0096eecc17a1b",
+      "source_branch_or_tag": "refs/tags/v2.13.3-r1",
+      "archive": {
+        "hash": "5181bd267de3ad4466227f91c7e2cbed7e8b85d9",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-libxml2/releases/download/v2.13.3-r1/libxml2-2.13.3-r1-windows64-10329675166.tar.zst"
+      },
+      "license_file_sha256": "c99aae1afe013e50b8b3701e089222b351258043c3025b64053a233fd25b4be7",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "libxml2-2.13.3-r1-windows64-10329675166.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "e606c48afbbf89c9c22296527f709977f26b28bc731cc293f805fa6e5d02d496",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "llca",
+      "version": "202407221423.0",
+      "build_id": "10042698865",
+      "platform": "common",
+      "configuration": "default",
+      "license_metadata": "mit",
+      "license_file": "LICENSES/ca-license.txt",
+      "source_repository": "https://github.com/secondlife/llca",
+      "source_revision": "a0fd5b9f0041b7d1319d5736f5ee2ee0ab0e87a0",
+      "source_branch_or_tag": "dependabot/github_actions/secondlife/action-autobuild-release-3",
+      "archive": {
+        "hash": "6d6771706a5b70caa24893ff62afc925f8d035f6",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/llca/releases/download/v202407221723.0-a0fd5b9/llca-202407221423.0-common-10042698865.tar.zst"
+      },
+      "license_file_sha256": "69489a9113574602befc5fa57c0688f1513e5b2185017f706349a342803a7ab8",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "llca-202407221423.0-common-10042698865.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "c161b5a39e56e6dd9489031c1ded05e458ef71fe9539664324052d50b8ddc2ba",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "llphysicsextensions_stub",
+      "version": "1.0.542456",
+      "build_id": "542456",
+      "platform": "windows",
+      "configuration": "Stub",
+      "license_metadata": "internal",
+      "license_file": "LICENSES/llphysicsextensions.txt",
+      "source_repository": "https://bitbucket.org/lindenlabinternal/llphysicsextensions_stub",
+      "source_revision": null,
+      "source_branch_or_tag": null,
+      "archive": {
+        "hash": "2e5f1f7046a49d8b0bc295aa878116bc",
+        "url": "http://automated-builds-secondlife-com.s3.amazonaws.com/ct2/60043/564063/llphysicsextensions_stub-1.0.542456-windows-542456.tar.bz2"
+      },
+      "license_file_sha256": "bf571a6d0de9d79adc73fe88f199012a31a30e29c3ea2969152fedfb8156db81",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "license_resolution": {
+        "effective_license": "LGPL-2.1 per packaged source/license notices, subject to individual file exceptions",
+        "status": "internal metadata is not a license; actual notices retained; public retrievability still needs clean-build validation"
+      },
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "llphysicsextensions_stub-1.0.542456-windows-542456.tar.bz2",
+        "pinned_algorithm": "md5",
+        "pinned_hash_verified": true,
+        "archive_sha256": "7acf48e0c419de950482c2fd4b2817deca1a08a7ec8a93901e0e4428898f2576",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "meshoptimizer",
+      "version": "210.0.0-r2",
+      "build_id": "10341021290",
+      "platform": "windows64",
+      "configuration": "default",
+      "license_metadata": "meshoptimizer",
+      "license_file": "LICENSES/meshoptimizer.txt",
+      "source_repository": "https://github.com/secondlife/3p-meshoptimizer",
+      "source_revision": "0750291cae00d2c15a11c475ae80197fb9430dee",
+      "source_branch_or_tag": "refs/tags/v210-r2",
+      "archive": {
+        "hash": "024ce689a6f13e66d0c7e431ac34071434e2365a",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-meshoptimizer/releases/download/v210-r2/meshoptimizer-210.0.0-r2-windows64-10341021290.tar.zst"
+      },
+      "license_file_sha256": "d1bc307ff896c7fc65e3ff4823cc478194f7a5bc6436f99534ebede4d9e2017a",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "meshoptimizer-210.0.0-r2-windows64-10341021290.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "abd08dea8634528a454636ff18c2770795ceee3a4a1f605a3f992f50871f9a29",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "mikktspace",
+      "version": "1",
+      "build_id": "8756084692",
+      "platform": "windows64",
+      "configuration": "default",
+      "license_metadata": "Apache 2.0",
+      "license_file": "mikktspace.txt",
+      "source_repository": "https://github.com/secondlife/3p-mikktspace",
+      "source_revision": "e967e1bc8eb2642d33137525fdb51368080a61e4",
+      "source_branch_or_tag": "master",
+      "archive": {
+        "hash": "130b33a70bdb3a8a188376c6a91840bdb61380a8",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-mikktspace/releases/download/v2-e967e1b/mikktspace-1-windows64-8756084692.tar.zst"
+      },
+      "license_file_sha256": "ae4ac065319d3d05f0e6d2bcd8fc597e910dab6c3a700deba15581507de40a4c",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "mikktspace-1-windows64-8756084692.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "8ec82b403a10554c848db5bf5b3d70ef462825ef3e3eb331c4a22fa9e5ff58ff",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "minizip-ng",
+      "version": "4.0.7-r1",
+      "build_id": "10324657515",
+      "platform": "windows64",
+      "configuration": "default",
+      "license_metadata": "minizip-ng",
+      "license_file": "LICENSES/minizip-ng.txt",
+      "source_repository": "https://github.com/secondlife/3p-minizip-ng",
+      "source_revision": "9fc435a59e7b609ad0b541d236a01d5aac874908",
+      "source_branch_or_tag": "refs/tags/v4.0.7-r1",
+      "archive": {
+        "hash": "9cee9d85f9a7c6fb051125775f0122a926da5cc9",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-minizip-ng/releases/download/v4.0.7-r1/minizip_ng-4.0.7-r1-windows64-10324657515.tar.zst"
+      },
+      "license_file_sha256": "675181c03fc1302a1c8554c00f7be9bb420c5dbc9dcc2013433cec144413de03",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "minizip_ng-4.0.7-r1-windows64-10324657515.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "8f2681ba5ea53526232078b7a7d22f902bf68fd95af247d1e24332a89568741a",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "nanosvg",
+      "version": "2022.09.27",
+      "build_id": "580364",
+      "platform": "windows64",
+      "configuration": "default",
+      "license_metadata": "Zlib",
+      "license_file": "LICENSES/nanosvg.txt",
+      "source_repository": "https://github.com/secondlife/3p-nanosvg",
+      "source_revision": null,
+      "source_branch_or_tag": null,
+      "archive": {
+        "hash": "ee61ff8b866be04c325f1fe2db516d71",
+        "url": "https://automated-builds-secondlife-com.s3.amazonaws.com/ct2/115454/994144/nanosvg-2022.09.27-windows64-580364.tar.bz2"
+      },
+      "license_file_sha256": "05013ed6643293c88110521dd5cdd4700d5a9f74f58fd168ed604e9aa90a9157",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "nanosvg-2022.09.27-windows64-580364.tar.bz2",
+        "pinned_algorithm": "md5",
+        "pinned_hash_verified": true,
+        "archive_sha256": "f739a51eda83b316986772e6c40f327d53df049719a43a1b42b3b700c782405a",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "nghttp2",
+      "version": "1.62.1",
+      "build_id": "10329456052",
+      "platform": "windows64",
+      "configuration": "default",
+      "license_metadata": "MIT",
+      "license_file": "LICENSES/nghttp2.txt",
+      "source_repository": "https://github.com/secondlife/3p-nghttp2",
+      "source_revision": "caeded2ca8d7f56399609a327901fd387369daa8",
+      "source_branch_or_tag": "refs/tags/v1.62.1",
+      "archive": {
+        "hash": "c23e25a7c47f5233f543a90f1a9ccf4da9282379",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-nghttp2/releases/download/v1.62.1/nghttp2-1.62.1-windows64-10329456052.tar.zst"
+      },
+      "license_file_sha256": "6b94f3abc1aabd0c72a7c7d92a77f79dda7c8a0cb3df839a97890b4116a2de2a",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "nghttp2-1.62.1-windows64-10329456052.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "4cc4dc819fb4c8f9ca0f34003a8e1732c470623d6bbaefeaa2761ded2c57c07c",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "nvapi",
+      "version": "560.0.0-r1",
+      "build_id": "10390321492",
+      "platform": "windows64",
+      "configuration": "default",
+      "license_metadata": "MIT",
+      "license_file": "LICENSES/nvapi.txt",
+      "source_repository": "https://github.com/secondlife/3p-nvapi",
+      "source_revision": "575aae9c470a10cce8549954b731c6fff44f40b6",
+      "source_branch_or_tag": "refs/tags/v560-r1",
+      "archive": {
+        "hash": "bc574ea89164387a6c12bb49e1bac091c1d4da27",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-nvapi/releases/download/v560-r1/nvapi-560.0.0-r1-windows64-10390321492.tar.zst"
+      },
+      "license_file_sha256": "bab44777f0f4d0333479ea0be6e24c084464a8cb64b98f1253fcc3df70f6eccf",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "license_resolution": {
+        "effective_license": "MIT for the recorded nvapi.lib/nvapi64.lib package",
+        "status": "verified actual packaged license; attribution retained"
+      },
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "nvapi-560.0.0-r1-windows64-10390321492.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "ba16ef60a894f9358fdf2446e7329c75f1ac16d9badb48da015bd8764bf1db3c",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "ogg_vorbis",
+      "version": "1.3.5-1.3.7.10341271136",
+      "build_id": "10341271136",
+      "platform": "windows64",
+      "configuration": "default",
+      "license_metadata": "ogg-vorbis",
+      "license_file": "LICENSES/ogg-vorbis.txt",
+      "source_repository": "https://github.com/secondlife/3p-ogg_vorbis",
+      "source_revision": "8ceaf768c922b9af65c2f46b689f69a25391433f",
+      "source_branch_or_tag": "refs/tags/v1.3.5-1.3.7-r1",
+      "archive": {
+        "hash": "0dc0f5334d1c882d5d7bce6d2cfaecf2f7ab1ae6",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-ogg_vorbis/releases/download/v1.3.5-1.3.7-r1/ogg_vorbis-1.3.5-1.3.7.10341271136-windows64-10341271136.tar.zst"
+      },
+      "license_file_sha256": "d2ab5758336489da61c12cc5bb757da5339c4ae9001f9bb0562b4370249af814",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "ogg_vorbis-1.3.5-1.3.7.10341271136-windows64-10341271136.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "b6d668990c9900742483dbf8fb8d794d3957e7d4676132bf155e626dd187675f",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "openal",
+      "version": "1.24.2-r1",
+      "build_id": "13245988487",
+      "platform": "windows64",
+      "configuration": "default",
+      "license_metadata": "LGPL2",
+      "license_file": "LICENSES/openal-soft.txt",
+      "source_repository": "https://github.com/secondlife/3p-openal-soft",
+      "source_revision": "e33e940c00e8447bcf164dc6df3aa6096b86946b",
+      "source_branch_or_tag": "refs/tags/v1.24.2-r1",
+      "archive": {
+        "hash": "8ad24fba1191c9cb0d2ab36e64b04b4648a99f43",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-openal-soft/releases/download/v1.24.2-r1/openal-1.24.2-r1-windows64-13245988487.tar.zst"
+      },
+      "license_file_sha256": "d808ce217e5b611854da622b57ec29fe545584c48bc5352fae72a4b6e5074a15",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "openal-1.24.2-r1-windows64-13245988487.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "e1b667a95bd10341c8762fd78718f5cb91258ec7f816cfb0b7a6c268e2e4c2ba",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "openjpeg",
+      "version": "2.5.2.10604495243",
+      "build_id": "10604495243",
+      "platform": "windows64",
+      "configuration": "Release",
+      "license_metadata": "BSD",
+      "license_file": "LICENSES/openjpeg.txt",
+      "source_repository": "https://github.com/secondlife/3p-openjpeg",
+      "source_revision": "37fac3d38377f84d7ea13843d378d23db4ba5065",
+      "source_branch_or_tag": "refs/tags/v2.5.2-r1",
+      "archive": {
+        "hash": "5e6e0180adc01e07438cb98daec96543b5d85019",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-openjpeg/releases/download/v2.5.2-r1/openjpeg-2.5.2.10604495243-windows64-10604495243.tar.zst"
+      },
+      "license_file_sha256": "a6af136f3e15038a666b61f376612a07d9a4e48cb7c01adbf3e33b3f14ab49b6",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "openjpeg-2.5.2.10604495243-windows64-10604495243.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "86011a9260eb6fc4ecd9db5d90e3020d9e1e899402ce6c862e4af9776a24b173",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "openssl",
+      "version": "1.1.1w",
+      "build_id": "10329796904",
+      "platform": "windows64",
+      "configuration": "default",
+      "license_metadata": "openssl",
+      "license_file": "LICENSES/openssl.txt",
+      "source_repository": "https://github.com/secondlife/3p-openssl",
+      "source_revision": "6f9998d618a3cfa411b476635ae875f261615574",
+      "source_branch_or_tag": "refs/tags/v1.1.1w-r1",
+      "archive": {
+        "hash": "5e396eedf1492d18126b7281367123c1d64b89aa",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-openssl/releases/download/v1.1.1w-r1/openssl-1.1.1w-windows64-10329796904.tar.zst"
+      },
+      "license_file_sha256": "c32913b33252e71190af2066f08115c69bc9fddadf3bf29296e20c835389841c",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "openssl-1.1.1w-windows64-10329796904.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "3ac503fcd9de8323c8224609c042c7f1a54af37bb1bc852874b13134ee7cfd19",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "openxr",
+      "version": "1.1.40-r1",
+      "build_id": "10710818432",
+      "platform": "windows64",
+      "configuration": "Release",
+      "license_metadata": "Apache 2.0",
+      "license_file": "LICENSES/openxr.txt",
+      "source_repository": "https://github.com/secondlife/3p-openxr",
+      "source_revision": "279266ba4ff6f6545fb20e86c0146f1c6ffa1712",
+      "source_branch_or_tag": "refs/tags/v1.1.40-r1",
+      "archive": {
+        "hash": "3cccc3e3f3137066c286270b35abc00ee0c0bb0c",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-openxr/releases/download/v1.1.40-r1/openxr-1.1.40-r1-windows64-10710818432.tar.zst"
+      },
+      "license_file_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "openxr-1.1.40-r1-windows64-10710818432.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "2a0c5601432ca987c9199e37e413c2766d56415fba6be6fb9e781b879e73f7ad",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "threejs",
+      "version": "0.132.2",
+      "build_id": "b8f6746",
+      "platform": "windows64",
+      "configuration": "default",
+      "license_metadata": "MIT",
+      "license_file": "LICENSES/THREEJS_LICENSE.txt",
+      "source_repository": "https://github.com/secondlife/3p-three_js",
+      "source_revision": "b8f6746f40efadcead303158636632fb918e6da2",
+      "source_branch_or_tag": "HEAD",
+      "archive": {
+        "hash": "4141710fccbd1ea2b3b53d00e189bdfa2ee9d441",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-three_js/releases/download/v0.132.2-b8f6746/threejs-0.132.2-windows64-b8f6746.tar.zst"
+      },
+      "license_file_sha256": "7dddf7c5b8fd10ee654db8857d75d104b5557889aa5a91fc4ca545ea7c07062f",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "threejs-0.132.2-windows64-b8f6746.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "90245370f13615c5e89056303dfd174e08501a4dbdf9d1d60873b7f9e9baa7a2",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "tinyexr",
+      "version": "1.0.9-5e8947c",
+      "build_id": "10475846787",
+      "platform": "common",
+      "configuration": "RelWithDebInfo",
+      "license_metadata": "3-clause BSD",
+      "license_file": "LICENSES/tinyexr_license.txt",
+      "source_repository": "https://github.com/secondlife/3p-tinyexr",
+      "source_revision": "5e8947cb6780eab69742b9cd1c46850db58ab247",
+      "source_branch_or_tag": "refs/tags/v1.0.9-5e8947c",
+      "archive": {
+        "hash": "a9649f85e20c0b83acfd7b02ca19c1dcdd15f01e",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-tinyexr/releases/download/v1.0.9-5e8947c/tinyexr-1.0.9-5e8947c-common-10475846787.tar.zst"
+      },
+      "license_file_sha256": "df9107f2280efec69fd150cfbfc00b9364a79926ff021aaafd38f51a0ab26dfd",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "tinyexr-1.0.9-5e8947c-common-10475846787.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "3f8eee0f166e4c99b5c97684d8c0b07774e492ec10f143dc5997478f2740cdf1",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "tinygltf",
+      "version": "2.9.3-r1",
+      "build_id": "10341018043",
+      "platform": "common",
+      "configuration": "RelWithDebInfo",
+      "license_metadata": "MIT",
+      "license_file": "LICENSES/tinygltf_license.txt",
+      "source_repository": "https://github.com/secondlife/3p-tinygltf",
+      "source_revision": "c1c79870f656fcffc30ec3c3f5927b6bc997db83",
+      "source_branch_or_tag": "refs/tags/v2.9.3-r1",
+      "archive": {
+        "hash": "005d23bb2606ae2cc9e844adc1a0edf112c69812",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-tinygltf/releases/download/v2.9.3-r1/tinygltf-2.9.3-r1-common-10341018043.tar.zst"
+      },
+      "license_file_sha256": "2ae461f8c8b78ed77c14e9c3b7e353ba277e44cb3dbfb5a6d380f76f2ae081a2",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "tinygltf-2.9.3-r1-common-10341018043.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "9713ec2d8e9265c1bcd7db8133942fb86abfc86bad5b5511276cb3906e448381",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "tut",
+      "version": "2008.11.30",
+      "build_id": "409bce5",
+      "platform": "common",
+      "configuration": "default",
+      "license_metadata": "bsd",
+      "license_file": "LICENSES/tut.txt",
+      "source_repository": "https://github.com/secondlife/3p-tut",
+      "source_revision": "409bce514cc8d89dde2842c78088a4fde0d3d666",
+      "source_branch_or_tag": "HEAD",
+      "archive": {
+        "hash": "9f0bf4545f08df5381e0f39ccce3a57c6ec4b0f4",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-tut/releases/download/v2008.11.30-409bce5/tut-2008.11.30-common-409bce5.tar.zst"
+      },
+      "license_file_sha256": "8c21e67d8d129143915bd75cbb7f766746b6a22575b666254df321862d7cff20",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "tut-2008.11.30-common-409bce5.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "86ab5414ab6f7488d84add6b0c15cf1fa99b0b43d28f453d910006381635e81a",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "viewer-fonts",
+      "version": "1.0.0.10204976553",
+      "build_id": "10204976553",
+      "platform": "common",
+      "configuration": "Release",
+      "license_metadata": "Various open source",
+      "license_file": "LICENSES/fonts.txt",
+      "source_repository": "https://github.com/secondlife/3p-viewer-fonts",
+      "source_revision": "7a412d5adefd67b3b34ec50a2ace274d6ecb03bd",
+      "source_branch_or_tag": "refs/tags/v1.1.0-r1",
+      "archive": {
+        "hash": "e88a7c97a6843d43e0093388f211299ec2892790",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-viewer-fonts/releases/download/v1.1.0-r1/viewer_fonts-1.0.0.10204976553-common-10204976553.tar.zst"
+      },
+      "license_file_sha256": "bfc5d5b7f8109f86c1071883697daafcee0343e0cf38eeab5374874df3437b79",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "viewer_fonts-1.0.0.10204976553-common-10204976553.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "dc54e457dc9183fbf421118719ea6adc4d3a86c61f8be4a9768caabf3de65bd4",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "viewer-manager",
+      "version": "3.0-f14b5ec",
+      "build_id": "f14b5ec",
+      "platform": "windows64",
+      "configuration": "default",
+      "license_metadata": "viewerlgpl",
+      "license_file": "LICENSE",
+      "source_repository": "https://github.com/secondlife/viewer-manager",
+      "source_revision": "f14b5ecad00301c8297bd474c550c62260a169cc",
+      "source_branch_or_tag": "DRTVWR-591",
+      "archive": {
+        "hash": "56b613decdd36b2a17646bf3e2cfc2fed8456b8c",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/viewer-manager/releases/download/v3.0-f14b5ec-D591/viewer_manager-3.0-f14b5ec-windows64-f14b5ec.tar.zst"
+      },
+      "license_file_sha256": "8ed3d39cf764a573ae569a0bd9d9274c6808f9f884d683bb5adc515716e1679f",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "viewer_manager-3.0-f14b5ec-windows64-f14b5ec.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "257add83e86d9630dab55042ac621c609b1d604b352d7e6bca8b69b5aa00f401",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "vlc-bin",
+      "version": "3.0.21.10218721728",
+      "build_id": "10218721728",
+      "platform": "windows64",
+      "configuration": "default",
+      "license_metadata": "GPL2",
+      "license_file": "LICENSES/vlc.txt",
+      "source_repository": "https://github.com/secondlife/3p-vlc-bin",
+      "source_revision": "e60ee26d93fb3ac18282534a355645f02369dc43",
+      "source_branch_or_tag": "refs/tags/v3.0.21.e60ee26",
+      "archive": {
+        "hash": "bd995441c1a229ed1432ddd837d7d1663b8c5548",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-vlc-bin/releases/download/v3.0.21.e60ee26/vlc_bin-3.0.21.10218721728-windows64-10218721728.tar.zst"
+      },
+      "license_file_sha256": "189b1af95d661151e054cea10c91b3d754e4de4d3fecfb074c1fb29476f7167b",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "license_resolution": {
+        "effective_license": "GPL2 distribution metadata; libVLC and plugins have component-specific terms",
+        "status": "UNRESOLVED: exact Windows vendor/plugin corresponding source and build configuration not established by repackaging recipe"
+      },
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "vlc_bin-3.0.21.10218721728-windows64-10218721728.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "4001bbad93a039d045b626d4446014e1fa7781e0ee37f0946904e3be09c31d24",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "vulkan_gltf",
+      "version": "1.0.0",
+      "build_id": "d7c372f",
+      "platform": "common",
+      "configuration": "default",
+      "license_metadata": "Copyright (c) 2018 Sascha Willems",
+      "license_file": "vulkan_gltf.txt",
+      "source_repository": "https://github.com/secondlife/3p-vulkan-gltf-pbr",
+      "source_revision": "d7c372f8a7483510396f5dd5a9e0369c5db1d855",
+      "source_branch_or_tag": "actions",
+      "archive": {
+        "hash": "8e365eff8dcace48d91e2530f8b13e420849aefc",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-vulkan-gltf-pbr/releases/download/v1.0.0-d7c372f/vulkan_gltf-1.0.0-common-d7c372f.tar.zst"
+      },
+      "license_file_sha256": "ec95f7872ad43bef29a27781c11fcad90c5d07d8b795ca22d64fbfdc296f0bf3",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "vulkan_gltf-1.0.0-common-d7c372f.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "de25daeaf0f287dae3d926d61b6733a60dcf6eae88e3d14dbcef2fc8dc4d4148",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "webrtc",
+      "version": "m114.5735.08.72-test.10444682919",
+      "build_id": "10444682919",
+      "platform": "windows64",
+      "configuration": "default",
+      "license_metadata": "MIT",
+      "license_file": "LICENSES/webrtc-license.txt",
+      "source_repository": "https://github.com/secondlife/3p-webrtc-build",
+      "source_revision": "cd42b814538ef81899d9ed3513ceebd6555cdc79",
+      "source_branch_or_tag": "roxie/secondlife-debug-merge",
+      "archive": {
+        "hash": "0081fd35290adbc8e66dd366535fb6cd8a966f1e",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-webrtc-build/releases/download/m114.5735.08.72-test/webrtc-m114.5735.08.72-test.10444682919-windows64-10444682919.tar.zst"
+      },
+      "license_file_sha256": "c76ea76ea4815eb64ba6167c1c4053388a578a992f48b769745c26d0e11bb515",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "license_resolution": {
+        "effective_license": "component-specific licenses in combined WebRTC notice, including BSD-style WebRTC notice",
+        "status": "do not treat metadata MIT as a blanket license for every component"
+      },
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "webrtc-m114.5735.08.72-test.10444682919-windows64-10444682919.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "0acf3d10233f4832a1cb404f417442a515b0585a9e4a07a5b1481b5598e9736b",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "xxhash",
+      "version": "0.8.2-10285735820",
+      "build_id": "10285735820",
+      "platform": "common",
+      "configuration": "default",
+      "license_metadata": "xxhash",
+      "license_file": "LICENSES/xxhash.txt",
+      "source_repository": "https://github.com/secondlife/3p-xxhash",
+      "source_revision": "27b1ae758dbc6a79960a23e80fba546f43dc0e22",
+      "source_branch_or_tag": "refs/tags/v0.8.2-r1",
+      "archive": {
+        "hash": "fc9362865e33391d55c64d6101726da0a25d924e",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-xxhash/releases/download/v0.8.2-r1/xxhash-0.8.2-10285735820-common-10285735820.tar.zst"
+      },
+      "license_file_sha256": "6ffedbc0f7878612d2b23589f1ff2ab15633e1df7963a5d9fc750ec5500c7e7a",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "xxhash-0.8.2-10285735820-common-10285735820.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "96085b8fd020df43e363dc947ed0b061f07a63871bc0816b0641d6462dc19016",
+        "installed_notice_matches_release_inventory": true
+      }
+    },
+    {
+      "name": "zlib-ng",
+      "version": "2.2.1-r2",
+      "build_id": "10324415171",
+      "platform": "windows64",
+      "configuration": "default",
+      "license_metadata": "zlib-ng",
+      "license_file": "LICENSES/zlib-ng.txt",
+      "source_repository": "https://github.com/secondlife/3p-zlib-ng",
+      "source_revision": "69f639218cde9f38a7dc8df458084f2bb0ba06cb",
+      "source_branch_or_tag": "refs/tags/v2.2.1-r2",
+      "archive": {
+        "hash": "0094031715662be626f5106ff6c814f4fc3dacfa",
+        "hash_algorithm": "sha1",
+        "url": "https://github.com/secondlife/3p-zlib-ng/releases/download/v2.2.1-r2/zlib_ng-2.2.1-r2-windows64-10324415171.tar.zst"
+      },
+      "license_file_sha256": "6c9f0d975b41afaa34d22f55bb8986ce69e5cb7ad327cb2b28820cd425edf5ee",
+      "corresponding_source_status": "not independently established by package metadata alone",
+      "public_download_validation": {
+        "status": "verified from new anonymous-public-download attempt",
+        "source": "manifest-pinned original public archive URL",
+        "archive_filename": "zlib_ng-2.2.1-r2-windows64-10324415171.tar.zst",
+        "pinned_algorithm": "sha1",
+        "pinned_hash_verified": true,
+        "archive_sha256": "4d4acfb0e4c1cac04dce6017327ed3829ea2e6175e04428596ba2d151cb75e6d",
+        "installed_notice_matches_release_inventory": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,438 @@
+{
+  "downloaded_packages": 43,
+  "original_development_cache_used": false,
+  "private_credentials_supplied": false,
+  "records": [
+    {
+      "package": "apr_suite",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "apr_suite-1.7.4-10338381102-windows64-10338381102.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "b18ed72e41188d00c802f8394afad9f2a3bd20d13910a9d03376606697f229f8",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "boost",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "boost-1.86-windows64-10475904468.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "609e9174886c831780c50de74e0278902eb16d3a8784e43c106b59d900af9dc8",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "colladadom",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "colladadom-2.3.0-r8-windows64-10476582237.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "86a30e4bb9f2461897343028dc0e8adc19ff99800ea4aba841d7069cc88ff207",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "cubemaptoequirectangular",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "cubemaptoequirectangular-1.1.0-windows64-d7afe27.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "7fd05057b378b587c4954c3c15e58428b742d337bcf4dd324c290f1aae7cc500",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "curl",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "curl-7.54.1-10342910827-windows64-10342910827.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "2eb65028c409e770099fd512dc630400248012644d6c725819cbc96ae0340560",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "dictionaries",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "dictionaries-1.a01bb6c-common-a01bb6c.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "d080b9af588c74574ac00302b05573cead35399fa789bd2339cb76e54e3b25a6",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "dullahan",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "dullahan-1.14.0.202408091639_118.4.1_g3dd6078_chromium-118.0.5993.54-windows64-10322607516.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "e2f494b2c9d5787d12cc3bbd0b8d62e388797a5c48b9c4a9117abb0175924b95",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "emoji_shortcodes",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "emoji_shortcodes-15.3.2.10207138275-common-10207138275.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "4102e01f22e0c1b1cb3a3ac37ac1e99b166408f77537d3f6bd2ab8ed0aa76c69",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "expat",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "expat-2.6.2-r5-windows64-10337781902.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "994d224ce196c8caa8803b78e24c7f77e2159c321207d4bed8ab41158abd2cb0",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "freetype",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "freetype-2.13.3-cb2e120-windows64-10475886095.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "abc0d760d65d184200af0aa8580b893e636d4438aedf08df1a23def5671b527b",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "glext",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "glext-68-common-685b36e.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "8a8c0dbd71daee91d724cf7d90a3e98979ed146a22c65e6e82914dbf3197f941",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "glh_linear",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "glh_linear-1.0.1-dev4-common-984c397.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "e09b8177a82968abdbd11ad0d69ae7c6d8197cf08448956faa3f19f915a3e9b6",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "glm",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "glm-v1.0.1-common-9066386153.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "5fb43852d6b5887c11afe0a1507041ceee6b3068dae4015705ce8c5a646cd109",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "jpegencoderbasic",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "jpegencoderbasic-1.0-windows64-9165e47.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "b8979dd2de3c192a0474f57ae0d72a9e8b81c0044693ef2574598e65353aad35",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "libhunspell",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "libhunspell-1.7.2.10207243663-windows64-10207243663.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "a7c8a189ece39b4e417dd47d2371e3918a21098bcb3b10369ea96a41355fbda5",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "libjpeg-turbo",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "libjpeg_turbo-3.0.3-r2-windows64-10341191820.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "2f41d81bd74d7ef1d1cdf7473d89ba82398905e881660b3316ff59a956303b12",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "libndofdev",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "libndofdev-0.1.8e9edc7-windows64-8e9edc7.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "c130b12180d625c903bde56016055b537bccf4398a210019c6a60bc472d73f7c",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "libpng",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "libpng-1.6.43-r2-windows64-10329429325.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "6719125f29b7c461ab5c2b98866a48710b5afacd312637180684cdfaf7740a06",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "libxml2",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "libxml2-2.13.3-r1-windows64-10329675166.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "e606c48afbbf89c9c22296527f709977f26b28bc731cc293f805fa6e5d02d496",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "llca",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "llca-202407221423.0-common-10042698865.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "c161b5a39e56e6dd9489031c1ded05e458ef71fe9539664324052d50b8ddc2ba",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "llphysicsextensions_stub",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "llphysicsextensions_stub-1.0.542456-windows-542456.tar.bz2",
+      "pinned_algorithm": "md5",
+      "pinned_hash_verified": true,
+      "archive_sha256": "7acf48e0c419de950482c2fd4b2817deca1a08a7ec8a93901e0e4428898f2576",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "meshoptimizer",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "meshoptimizer-210.0.0-r2-windows64-10341021290.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "abd08dea8634528a454636ff18c2770795ceee3a4a1f605a3f992f50871f9a29",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "mikktspace",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "mikktspace-1-windows64-8756084692.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "8ec82b403a10554c848db5bf5b3d70ef462825ef3e3eb331c4a22fa9e5ff58ff",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "minizip-ng",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "minizip_ng-4.0.7-r1-windows64-10324657515.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "8f2681ba5ea53526232078b7a7d22f902bf68fd95af247d1e24332a89568741a",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "nanosvg",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "nanosvg-2022.09.27-windows64-580364.tar.bz2",
+      "pinned_algorithm": "md5",
+      "pinned_hash_verified": true,
+      "archive_sha256": "f739a51eda83b316986772e6c40f327d53df049719a43a1b42b3b700c782405a",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "nghttp2",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "nghttp2-1.62.1-windows64-10329456052.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "4cc4dc819fb4c8f9ca0f34003a8e1732c470623d6bbaefeaa2761ded2c57c07c",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "nvapi",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "nvapi-560.0.0-r1-windows64-10390321492.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "ba16ef60a894f9358fdf2446e7329c75f1ac16d9badb48da015bd8764bf1db3c",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "ogg_vorbis",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "ogg_vorbis-1.3.5-1.3.7.10341271136-windows64-10341271136.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "b6d668990c9900742483dbf8fb8d794d3957e7d4676132bf155e626dd187675f",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "openal",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "openal-1.24.2-r1-windows64-13245988487.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "e1b667a95bd10341c8762fd78718f5cb91258ec7f816cfb0b7a6c268e2e4c2ba",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "openjpeg",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "openjpeg-2.5.2.10604495243-windows64-10604495243.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "86011a9260eb6fc4ecd9db5d90e3020d9e1e899402ce6c862e4af9776a24b173",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "openssl",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "openssl-1.1.1w-windows64-10329796904.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "3ac503fcd9de8323c8224609c042c7f1a54af37bb1bc852874b13134ee7cfd19",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "openxr",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "openxr-1.1.40-r1-windows64-10710818432.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "2a0c5601432ca987c9199e37e413c2766d56415fba6be6fb9e781b879e73f7ad",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "threejs",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "threejs-0.132.2-windows64-b8f6746.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "90245370f13615c5e89056303dfd174e08501a4dbdf9d1d60873b7f9e9baa7a2",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "tinyexr",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "tinyexr-1.0.9-5e8947c-common-10475846787.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "3f8eee0f166e4c99b5c97684d8c0b07774e492ec10f143dc5997478f2740cdf1",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "tinygltf",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "tinygltf-2.9.3-r1-common-10341018043.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "9713ec2d8e9265c1bcd7db8133942fb86abfc86bad5b5511276cb3906e448381",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "tut",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "tut-2008.11.30-common-409bce5.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "86ab5414ab6f7488d84add6b0c15cf1fa99b0b43d28f453d910006381635e81a",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "viewer-fonts",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "viewer_fonts-1.0.0.10204976553-common-10204976553.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "dc54e457dc9183fbf421118719ea6adc4d3a86c61f8be4a9768caabf3de65bd4",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "viewer-manager",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "viewer_manager-3.0-f14b5ec-windows64-f14b5ec.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "257add83e86d9630dab55042ac621c609b1d604b352d7e6bca8b69b5aa00f401",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "vlc-bin",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "vlc_bin-3.0.21.10218721728-windows64-10218721728.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "4001bbad93a039d045b626d4446014e1fa7781e0ee37f0946904e3be09c31d24",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "vulkan_gltf",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "vulkan_gltf-1.0.0-common-d7c372f.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "de25daeaf0f287dae3d926d61b6733a60dcf6eae88e3d14dbcef2fc8dc4d4148",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "webrtc",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "webrtc-m114.5735.08.72-test.10444682919-windows64-10444682919.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "0acf3d10233f4832a1cb404f417442a515b0585a9e4a07a5b1481b5598e9736b",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "xxhash",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "xxhash-0.8.2-10285735820-common-10285735820.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "96085b8fd020df43e363dc947ed0b061f07a63871bc0816b0641d6462dc19016",
+      "installed_notice_matches_release_inventory": true
+    },
+    {
+      "package": "zlib-ng",
+      "status": "verified from new anonymous-public-download attempt",
+      "source": "manifest-pinned original public archive URL",
+      "archive_filename": "zlib_ng-2.2.1-r2-windows64-10324415171.tar.zst",
+      "pinned_algorithm": "sha1",
+      "pinned_hash_verified": true,
+      "archive_sha256": "4d4acfb0e4c1cac04dce6017327ed3829ea2e6175e04428596ba2d151cb75e6d",
+      "installed_notice_matches_release_inventory": true
+    }
+  ],
+  "limitation": "Public availability and notice hashes do not independently clear all binary source/redistribution obligations."
+}

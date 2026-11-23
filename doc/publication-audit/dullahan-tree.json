@@ -1,0 +1,24 @@
+{
+  "sha": "ead65e7ba782ccd4c9e1bb1e6247484ffbe980b1",
+  "relevant_paths": [
+    ".github/workflows/build.yaml",
+    "BuildParams",
+    "CEF_LICENSE.txt",
+    "LICENSE.txt",
+    "README.md",
+    "autobuild.xml",
+    "build-cmd.sh",
+    "docs/cef_minimal.png",
+    "examples/README.md",
+    "examples/cef_minimal",
+    "examples/cef_minimal/build.sh",
+    "examples/cef_minimal/cef_host.cpp",
+    "examples/cef_minimal/cef_minimal.cpp",
+    "examples/simplegl/freeglut/Readme.txt",
+    "src/host/README.md",
+    "tools/README.md",
+    "tools/autobuild_version.cpp",
+    "tools/build.bat",
+    "tools/build.sh"
+  ]
+}

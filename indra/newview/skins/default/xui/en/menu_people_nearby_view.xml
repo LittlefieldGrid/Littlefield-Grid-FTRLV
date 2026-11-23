@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<toggleable_menu
+ name="menu_group_plus"
+ left="0" bottom="0" visible="false"
+ mouse_opaque="false">
+    <menu_item_check
+       label="Sort by Recent Speakers"
+       name="sort_by_recent_speakers">
+      <menu_item_check.on_click
+         function="People.Nearby.ViewSort.Action"
+       parameter="sort_by_recent_speakers"/>
+      <menu_item_check.on_check
+         function="People.Nearby.ViewSort.CheckItem"
+         parameter="sort_by_recent_speakers"/>
+    </menu_item_check>
+    <menu_item_check
+       label="Sort by Name"
+       name="sort_name">
+      <menu_item_check.on_click
+         function="People.Nearby.ViewSort.Action"
+         parameter="sort_name"/>
+      <menu_item_check.on_check
+         function="People.Nearby.ViewSort.CheckItem"
+         parameter="sort_name"/>
+    </menu_item_check>
+    <menu_item_check
+       label="Sort by Distance"
+       name="sort_distance">
+      <menu_item_check.on_click
+         function="People.Nearby.ViewSort.Action"
+         parameter="sort_distance"/>
+      <menu_item_check.on_check
+         function="People.Nearby.ViewSort.CheckItem"
+         parameter="sort_distance"/>
+    </menu_item_check>
+    <menu_item_check
+       label="Sort by Recent arrival"
+       name="sort_arrival">
+      <menu_item_check.on_click
+         function="People.Nearby.ViewSort.Action"
+         parameter="sort_arrival"/>
+      <menu_item_check.on_check
+         function="People.Nearby.ViewSort.CheckItem"
+         parameter="sort_arrival"/>
+  </menu_item_check>
+    <menu_item_separator layout="topleft" />
+    <menu_item_check
+       label="Show All"
+       name="show_all">
+      <menu_item_check.on_click
+         function="People.Nearby.ViewShow.Action"
+         parameter="show_all"/>
+      <menu_item_check.on_check
+         function="People.Nearby.ViewShow.CheckItem"
+         parameter="show_all"/>
+    </menu_item_check>
+    <menu_item_check
+       label="This Region"
+       name="show_region">
+      <menu_item_check.on_click
+         function="People.Nearby.ViewShow.Action"
+         parameter="show_region"/>
+      <menu_item_check.on_check
+         function="People.Nearby.ViewShow.CheckItem"
+         parameter="show_region"/>
+    </menu_item_check>
+    <menu_item_check
+       label="This Parcel"
+       name="show_parcel">
+      <menu_item_check.on_click
+         function="People.Nearby.ViewShow.Action"
+         parameter="show_parcel"/>
+      <menu_item_check.on_check
+         function="People.Nearby.ViewShow.CheckItem"
+         parameter="show_parcel"/>
+  </menu_item_check>
+    <menu_item_separator layout="topleft" />
+    <menu_item_check
+       label="Double Click Starts IM"
+       name="start_im">
+      <menu_item_check.on_click
+         function="People.Nearby.ViewShow.Action"
+         parameter="start_im"/>
+      <menu_item_check.on_check
+         function="People.Nearby.ViewShow.CheckItem"
+         parameter="start_im"/>
+    </menu_item_check>
+    <menu_item_check
+       label="Double Click Zooms In"
+       name="zoom_in">
+      <menu_item_check.on_click
+         function="People.Nearby.ViewShow.Action"
+         parameter="zoom_in"/>
+      <menu_item_check.on_check
+         function="People.Nearby.ViewShow.CheckItem"
+         parameter="zoom_in"/>
+    </menu_item_check>
+    <menu_item_check
+       label="Double Click Shows Profile"
+       name="profile">
+      <menu_item_check.on_click
+         function="People.Nearby.ViewShow.Action"
+         parameter="profile"/>
+      <menu_item_check.on_check
+         function="People.Nearby.ViewShow.CheckItem"
+         parameter="profile"/>
+    </menu_item_check>
+    <menu_item_check
+       label="Double Click Teleport To"
+       name="zoom_in">
+      <menu_item_check.on_click
+         function="People.Nearby.ViewShow.Action"
+         parameter="teleport"/>
+      <menu_item_check.on_check
+         function="People.Nearby.ViewShow.CheckItem"
+         parameter="teleport"/>
+    </menu_item_check>
+    <menu_item_separator layout="topleft" />
+    <menu_item_check label="View Login Names" name="view_login_names">
+      <menu_item_check.on_click
+         function="People.All.ViewSort.ToggleLoginNames" />
+      <menu_item_check.on_check
+         function="People.All.ViewSort.CheckLoginNames" />
+      <menu_item_check.on_enable
+         function="CheckControl"
+         parameter="UseDisplayNames" />
+    </menu_item_check>
+    <menu_item_check name="view_icons" label="View People Icons">
+        <menu_item_check.on_click
+         function="People.Nearby.ViewSort.Action"
+         parameter="view_icons" />
+        <menu_item_check.on_check
+         function="CheckControl"
+         parameter="NearbyListShowIcons" />
+    </menu_item_check>
+    <menu_item_check name ="view_map" label="View Map">
+        <menu_item_check.on_check
+         function="CheckControl"
+         parameter="NearbyListShowMap" />
+        <menu_item_check.on_click
+         function="ToggleControl"
+         parameter="NearbyListShowMap" />
+    </menu_item_check>
+    <menu_item_check name="view_usernames" label="Hide usernames">
+        <menu_item_check.on_click
+         function="People.Nearby.ViewSort.Action"
+         parameter="view_usernames" />
+        <menu_item_check.on_check
+         function="CheckControl"
+         parameter="NearbyListHideUsernames" />
+    </menu_item_check>
+    <menu_item_check name="view_first_seen" label="Hide First Seen">
+        <menu_item_check.on_click
+         function="People.Nearby.ViewSort.Action"
+         parameter="view_first_seen" />
+        <menu_item_check.on_check
+         function="CheckControl"
+         parameter="NearbyListHideFirstSeen" />
+    </menu_item_check>
+  <menu_item_separator/>
+    <menu
+     create_jump_keys="true"
+     label="Radar"
+     name="Radar"
+     tear_off="true">
+          <menu_item_check
+            label="Report avatar entering chat range"
+            name="RadarReportChatRange">
+           <menu_item_check.on_check
+            function="CheckControl"
+            parameter="RadarReportChatRange" />
+           <menu_item_check.on_click
+            function="ToggleControl"
+            parameter="RadarReportChatRange" />
+          </menu_item_check>
+          <menu_item_check
+            label="Report avatar entering draw range"
+            name="RadarReportDrawRange">
+           <menu_item_check.on_check
+            function="CheckControl"
+            parameter="RadarReportDrawRange" />
+           <menu_item_check.on_click
+            function="ToggleControl"
+            parameter="RadarReportDrawRange" />
+          </menu_item_check>
+          <menu_item_check
+            label="Report avatar entering region"
+            name="RadarReportRegionRange">
+           <menu_item_check.on_check
+            function="CheckControl"
+            parameter="RadarReportSimRange" />
+           <menu_item_check.on_click
+            function="ToggleControl"
+            parameter="RadarReportSimRange" />
+          </menu_item_check>
+    </menu>
+  <menu_item_separator/>
+  <menu_item_check name="show_blocked_list" label="Blocked Residents &amp; Objects...">
+    <menu_item_check.on_check
+     function="Floater.Visible"
+     parameter="blocked" />
+    <menu_item_check.on_click
+     function="Floater.Toggle"
+     parameter="blocked" />
+  </menu_item_check>
+</toggleable_menu>

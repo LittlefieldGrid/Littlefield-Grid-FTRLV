@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Littlefield Grid FTRLV modified version, 2026-11-22.
+Changes relative to Kokua 7.2.0.61057 are documented in doc/CHANGES-FTRLV.md.
+Existing upstream copyright and license notices are retained.
+-->
+<colors>
+    <color name="FloaterDefaultBackgroundColor" value="0.065 0.065 0.065 1" />
+    <color name="FloaterFocusBackgroundColor" value="0.11 0.11 0.11 1" />
+    <color name="PanelDefaultBackgroundColor" value="0.065 0.065 0.065 1" />
+    <color name="PanelFocusBackgroundColor" value="0.11 0.11 0.11 1" />
+    <color name="MenuBarBgColor" value="0.09 0.09 0.09 1" />
+    <color name="MenuDefaultBgColor" value="0.09 0.09 0.09 1" />
+    <color name="MenuPopupBgColor" value="0.09 0.09 0.09 1" />
+    <color name="ScrollBgReadOnlyColor" value="0.065 0.065 0.065 1" />
+    <color name="ScrollBgWriteableColor" value="0.065 0.065 0.065 1" />
+    <color name="SkinToolbarTint" value="0.35 0.35 0.35 1" />
+    <color name="SkinTabTint" value="0.69 0.69 0.69 1" />
+    <color name="SkinFloaterBackground" reference="FloaterDefaultBackgroundColor" />
+    <color name="SkinFloaterFocusBackground" reference="FloaterFocusBackgroundColor" />
+    <color name="MenuNonProductionBgColor" reference="MenuDefaultBgColor" />
+    <color name="MenuBarTestBgColor" reference="MenuBarBgColor" />
+    <color name="MenuBarProjectBgColor" reference="MenuBarBgColor" />
+    <color name="MenuBarBetaBgColor" reference="MenuBarBgColor" />
+    <color name="SkinNavigationBackground" value="0.065 0.065 0.065 1" />
+</colors>

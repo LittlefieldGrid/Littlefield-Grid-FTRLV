@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<!--
+Littlefield Grid FTRLV modified version, 2026-11-22.
+Changes relative to Kokua 7.2.0.61057 are documented in doc/CHANGES-FTRLV.md.
+Existing upstream copyright and license notices are retained.
+-->
+<toolbars>
+  <bottom_toolbar
+    button_display_mode="icons_with_text"
+    button_alignment="left"
+    button_layout_style="fill">	
+    <command name="chat"/>
+    <command name="speak"/>
+    <command name="destinations"/>
+    <command name="people"/>
+    <command name="snapshot"/> 
+    <command name="search"/>	
+    <command name="build"/>
+    <command name="profile"/>
+    <command name="preferences"/>
+    <command name="move"/>
+    <command name="view"/>
+    <command name="minimap"/>
+    <command name="map"/>
+    <command name="places"/>
+    <command name="appearance"/>   
+    <command name="inventory"/>
+    <command name="animationoverride"/>
+ 
+  </bottom_toolbar>
+  <left_toolbar
+    button_alignment="bottom"
+    button_display_mode="icons_only">
+    <command name="avatar"/>
+    <command name="destinations"/>
+    <command name="area_search" />
+    <command name="web_browser"/>
+    <command name="twitter"/>
+    <command name="flickr"/>
+    <command name="performance"/>
+  </left_toolbar>
+  <right_toolbar
+    button_display_mode="icons_only">
+  </right_toolbar>
+</toolbars>

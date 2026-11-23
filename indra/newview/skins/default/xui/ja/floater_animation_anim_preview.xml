@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+Littlefield Grid FTRLV modified version, 2026-11-22.
+Changes relative to Kokua 7.2.0.61057 are documented in doc/CHANGES-FTRLV.md.
+Existing upstream copyright and license notices are retained.
+-->
+<floater name="Anim Preview" title="ANIMATION.ANIM">
+	<text name="name_label">
+		名前：
+	</text>
+	<text name="description_label">
+		説明：
+	</text>
+	<button label="アップロード（OS$ [AMOUNT]）" name="ok_btn"/>
+	<button label="キャンセル" label_selected="キャンセル" name="cancel_btn"/>
+</floater>

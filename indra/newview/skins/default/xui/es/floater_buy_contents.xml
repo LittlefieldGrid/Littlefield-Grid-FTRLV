@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+Littlefield Grid FTRLV modified version, 2026-11-22.
+Changes relative to Kokua 7.2.0.61057 are documented in doc/CHANGES-FTRLV.md.
+Existing upstream copyright and license notices are retained.
+-->
+<floater name="floater_buy_contents" title="COMPRAR LOS CONTENIDOS">
+	<text name="contains_text">
+		&lt;nolink&gt;[NAME]&lt;/nolink&gt; contiene:
+	</text>
+	<text name="buy_text">
+		¿Comprar por [AMOUNT] OS$ a [NAME]?
+	</text>
+	<button label="Cancelar" label_selected="Cancelar" name="cancel_btn" width="73"/>
+	<button label="Comprar" label_selected="Comprar" name="buy_btn"/>
+	<check_box label="Vestirse ahora la ropa" name="wear_check"/>
+	<string name="no_copy_text">
+		(no copiable)
+	</string>
+	<string name="no_modify_text">
+		(no modificable)
+	</string>
+	<string name="no_transfer_text">
+		(no transferible)
+	</string>
+</floater>

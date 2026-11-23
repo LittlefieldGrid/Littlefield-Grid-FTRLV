@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+Littlefield Grid FTRLV modified version, 2026-11-22.
+Changes relative to Kokua 7.2.0.61057 are documented in doc/CHANGES-FTRLV.md.
+Existing upstream copyright and license notices are retained.
+-->
+<floater name="price_for_listing" title="PUBLISH CLASSIFIED AD">
+	<text name="explanation_text">
+		Din annonce vil løbe en uge fra udgivelsesdatoen.
+
+Placeringen af din annonce i listerne er afhængig af hvor meget du har valgt at betale.
+
+De annoncer der betales mest for vises øverst i lister og højere i søgeresultater.
+	</text>
+	<text name="price_text">
+		Pris for annonce:
+	</text>
+	<text name="price_symbol">
+		OS$
+	</text>
+	<button label="OK" name="set_price_btn"/>
+	<button label="Annullér" name="cancel_btn"/>
+</floater>

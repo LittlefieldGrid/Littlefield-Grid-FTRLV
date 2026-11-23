@@ -1,0 +1,115 @@
+{
+  "lgpl21": {
+    "url": "https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+    "resolved_url": "https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+    "bytes": 26419,
+    "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95",
+    "status": "retrieved"
+  },
+  "gpl2": {
+    "url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt",
+    "resolved_url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt",
+    "bytes": 17984,
+    "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6",
+    "status": "retrieved"
+  },
+  "ms-redist": {
+    "url": "https://learn.microsoft.com/en-us/visualstudio/releases/2022/redistribution",
+    "resolved_url": "https://learn.microsoft.com/en-us/visualstudio/releases/2022/redistribution",
+    "bytes": 62996,
+    "sha256": "27b47984832ebed0a9a4bfada5389fd5f34d9ec4af423696febaef6cc54818dc",
+    "status": "retrieved"
+  },
+  "ms-community": {
+    "url": "https://visualstudio.microsoft.com/wp-content/uploads/2021/11/Visual-Studio-2022-Community-License-EN.docx",
+    "resolved_url": "https://visualstudio.microsoft.com/wp-content/uploads/2021/11/Visual-Studio-2022-Community-License-EN.docx",
+    "bytes": 62859,
+    "sha256": "41a207b10c8ab91d0d2f10a854715f73dca54509581692d2fe179aa3ffcb8540",
+    "status": "retrieved"
+  },
+  "cef-commit": {
+    "url": "https://api.github.com/repos/chromiumembedded/cef/commits/3dd6078",
+    "resolved_url": "https://api.github.com/repos/chromiumembedded/cef/commits/3dd6078",
+    "bytes": 4739,
+    "sha256": "0ec47d69f04676c8b533b2a1dae09ebea27b43c8e43c915e4faf3a20b83fe9cd",
+    "status": "retrieved"
+  },
+  "cef-license": {
+    "url": "https://raw.githubusercontent.com/chromiumembedded/cef/3dd6078/LICENSE.txt",
+    "resolved_url": "https://raw.githubusercontent.com/chromiumembedded/cef/3dd6078/LICENSE.txt",
+    "bytes": 1662,
+    "sha256": "058c3827ffb827ff3edda471ae7e1bb1d1aa5931985f0126043ccd33409e792f",
+    "status": "retrieved"
+  },
+  "dullahan-tree": {
+    "url": "https://api.github.com/repos/secondlife/dullahan/git/trees/ead65e7ba782ccd4c9e1bb1e6247484ffbe980b1?recursive=1",
+    "resolved_url": "https://api.github.com/repos/secondlife/dullahan/git/trees/ead65e7ba782ccd4c9e1bb1e6247484ffbe980b1?recursive=1",
+    "bytes": 22548,
+    "sha256": "9a52636f519aebf29a4a71943810d764c7839e63479f1e6f7dcb20720e4cf121",
+    "status": "retrieved"
+  },
+  "vlc-tree": {
+    "url": "https://api.github.com/repos/secondlife/3p-vlc-bin/git/trees/e60ee26d93fb3ac18282534a355645f02369dc43?recursive=1",
+    "resolved_url": "https://api.github.com/repos/secondlife/3p-vlc-bin/git/trees/e60ee26d93fb3ac18282534a355645f02369dc43?recursive=1",
+    "bytes": 461957,
+    "sha256": "46b5f62016dda93a2a38360040e2a87d90675a715a81dcd89e8e657642fa03ae",
+    "status": "retrieved"
+  },
+  "vlc-source": {
+    "url": "https://download.videolan.org/pub/videolan/vlc/3.0.21/vlc-3.0.21.tar.xz",
+    "resolved_url": "https://download.videolan.org/pub/videolan/vlc/3.0.21/vlc-3.0.21.tar.xz",
+    "bytes": 25649288,
+    "sha256": "24dbbe1d7dfaeea0994d5def0bbde200177347136dbfe573f5b6a4cee25afbb0",
+    "status": "retrieved"
+  },
+  "vlc-source-sha": {
+    "url": "https://download.videolan.org/pub/videolan/vlc/3.0.21/vlc-3.0.21.tar.xz.sha256",
+    "resolved_url": "https://download.videolan.org/pub/videolan/vlc/3.0.21/vlc-3.0.21.tar.xz.sha256",
+    "bytes": 84,
+    "sha256": "90e004aef1c1b9237e3c9efc93be14e74ed59d29dd9ced040f937df73b54516a",
+    "status": "retrieved"
+  },
+  "vlc-official-zip": {
+    "url": "https://download.videolan.org/pub/videolan/vlc/3.0.21/win64/vlc-3.0.21-win64.zip",
+    "resolved_url": "https://download.videolan.org/pub/videolan/vlc/3.0.21/win64/vlc-3.0.21-win64.zip",
+    "bytes": 77665682,
+    "sha256": "a0b7ec02b50adf6417eed014fb8df50af39690505a4225b85b3dc2ed17d14843",
+    "status": "retrieved"
+  },
+  "vlc-official-zip-sha": {
+    "url": "https://download.videolan.org/pub/videolan/vlc/3.0.21/win64/vlc-3.0.21-win64.zip.sha256",
+    "resolved_url": "https://download.videolan.org/pub/videolan/vlc/3.0.21/win64/vlc-3.0.21-win64.zip.sha256",
+    "bytes": 87,
+    "sha256": "899044c126b2a3a46dc26ad9a268037417a57fdcdb423f7215b448ee668708f8",
+    "status": "retrieved"
+  },
+  "webrtc-commons-thumb": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/WebRTC_Logo.svg/1280px-WebRTC_Logo.svg.png",
+    "resolved_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/WebRTC_Logo.svg/1280px-WebRTC_Logo.svg.png",
+    "bytes": 35761,
+    "sha256": "ddc81f8d7bd6ea092a5093d3a89fd3112aba89543155f106f318960e257a57cd",
+    "status": "retrieved"
+  },
+  "webrtc-commons-thumb-new": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/WebRTC_Logo.svg/1280px-WebRTC_Logo.svg.png",
+    "resolved_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/WebRTC_Logo.svg/1280px-WebRTC_Logo.svg.png",
+    "bytes": 35761,
+    "sha256": "ddc81f8d7bd6ea092a5093d3a89fd3112aba89543155f106f318960e257a57cd",
+    "status": "retrieved"
+  },
+  "webrtc-commons-svg": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/WebRTC_Logo.svg",
+    "resolved_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/WebRTC_Logo.svg",
+    "bytes": 8189,
+    "sha256": "aa16d3c02e01b805ed7fc52faee7d8f702691d7d1b49491d2bf930f1ef57d866",
+    "status": "retrieved"
+  },
+  "webrtc-commons-page": {
+    "url": "https://commons.wikimedia.org/w/index.php?title=File:WebRTC_Logo.svg&oldid=1133668220",
+    "resolved_url": "https://commons.wikimedia.org/w/index.php?title=File:WebRTC_Logo.svg&oldid=1133668220",
+    "bytes": 94372,
+    "sha256": "297bcd7e5ddf360864a3cc1afd410ac0cafc69115b1e429db4e61f11e1cc371d",
+    "status": "retrieved"
+  },
+  "retrieved_utc": "2026-11-22T21:49:17.414313+00:00"
+}

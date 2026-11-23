@@ -1,0 +1,27 @@
+{
+  "retrieved": "2026-11-22",
+  "authentication": "none; public HTTPS",
+  "items": [
+    {
+      "name": "dullahan-license",
+      "url": "https://raw.githubusercontent.com/secondlife/dullahan/ead65e7ba782ccd4c9e1bb1e6247484ffbe980b1/LICENSE.txt",
+      "status": "downloaded",
+      "bytes": 1066,
+      "sha256": "5060854c3548697ddfc8fe1f6ad602f278f2e9f93a279ef2bd61167e17c72f99"
+    },
+    {
+      "name": "dullahan-tree",
+      "url": "https://api.github.com/repos/secondlife/dullahan/git/trees/ead65e7ba782ccd4c9e1bb1e6247484ffbe980b1?recursive=1",
+      "status": "downloaded",
+      "bytes": 22548,
+      "sha256": "9a52636f519aebf29a4a71943810d764c7839e63479f1e6f7dcb20720e4cf121"
+    },
+    {
+      "name": "vlc-recipe",
+      "url": "https://raw.githubusercontent.com/secondlife/3p-vlc-bin/e60ee26d93fb3ac18282534a355645f02369dc43/build-cmd.sh",
+      "status": "downloaded",
+      "bytes": 4811,
+      "sha256": "97aff010ca2238568741a3f637887e8a55bd7baa71d70631572c0d9b240a5ed3"
+    }
+  ]
+}

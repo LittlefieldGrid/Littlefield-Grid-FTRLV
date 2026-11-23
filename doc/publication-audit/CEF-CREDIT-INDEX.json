@@ -1,0 +1,1382 @@
+{
+  "source": "CEF-resources.pak-resource-37031.html",
+  "entries": 344,
+  "components": [
+    {
+      "name": "2-dim General Purpose FFT (Fast Fourier/Cosine/Sine Transform) Package",
+      "homepage": null
+    },
+    {
+      "name": "@puppeteer/replay",
+      "homepage": null
+    },
+    {
+      "name": "Abseil",
+      "homepage": null
+    },
+    {
+      "name": "Accessibility Audit library, from Accessibility Developer Tools",
+      "homepage": null
+    },
+    {
+      "name": "Acorn, a tiny, fast JavaScript parser written in JavaScript.",
+      "homepage": null
+    },
+    {
+      "name": "Alliance for Open Media Video Codec",
+      "homepage": null
+    },
+    {
+      "name": "Almost Native Graphics Layer Engine",
+      "homepage": null
+    },
+    {
+      "name": "Android",
+      "homepage": null
+    },
+    {
+      "name": "Android AppCompat Library v7",
+      "homepage": null
+    },
+    {
+      "name": "Android Arch-Common",
+      "homepage": null
+    },
+    {
+      "name": "Android Arch-Runtime",
+      "homepage": null
+    },
+    {
+      "name": "Android Explicit Synchronization",
+      "homepage": null
+    },
+    {
+      "name": "Android Lifecycle LiveData",
+      "homepage": null
+    },
+    {
+      "name": "Android Lifecycle LiveData Core",
+      "homepage": null
+    },
+    {
+      "name": "Android Lifecycle Runtime",
+      "homepage": null
+    },
+    {
+      "name": "Android Lifecycle ViewModel",
+      "homepage": null
+    },
+    {
+      "name": "Android Lifecycle-Common",
+      "homepage": null
+    },
+    {
+      "name": "Android Lifecycle-Common for Java 8 Language",
+      "homepage": null
+    },
+    {
+      "name": "Android Multi-Dex Library",
+      "homepage": null
+    },
+    {
+      "name": "Android NDK",
+      "homepage": null
+    },
+    {
+      "name": "Android NDK",
+      "homepage": null
+    },
+    {
+      "name": "Android Open Source Project - App Compat Library",
+      "homepage": null
+    },
+    {
+      "name": "Android SDK",
+      "homepage": null
+    },
+    {
+      "name": "Android Support AnimatedVectorDrawable",
+      "homepage": null
+    },
+    {
+      "name": "Android Support CardView v7",
+      "homepage": null
+    },
+    {
+      "name": "Android Support Library Annotations",
+      "homepage": null
+    },
+    {
+      "name": "Android Support Library Async Layout Inflater",
+      "homepage": null
+    },
+    {
+      "name": "Android Support Library collections",
+      "homepage": null
+    },
+    {
+      "name": "Android Support Library compat",
+      "homepage": null
+    },
+    {
+      "name": "Android Support Library Coordinator Layout",
+      "homepage": null
+    },
+    {
+      "name": "Android Support Library core UI",
+      "homepage": null
+    },
+    {
+      "name": "Android Support Library core utils",
+      "homepage": null
+    },
+    {
+      "name": "Android Support Library Cursor Adapter",
+      "homepage": null
+    },
+    {
+      "name": "Android Support Library Custom View",
+      "homepage": null
+    },
+    {
+      "name": "Android Support Library Document File",
+      "homepage": null
+    },
+    {
+      "name": "Android Support Library Drawer Layout",
+      "homepage": null
+    },
+    {
+      "name": "Android Support Library fragment",
+      "homepage": null
+    },
+    {
+      "name": "Android Support Library Interpolators",
+      "homepage": null
+    },
+    {
+      "name": "Android Support Library loader",
+      "homepage": null
+    },
+    {
+      "name": "Android Support Library Local Broadcast Manager",
+      "homepage": null
+    },
+    {
+      "name": "Android Support Library media compat",
+      "homepage": null
+    },
+    {
+      "name": "Android Support Library Print",
+      "homepage": null
+    },
+    {
+      "name": "Android Support Library Sliding Pane Layout",
+      "homepage": null
+    },
+    {
+      "name": "Android Support Library v4",
+      "homepage": null
+    },
+    {
+      "name": "Android Support Library View Pager",
+      "homepage": null
+    },
+    {
+      "name": "Android Support RecyclerView v7",
+      "homepage": null
+    },
+    {
+      "name": "Android Support VectorDrawable",
+      "homepage": null
+    },
+    {
+      "name": "Android Transition Support Library",
+      "homepage": null
+    },
+    {
+      "name": "Animal Sniffer Annotations",
+      "homepage": null
+    },
+    {
+      "name": "Anonymous Tokens",
+      "homepage": null
+    },
+    {
+      "name": "ARCore SDK",
+      "homepage": null
+    },
+    {
+      "name": "ARCore SDK client library for Chrome",
+      "homepage": null
+    },
+    {
+      "name": "ARM_NEON_2_x86_SSE",
+      "homepage": null
+    },
+    {
+      "name": "AXE-CORE Accessibility Audit",
+      "homepage": null
+    },
+    {
+      "name": "Better together core components",
+      "homepage": null
+    },
+    {
+      "name": "Blackmagic DeckLink SDK - Mac",
+      "homepage": null
+    },
+    {
+      "name": "blink HTMLTokenizer",
+      "homepage": null
+    },
+    {
+      "name": "BoringSSL",
+      "homepage": null
+    },
+    {
+      "name": "Braille Translation Library",
+      "homepage": null
+    },
+    {
+      "name": "Brotli",
+      "homepage": null
+    },
+    {
+      "name": "BSDiff",
+      "homepage": null
+    },
+    {
+      "name": "bsdiff",
+      "homepage": null
+    },
+    {
+      "name": "bspatch",
+      "homepage": null
+    },
+    {
+      "name": "C++ port of zxcvbn, an advanced password strength estimation library.",
+      "homepage": null
+    },
+    {
+      "name": "Cardboard SDK",
+      "homepage": null
+    },
+    {
+      "name": "CastCore Publics",
+      "homepage": null
+    },
+    {
+      "name": "Checked in build outputs generated on Windows.",
+      "homepage": null
+    },
+    {
+      "name": "Checker Qual",
+      "homepage": null
+    },
+    {
+      "name": "Checker Util",
+      "homepage": null
+    },
+    {
+      "name": "ChromeOS Components",
+      "homepage": null
+    },
+    {
+      "name": "ChromeVox",
+      "homepage": null
+    },
+    {
+      "name": "Chromium OS system API",
+      "homepage": null
+    },
+    {
+      "name": "ChromiumUpdater",
+      "homepage": null
+    },
+    {
+      "name": "CityHash",
+      "homepage": null
+    },
+    {
+      "name": "CodeMirror 5",
+      "homepage": null
+    },
+    {
+      "name": "CodeMirror 6",
+      "homepage": null
+    },
+    {
+      "name": "Compact Encoding Detection",
+      "homepage": null
+    },
+    {
+      "name": "Compact Language Detector v3",
+      "homepage": null
+    },
+    {
+      "name": "core-common",
+      "homepage": null
+    },
+    {
+      "name": "cpu_features",
+      "homepage": null
+    },
+    {
+      "name": "cpuinfo",
+      "homepage": null
+    },
+    {
+      "name": "Crashpad",
+      "homepage": null
+    },
+    {
+      "name": "CRC32C",
+      "homepage": null
+    },
+    {
+      "name": "d3",
+      "homepage": null
+    },
+    {
+      "name": "Dagger",
+      "homepage": null
+    },
+    {
+      "name": "Darwin",
+      "homepage": null
+    },
+    {
+      "name": "dav1d is an AV1 decoder :)",
+      "homepage": null
+    },
+    {
+      "name": "Dawn",
+      "homepage": null
+    },
+    {
+      "name": "Devtools-Frontend",
+      "homepage": null
+    },
+    {
+      "name": "divsufsort",
+      "homepage": null
+    },
+    {
+      "name": "dom-distiller-js",
+      "homepage": null
+    },
+    {
+      "name": "dynamic annotations",
+      "homepage": null
+    },
+    {
+      "name": "EasyList",
+      "homepage": null
+    },
+    {
+      "name": "Eigen",
+      "homepage": null
+    },
+    {
+      "name": "Emoji Segmenter",
+      "homepage": null
+    },
+    {
+      "name": "emoji-metadata",
+      "homepage": null
+    },
+    {
+      "name": "error-prone annotations",
+      "homepage": null
+    },
+    {
+      "name": "etc1",
+      "homepage": null
+    },
+    {
+      "name": "Expat XML Parser",
+      "homepage": null
+    },
+    {
+      "name": "FarmHash",
+      "homepage": null
+    },
+    {
+      "name": "fdlibm",
+      "homepage": null
+    },
+    {
+      "name": "feature-delivery",
+      "homepage": null
+    },
+    {
+      "name": "ffmpeg",
+      "homepage": null
+    },
+    {
+      "name": "Fiat-Crypto: Synthesizing Correct-by-Construction Code for Cryptographic Primitives",
+      "homepage": null
+    },
+    {
+      "name": "FideltyFX Single Pass Downsampler",
+      "homepage": null
+    },
+    {
+      "name": "FindBugs-jsr305",
+      "homepage": null
+    },
+    {
+      "name": "firebase-annotations",
+      "homepage": null
+    },
+    {
+      "name": "firebase-common",
+      "homepage": null
+    },
+    {
+      "name": "firebase-components",
+      "homepage": null
+    },
+    {
+      "name": "firebase-encoders",
+      "homepage": null
+    },
+    {
+      "name": "firebase-encoders-json",
+      "homepage": null
+    },
+    {
+      "name": "firebase-iid",
+      "homepage": null
+    },
+    {
+      "name": "firebase-iid-interop",
+      "homepage": null
+    },
+    {
+      "name": "firebase-installations",
+      "homepage": null
+    },
+    {
+      "name": "firebase-installations-interop",
+      "homepage": null
+    },
+    {
+      "name": "firebase-measurement-connector",
+      "homepage": null
+    },
+    {
+      "name": "firebase-messaging",
+      "homepage": null
+    },
+    {
+      "name": "flac",
+      "homepage": null
+    },
+    {
+      "name": "FlatBuffers",
+      "homepage": null
+    },
+    {
+      "name": "FP16",
+      "homepage": null
+    },
+    {
+      "name": "FreeType",
+      "homepage": null
+    },
+    {
+      "name": "Fuchsia GN SDK",
+      "homepage": null
+    },
+    {
+      "name": "Fuse.js",
+      "homepage": null
+    },
+    {
+      "name": "FXDiv",
+      "homepage": null
+    },
+    {
+      "name": "gemmlowp",
+      "homepage": null
+    },
+    {
+      "name": "GifPlayer Animated GIF Library",
+      "homepage": null
+    },
+    {
+      "name": "Google Android Annotations Library",
+      "homepage": null
+    },
+    {
+      "name": "Google Chrome Content Analysis Connector Agent SDK",
+      "homepage": null
+    },
+    {
+      "name": "Google Closure Library",
+      "homepage": null
+    },
+    {
+      "name": "Google Double Conversion",
+      "homepage": null
+    },
+    {
+      "name": "Google Input Tools",
+      "homepage": null
+    },
+    {
+      "name": "Google Toolbox for Mac",
+      "homepage": null
+    },
+    {
+      "name": "Google Trust Services Recommended Roots",
+      "homepage": null
+    },
+    {
+      "name": "google-glog&#x27;s symbolization library",
+      "homepage": null
+    },
+    {
+      "name": "google-jstemplate",
+      "homepage": null
+    },
+    {
+      "name": "grpc",
+      "homepage": null
+    },
+    {
+      "name": "Gson",
+      "homepage": null
+    },
+    {
+      "name": "Guava InternalFutureFailureAccess and InternalFutures",
+      "homepage": null
+    },
+    {
+      "name": "Guava ListenableFuture only",
+      "homepage": null
+    },
+    {
+      "name": "Guava: Google Core Libraries for Java",
+      "homepage": null
+    },
+    {
+      "name": "GVR Android SDK",
+      "homepage": null
+    },
+    {
+      "name": "harfbuzz-ng",
+      "homepage": null
+    },
+    {
+      "name": "Headers for the Windows 10 WebAuthn API (webauthn.dll)",
+      "homepage": null
+    },
+    {
+      "name": "Highway: C++ library for SIMD",
+      "homepage": null
+    },
+    {
+      "name": "hunspell",
+      "homepage": null
+    },
+    {
+      "name": "hyphenation-patterns",
+      "homepage": null
+    },
+    {
+      "name": "IAccessible2 COM interfaces for accessibility",
+      "homepage": null
+    },
+    {
+      "name": "iccjpeg",
+      "homepage": null
+    },
+    {
+      "name": "icu",
+      "homepage": null
+    },
+    {
+      "name": "Implementation of WebDriver BiDi standard",
+      "homepage": null
+    },
+    {
+      "name": "inspector protocol",
+      "homepage": null
+    },
+    {
+      "name": "International Phone Number Library",
+      "homepage": null
+    },
+    {
+      "name": "intl-messageformat",
+      "homepage": null
+    },
+    {
+      "name": "io.grpc:grpc-api",
+      "homepage": null
+    },
+    {
+      "name": "io.grpc:grpc-binder",
+      "homepage": null
+    },
+    {
+      "name": "io.grpc:grpc-context",
+      "homepage": null
+    },
+    {
+      "name": "io.grpc:grpc-core",
+      "homepage": null
+    },
+    {
+      "name": "io.grpc:grpc-protobuf-lite",
+      "homepage": null
+    },
+    {
+      "name": "io.grpc:grpc-stub",
+      "homepage": null
+    },
+    {
+      "name": "ipcz",
+      "homepage": null
+    },
+    {
+      "name": "ISimpleDOM COM interfaces for accessibility",
+      "homepage": null
+    },
+    {
+      "name": "J2ObjC Annotations",
+      "homepage": null
+    },
+    {
+      "name": "javax.inject",
+      "homepage": null
+    },
+    {
+      "name": "JNI Zero",
+      "homepage": null
+    },
+    {
+      "name": "jsoncpp",
+      "homepage": null
+    },
+    {
+      "name": "Khronos header files",
+      "homepage": null
+    },
+    {
+      "name": "Kotlin Stdlib Jdk7",
+      "homepage": null
+    },
+    {
+      "name": "Kotlin Stdlib Jdk8",
+      "homepage": null
+    },
+    {
+      "name": "kotlinx-coroutines-android",
+      "homepage": null
+    },
+    {
+      "name": "kotlinx-coroutines-core",
+      "homepage": null
+    },
+    {
+      "name": "kotlinx-coroutines-guava",
+      "homepage": null
+    },
+    {
+      "name": "LevelDB: A Fast Persistent Key-Value Store",
+      "homepage": null
+    },
+    {
+      "name": "libaddressinput",
+      "homepage": null
+    },
+    {
+      "name": "libavif - Library for encoding and decoding .avif files",
+      "homepage": null
+    },
+    {
+      "name": "libavif - Library for extracting metadata from .avif files",
+      "homepage": null
+    },
+    {
+      "name": "libbrlapi",
+      "homepage": null
+    },
+    {
+      "name": "libcxx",
+      "homepage": null
+    },
+    {
+      "name": "libcxxabi",
+      "homepage": null
+    },
+    {
+      "name": "libei",
+      "homepage": null
+    },
+    {
+      "name": "libevent",
+      "homepage": null
+    },
+    {
+      "name": "libgav1",
+      "homepage": null
+    },
+    {
+      "name": "libipp",
+      "homepage": null
+    },
+    {
+      "name": "libjingle XMPP and xmllite libraries",
+      "homepage": null
+    },
+    {
+      "name": "libjpeg-turbo",
+      "homepage": null
+    },
+    {
+      "name": "libpng",
+      "homepage": null
+    },
+    {
+      "name": "libprotobuf-mutator",
+      "homepage": null
+    },
+    {
+      "name": "libsecret",
+      "homepage": null
+    },
+    {
+      "name": "libsrtp",
+      "homepage": null
+    },
+    {
+      "name": "libudev",
+      "homepage": null
+    },
+    {
+      "name": "libunwind",
+      "homepage": null
+    },
+    {
+      "name": "libusbx",
+      "homepage": null
+    },
+    {
+      "name": "libutf",
+      "homepage": null
+    },
+    {
+      "name": "libvpx",
+      "homepage": null
+    },
+    {
+      "name": "libx11",
+      "homepage": null
+    },
+    {
+      "name": "libxcb-keysyms",
+      "homepage": null
+    },
+    {
+      "name": "libxml",
+      "homepage": null
+    },
+    {
+      "name": "libxslt",
+      "homepage": null
+    },
+    {
+      "name": "libyuv",
+      "homepage": null
+    },
+    {
+      "name": "libzip",
+      "homepage": null
+    },
+    {
+      "name": "Lighthouse",
+      "homepage": null
+    },
+    {
+      "name": "Lighthouse i18n.js",
+      "homepage": null
+    },
+    {
+      "name": "Lit",
+      "homepage": null
+    },
+    {
+      "name": "LLVM OS Version Check",
+      "homepage": null
+    },
+    {
+      "name": "Lottie Web",
+      "homepage": null
+    },
+    {
+      "name": "lottie_ios",
+      "homepage": null
+    },
+    {
+      "name": "LZMA SDK",
+      "homepage": null
+    },
+    {
+      "name": "MalDocA source for extracting and analyzing features from Office documents.",
+      "homepage": null
+    },
+    {
+      "name": "Marked",
+      "homepage": null
+    },
+    {
+      "name": "Material color utilities",
+      "homepage": null
+    },
+    {
+      "name": "Material Components for Android",
+      "homepage": null
+    },
+    {
+      "name": "Material Components for Android",
+      "homepage": null
+    },
+    {
+      "name": "Material Components for iOS",
+      "homepage": null
+    },
+    {
+      "name": "Material Design Icons",
+      "homepage": null
+    },
+    {
+      "name": "Material Font Disk Loader iOS",
+      "homepage": null
+    },
+    {
+      "name": "Material Internationalization for iOS",
+      "homepage": null
+    },
+    {
+      "name": "Material Roboto Font Loader iOS",
+      "homepage": null
+    },
+    {
+      "name": "Material Sprited Animation View",
+      "homepage": null
+    },
+    {
+      "name": "Material Text Accessibility iOS",
+      "homepage": null
+    },
+    {
+      "name": "Material Web Components",
+      "homepage": null
+    },
+    {
+      "name": "MediaController Android sample.",
+      "homepage": null
+    },
+    {
+      "name": "MediaPipe",
+      "homepage": null
+    },
+    {
+      "name": "MediaStoreUtils Android sample.",
+      "homepage": null
+    },
+    {
+      "name": "mesa_headers",
+      "homepage": null
+    },
+    {
+      "name": "Metrics Protos",
+      "homepage": null
+    },
+    {
+      "name": "minigbm",
+      "homepage": null
+    },
+    {
+      "name": "modp base64 decoder",
+      "homepage": null
+    },
+    {
+      "name": "Motion Animator for Objective-C",
+      "homepage": null
+    },
+    {
+      "name": "Motion Interchange for Objective-C",
+      "homepage": null
+    },
+    {
+      "name": "Motion Transitioning for Objective-C",
+      "homepage": null
+    },
+    {
+      "name": "Mozilla Personal Security Manager",
+      "homepage": null
+    },
+    {
+      "name": "Mozilla Windows Cert code",
+      "homepage": null
+    },
+    {
+      "name": "native client",
+      "homepage": null
+    },
+    {
+      "name": "Nearby Connections Library",
+      "homepage": null
+    },
+    {
+      "name": "Netscape Portable Runtime (NSPR)",
+      "homepage": null
+    },
+    {
+      "name": "Netwide Assembler",
+      "homepage": null
+    },
+    {
+      "name": "Network Security Services (NSS)",
+      "homepage": null
+    },
+    {
+      "name": "newlib-extras",
+      "homepage": null
+    },
+    {
+      "name": "Omnibox Protos",
+      "homepage": null
+    },
+    {
+      "name": "One Euro Filter",
+      "homepage": null
+    },
+    {
+      "name": "Open Screen Protocol Library",
+      "homepage": null
+    },
+    {
+      "name": "OpenH264",
+      "homepage": null
+    },
+    {
+      "name": "OpenXR SDK",
+      "homepage": null
+    },
+    {
+      "name": "opus",
+      "homepage": null
+    },
+    {
+      "name": "OTS (OpenType Sanitizer)",
+      "homepage": null
+    },
+    {
+      "name": "Paul Hsieh&#x27;s SuperFastHash",
+      "homepage": null
+    },
+    {
+      "name": "PDFium",
+      "homepage": null
+    },
+    {
+      "name": "Perfetto",
+      "homepage": null
+    },
+    {
+      "name": "perfmark:perfmark-api",
+      "homepage": null
+    },
+    {
+      "name": "PFFFT: a pretty fast FFT.",
+      "homepage": null
+    },
+    {
+      "name": "play-services-auth",
+      "homepage": null
+    },
+    {
+      "name": "play-services-auth-api-phone",
+      "homepage": null
+    },
+    {
+      "name": "play-services-auth-base",
+      "homepage": null
+    },
+    {
+      "name": "play-services-base",
+      "homepage": null
+    },
+    {
+      "name": "play-services-basement",
+      "homepage": null
+    },
+    {
+      "name": "play-services-cast",
+      "homepage": null
+    },
+    {
+      "name": "play-services-cast-framework",
+      "homepage": null
+    },
+    {
+      "name": "play-services-clearcut",
+      "homepage": null
+    },
+    {
+      "name": "play-services-cloud-messaging",
+      "homepage": null
+    },
+    {
+      "name": "play-services-flags",
+      "homepage": null
+    },
+    {
+      "name": "play-services-gcm",
+      "homepage": null
+    },
+    {
+      "name": "play-services-iid",
+      "homepage": null
+    },
+    {
+      "name": "play-services-instantapps",
+      "homepage": null
+    },
+    {
+      "name": "play-services-location",
+      "homepage": null
+    },
+    {
+      "name": "play-services-phenotype",
+      "homepage": null
+    },
+    {
+      "name": "play-services-places-placereport",
+      "homepage": null
+    },
+    {
+      "name": "play-services-stats",
+      "homepage": null
+    },
+    {
+      "name": "play-services-tasks",
+      "homepage": null
+    },
+    {
+      "name": "play-services-vision",
+      "homepage": null
+    },
+    {
+      "name": "play-services-vision-common",
+      "homepage": null
+    },
+    {
+      "name": "Polymer",
+      "homepage": null
+    },
+    {
+      "name": "pprof",
+      "homepage": null
+    },
+    {
+      "name": "Private Join and Compute subset",
+      "homepage": null
+    },
+    {
+      "name": "Protected Content Interface for libva",
+      "homepage": null
+    },
+    {
+      "name": "Protocol Buffers",
+      "homepage": null
+    },
+    {
+      "name": "Protocol Buffers [Lite]",
+      "homepage": null
+    },
+    {
+      "name": "PSM (Private Set Membership) client side",
+      "homepage": null
+    },
+    {
+      "name": "pthreadpool",
+      "homepage": null
+    },
+    {
+      "name": "Puffin deterministic deflate recompressor",
+      "homepage": null
+    },
+    {
+      "name": "Puppeteer Core",
+      "homepage": null
+    },
+    {
+      "name": "QUICHE",
+      "homepage": null
+    },
+    {
+      "name": "Quick Color Management System",
+      "homepage": null
+    },
+    {
+      "name": "re2 - an efficient, principled regular expression library",
+      "homepage": null
+    },
+    {
+      "name": "Recurrent neural network for audio noise reduction",
+      "homepage": null
+    },
+    {
+      "name": "rjsmin",
+      "homepage": null
+    },
+    {
+      "name": "Secure Message",
+      "homepage": null
+    },
+    {
+      "name": "Selenium Atoms",
+      "homepage": null
+    },
+    {
+      "name": "Sentencepiece",
+      "homepage": null
+    },
+    {
+      "name": "Setupdesign",
+      "homepage": null
+    },
+    {
+      "name": "Simple Homomorphic Encryption Library with Lattices",
+      "homepage": null
+    },
+    {
+      "name": "simplejson",
+      "homepage": null
+    },
+    {
+      "name": "Skia",
+      "homepage": null
+    },
+    {
+      "name": "SMHasher",
+      "homepage": null
+    },
+    {
+      "name": "Snappy: A fast compressor/decompressor",
+      "homepage": null
+    },
+    {
+      "name": "Speech Dispatcher",
+      "homepage": null
+    },
+    {
+      "name": "SPIR-V Headers",
+      "homepage": null
+    },
+    {
+      "name": "SPIR-V Tools",
+      "homepage": null
+    },
+    {
+      "name": "sqlite",
+      "homepage": null
+    },
+    {
+      "name": "Strongtalk",
+      "homepage": null
+    },
+    {
+      "name": "Sudden Motion Sensor library",
+      "homepage": null
+    },
+    {
+      "name": "SwiftShader",
+      "homepage": null
+    },
+    {
+      "name": "Tamachiyomi",
+      "homepage": null
+    },
+    {
+      "name": "TensorFlow Lite",
+      "homepage": null
+    },
+    {
+      "name": "TensorFlow Lite Support",
+      "homepage": null
+    },
+    {
+      "name": "TensorFlow Models",
+      "homepage": null
+    },
+    {
+      "name": "TensorFlow Text",
+      "homepage": null
+    },
+    {
+      "name": "Text Fragments Polyfill",
+      "homepage": null
+    },
+    {
+      "name": "The Chromium Project",
+      "homepage": null
+    },
+    {
+      "name": "The Diff Match and Patch libraries offer robust algorithms to perform the operations required for synchronizing plain text.",
+      "homepage": null
+    },
+    {
+      "name": "The Incremental Distributed Point Functions library",
+      "homepage": null
+    },
+    {
+      "name": "The ruy matrix multiplication library",
+      "homepage": null
+    },
+    {
+      "name": "The USB ID Repository",
+      "homepage": null
+    },
+    {
+      "name": "transport-api",
+      "homepage": null
+    },
+    {
+      "name": "UKey2",
+      "homepage": null
+    },
+    {
+      "name": "Unicode Common Locale Data Repository",
+      "homepage": null
+    },
+    {
+      "name": "UnRAR source for decompressing .RAR and other files.",
+      "homepage": null
+    },
+    {
+      "name": "URI Template Parser",
+      "homepage": null
+    },
+    {
+      "name": "URL Pattern Library",
+      "homepage": null
+    },
+    {
+      "name": "url_parse",
+      "homepage": null
+    },
+    {
+      "name": "v4l-utils",
+      "homepage": null
+    },
+    {
+      "name": "V8 fork of fdlibm",
+      "homepage": null
+    },
+    {
+      "name": "V8 JavaScript Engine",
+      "homepage": null
+    },
+    {
+      "name": "valgrind",
+      "homepage": null
+    },
+    {
+      "name": "VersionedParcelable and friends",
+      "homepage": null
+    },
+    {
+      "name": "Vulkan API headers",
+      "homepage": null
+    },
+    {
+      "name": "Vulkan Deps",
+      "homepage": null
+    },
+    {
+      "name": "Vulkan Loader Components",
+      "homepage": null
+    },
+    {
+      "name": "VulkanMemoryAllocator",
+      "homepage": null
+    },
+    {
+      "name": "Wasmparser",
+      "homepage": null
+    },
+    {
+      "name": "WebKit",
+      "homepage": null
+    },
+    {
+      "name": "WebM container parser and writer.",
+      "homepage": null
+    },
+    {
+      "name": "WebP image encoder/decoder",
+      "homepage": null
+    },
+    {
+      "name": "WebRTC",
+      "homepage": null
+    },
+    {
+      "name": "Windows Template Library (WTL)",
+      "homepage": null
+    },
+    {
+      "name": "woff2",
+      "homepage": null
+    },
+    {
+      "name": "Wuffs (Wrangling Untrusted File Formats Safely)",
+      "homepage": null
+    },
+    {
+      "name": "x11proto",
+      "homepage": null
+    },
+    {
+      "name": "XDG Shared Mime Info",
+      "homepage": null
+    },
+    {
+      "name": "xdg-mime",
+      "homepage": null
+    },
+    {
+      "name": "xdg-user-dirs",
+      "homepage": null
+    },
+    {
+      "name": "XNNPACK",
+      "homepage": null
+    },
+    {
+      "name": "xxHash",
+      "homepage": null
+    },
+    {
+      "name": "XZ Utils",
+      "homepage": null
+    },
+    {
+      "name": "zlib",
+      "homepage": null
+    },
+    {
+      "name": "Zstandard",
+      "homepage": null
+    }
+  ]
+}

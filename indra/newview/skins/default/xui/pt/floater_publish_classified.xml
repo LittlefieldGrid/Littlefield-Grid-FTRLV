@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+Littlefield Grid FTRLV modified version, 2026-11-22.
+Changes relative to Kokua 7.2.0.61057 are documented in doc/CHANGES-FTRLV.md.
+Existing upstream copyright and license notices are retained.
+-->
+<floater name="publish_classified" title="Publicando anúncio">
+	<text name="explanation_text">
+		Seu anúncio será publicado por uma semana a partir da data de publicação.
+        
+Lembre-se, o pagamento do anúncio não é reembolsável
+	</text>
+	<spinner label="Preço: OS$" name="price_for_listing" tool_tip="Preço do anúncio." value="50"/>
+	<text name="l$_text" value="OS$"/>
+	<text name="more_info_text">
+		Mais informações (link para ajuda com anúncios)
+	</text>
+	<button label="Publicar" name="publish_btn"/>
+	<button label="Cancelar" name="cancel_btn"/>
+</floater>

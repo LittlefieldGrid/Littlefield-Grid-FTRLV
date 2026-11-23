@@ -1,0 +1,4 @@
+Source: https://github.com/secondlife/3p-openal-soft/blob/e33e940c00e8447bcf164dc6df3aa6096b86946b/build-cmd.sh
+Retrieved original hash is in COMPONENT-RETRIEVAL.json. Full wrapper script is not republished here.
+This is the pinned packaging/build wrapper; it does not by itself prove complete
+preferred-source correspondence for both OpenAL Soft and freealut shipped DLLs.

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<!--
+Littlefield Grid FTRLV modified version, 2026-11-22.
+Changes relative to Kokua 7.2.0.61057 are documented in doc/CHANGES-FTRLV.md.
+Existing upstream copyright and license notices are retained.
+-->
+<floater name="buy currency" title="KUP OS$">
+	<floater.string name="buy_currency">
+		Kup [LINDENS] OS$ za [LOCALAMOUNT]
+	</floater.string>
+	<text name="info_need_more">
+		Potrzebujesz więcej OS$
+	</text>
+	<text name="contacting">
+		Kontaktowanie z LindeX...
+	</text>
+	<text name="info_buying">
+		Kup OS$
+	</text>
+	<text name="balance_label">
+		Obecnie posiadam
+	</text>
+	<text name="balance_amount">
+		[AMT]OS$
+	</text>
+	<text name="currency_action">
+		Chcę kupić
+	</text>
+	<text name="buying_label">
+		Cena
+	</text>
+	<text name="currency_est">
+		za [LOCALAMOUNT]
+	</text>
+	<text name="getting_data">
+		Kalkulowanie...
+	</text>
+	<text name="total_label">
+		Mój nowy stan konta
+	</text>
+	<text name="total_amount">
+		[AMT]OS$
+	</text>
+	<text name="currency_links">
+		[http://www.secondlife.com/my/account/payment_method_management.php metoda płatności] | [http://www.secondlife.com/my/account/currency.php waluta]
+	</text>
+	<text name="exchange_rate_note">
+		Wpisz ponownie kwotę aby zobaczyć ostatni kurs wymiany.
+	</text>
+	<text name="purchase_warning_repurchase">
+		Potwierdzasz zakup OS$, nie obiektu.
+	</text>
+	<text name="purchase_warning_notenough">
+		Nie zakupiono wystarczającej ilości OS$. Proszę zwiększyć kwotę.
+	</text>
+	<button label="Kup teraz" name="buy_btn" />
+	<button label="Anuluj" name="cancel_btn" />
+	<floater.string name="info_cannot_buy">
+		Nie można kupić
+	</floater.string>
+</floater>

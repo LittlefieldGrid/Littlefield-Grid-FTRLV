@@ -1,0 +1,79 @@
+[
+  {
+    "Path": "msvcp140.dll",
+    "Version": "14.50.35719.0",
+    "Company": "Microsoft Corporation",
+    "Status": "Valid",
+    "Signer": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+  },
+  {
+    "Path": "msvcp140_1.dll",
+    "Version": "14.50.35719.0",
+    "Company": "Microsoft Corporation",
+    "Status": "Valid",
+    "Signer": "CN=Microsoft Windows Software Compatibility Publisher, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+  },
+  {
+    "Path": "msvcp140_2.dll",
+    "Version": "14.50.35719.0",
+    "Company": "Microsoft Corporation",
+    "Status": "Valid",
+    "Signer": "CN=Microsoft Windows Software Compatibility Publisher, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+  },
+  {
+    "Path": "msvcp140_atomic_wait.dll",
+    "Version": "14.50.35719.0",
+    "Company": "Microsoft Corporation",
+    "Status": "Valid",
+    "Signer": "CN=Microsoft Windows Software Compatibility Publisher, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+  },
+  {
+    "Path": "msvcp140_codecvt_ids.dll",
+    "Version": "14.50.35719.0",
+    "Company": "Microsoft Corporation",
+    "Status": "Valid",
+    "Signer": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+  },
+  {
+    "Path": "vcruntime140.dll",
+    "Version": "14.50.35719.0",
+    "Company": "Microsoft Corporation",
+    "Status": "Valid",
+    "Signer": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+  },
+  {
+    "Path": "vcruntime140_1.dll",
+    "Version": "14.50.35719.0",
+    "Company": "Microsoft Corporation",
+    "Status": "Valid",
+    "Signer": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+  },
+  {
+    "Path": "vcruntime140_threads.dll",
+    "Version": "14.50.35719.0",
+    "Company": "Microsoft Corporation",
+    "Status": "Valid",
+    "Signer": "CN=Microsoft Windows Software Compatibility Publisher, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+  },
+  {
+    "Path": "llplugin/msvcp140.dll",
+    "Version": "14.50.35719.0",
+    "Company": "Microsoft Corporation",
+    "Status": "Valid",
+    "Signer": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+  },
+  {
+    "Path": "llplugin/vcruntime140.dll",
+    "Version": "14.50.35719.0",
+    "Company": "Microsoft Corporation",
+    "Status": "Valid",
+    "Signer": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+  },
+  {
+    "Path": "llplugin/vcruntime140_1.dll",
+    "Version": "14.50.35719.0",
+    "Company": "Microsoft Corporation",
+    "Status": "Valid",
+    "Signer": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+  }
+]

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<context_menu
+ layout="topleft"
+ name="Object List popup">
+    <menu
+       create_jump_keys="true"
+       label="Scripts"
+       name="Scripts"
+       tear_off="true">
+      <menu_item_call
+         label="Recompile Scripts (Mono)"
+         name="Mono">
+        <menu_item_call.on_click
+           function="AreaSearch.Action"
+           parameter="scompile mono" />
+      </menu_item_call>
+      <menu_item_call
+         label="Recompile Scripts (LSL)"
+         name="LSL">
+        <menu_item_call.on_click
+           function="AreaSearch.Action"
+           parameter="scompile lsl" />
+      </menu_item_call>
+      <menu_item_call
+         label="Reset Scripts"
+         name="Reset Scripts">
+        <menu_item_call.on_click
+           function="AreaSearch.Action"
+           parameter="sreset" />
+      </menu_item_call>
+      <menu_item_call
+         label="Set Scripts to Running"
+         name="Set Scripts to Running">
+        <menu_item_call.on_click
+           function="AreaSearch.Action"
+           parameter="sstart" />
+      </menu_item_call>
+      <menu_item_call
+         label="Set Scripts to Not Running"
+         name="Set Scripts to Not Running">
+        <menu_item_call.on_click
+           function="AreaSearch.Action"
+           parameter="sstop" />
+      </menu_item_call>
+      <menu_item_call
+         label="Locate Scripts"
+         name="Locate scripts within this object">
+        <menu_item_call.on_click
+           function="AreaSearch.Action"
+           parameter="slocate" />
+      </menu_item_call>
+      <menu_item_call
+         label="Detail Scripts"
+         name="Detail scripts within this object">
+        <menu_item_call.on_click
+           function="AreaSearch.Action"
+           parameter="slocate full" />
+      </menu_item_call>
+      <menu_item_separator/>
+      <menu_item_call
+         label="DELETE Scripts"
+         name="Delete scripts within this object">
+        <menu_item_call.on_click
+           function="AreaSearch.Action"
+           parameter="sdelete" />
+      </menu_item_call>
+    </menu>
+
+	<menu_item_call
+	 label="Touch"
+	 layout="topleft"
+	 name="touch_object">
+		<menu_item_call.on_click
+		 function="AreaSearch.Action"
+		 parameter="touch"/>
+	</menu_item_call>
+	<menu_item_call
+	 label="Teleport to"
+	 layout="topleft"
+	 name="teleport_to_object">
+		<menu_item_call.on_click
+		 function="AreaSearch.Action"
+		 parameter="p_teleport"/>
+		<menu_item_call.on_enable
+		 function="AreaSearch.Enable"
+		 parameter="one"/>
+	</menu_item_call>
+	<menu_item_call
+	 label="Zoom"
+	 layout="topleft"
+	 name="look_at_object">
+		<menu_item_call.on_click
+		 function="AreaSearch.Action"
+		 parameter="q_zoom"/>
+		<menu_item_call.on_enable
+		 function="AreaSearch.Enable"
+		 parameter="one"/>
+		<menu_item_call.on_enable
+		 function="AreaSearch.Enable"
+		 parameter="in_dd"/>
+	</menu_item_call>
+	<menu_item_call
+	 label="Inspect"
+	 layout="topleft"
+	 name="inspect_object">
+		<menu_item_call.on_click
+		 function="AreaSearch.Action"
+		 parameter="inspect"/>
+	</menu_item_call>
+	<menu_item_call
+	 label="Edit"
+	 layout="topleft"
+	 name="edit_object">
+		<menu_item_call.on_click
+		 function="AreaSearch.Action"
+		 parameter="edit"/>
+	</menu_item_call>
+	<menu_item_call
+	 label="Return"
+	 layout="topleft"
+	 name="return_object">
+		<menu_item_call.on_click
+		 function="AreaSearch.Action"
+		 parameter="return"/>
+	</menu_item_call>
+	<menu_item_call
+	 label="Delete"
+	 layout="topleft"
+	 name="delete_object">
+		<menu_item_call.on_click
+		 function="AreaSearch.Action"
+		 parameter="delete"/>
+	</menu_item_call>
+	<menu_item_call
+	 label="Block (Mute)"
+	 layout="topleft"
+	 name="mute_object">
+		<menu_item_call.on_click
+		 function="AreaSearch.Action"
+		 parameter="m_mute"/>
+	</menu_item_call>
+	<menu_item_call
+	 label="Session Derender"
+	 layout="topleft"
+	 name="blacklist_session">
+		<menu_item_call.on_click
+		 function="AreaSearch.Action"
+		 parameter="lsession"/>
+	</menu_item_call>
+	<menu_item_call
+	 label="Permanent Derender"
+	 layout="topleft"
+	 name="blacklist_perm">
+		<menu_item_call.on_click
+		 function="AreaSearch.Action"
+		 parameter="lpersistent"/>
+	</menu_item_call>
+<!-- <menu_item_separator
+	 layout="topleft"/>  -->
+	<menu_item_call
+	 label="Buy object"
+	 layout="topleft"
+	 name="object_buy">
+		<menu_item_call.on_click
+		 function="AreaSearch.Action"
+		 parameter="buy"/>
+		<menu_item_call.on_enable
+		 function="AreaSearch.Enable"
+		 parameter="one"/>
+	</menu_item_call>
+</context_menu>

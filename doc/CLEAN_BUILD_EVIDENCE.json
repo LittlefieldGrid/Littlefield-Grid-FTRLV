@@ -1,0 +1,29 @@
+{
+  "configuration": "Windows x64 Release, VS2022",
+  "version": "7.2.0.61057",
+  "initial_build_and_cache_empty": true,
+  "public_dependency_count": 43,
+  "dependency_authentication": "none supplied",
+  "configure_exit_code": 0,
+  "compile_exit_code": 0,
+  "status": "PASS",
+  "initial_fresh_started": "2026-11-22T20:57:24.614934+00:00",
+  "ended": "2026-11-22T21:37:27.099180+00:00",
+  "scope": "Fresh viewer compilation against anonymous pinned prebuilt dependencies; not third-party source rebuilds.",
+  "artifacts_outside_source_package": {
+    "newview/Release/kokua-bin.exe": {
+      "bytes": 46116864,
+      "sha256": "6d61dc5e30581bd7a45c96cbb211d769d2c83c6452a492a7a101753959adb257"
+    },
+    "llwebrtc/Release/llwebrtc.dll": {
+      "bytes": 9002496,
+      "sha256": "bc9505411f01a1e3e16e49fd5f9b6b0dc5c1143a6ddcb4ff004f72b8d8a09bf9"
+    }
+  },
+  "attempts": [
+    "Fresh configuration exposed unused res/ll_icon.ico project-list entry.",
+    "After removing only that unused entry, configured and compiled Release successfully.",
+    "Reconfigured and incrementally revalidated after top-level publication metadata correction."
+  ],
+  "packaging_or_installation_performed": false
+}

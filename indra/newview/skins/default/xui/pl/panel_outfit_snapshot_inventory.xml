@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<!--
+Littlefield Grid FTRLV modified version, 2026-11-22.
+Changes relative to Kokua 7.2.0.61057 are documented in doc/CHANGES-FTRLV.md.
+Existing upstream copyright and license notices are retained.
+-->
+<panel name="panel_outfit_snapshot_inventory">
+	<text name="title">
+		Szafa
+	</text>
+	<text name="hint_lbl">
+		Przesłanie zdjęcia do Twojej Szafy kosztuje [UPLOAD_COST] OS$.
+
+Opłata zależy od Twojego poziomu członkostwa. Wyższe poziomy to niższe opłaty.
+	</text>
+	<button label="Anuluj" name="cancel_btn" />
+	<button label="Prześlij [UPLOAD_COST]OS$" name="save_btn" />
+</panel>

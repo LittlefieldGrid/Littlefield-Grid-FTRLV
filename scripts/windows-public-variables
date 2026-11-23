@@ -1,0 +1,6 @@
+# Littlefield Grid FTRLV documented Windows Release compiler-switch expansion.
+# Derived configuration facts from Kokua viewer-build-variables commit
+# 11e3b347e5f17214db9c6cf9f0f69f346e631e43, with explicit ABI override /Zc:wchar_t-.
+# Minimal project recipe; not a vendored copy of that repository.
+LL_BUILD_WINDOWS_RELEASE="/MD /O2 /Ob2 /std:c++20 /permissive- /Zc:wchar_t- /Zi /GR /DEBUG /DLL_RELEASE=1 /DLL_RELEASE_FOR_DOWNLOAD=1 /DNDEBUG /D_SECURE_STL=0 /D_HAS_ITERATOR_DEBUGGING=0 /DWIN32 /D_WINDOWS /DLL_WINDOWS=1 /DUNICODE /D_UNICODE /DWINVER=0x0602 /D_WIN32_WINNT=0x0602 /DLL_OS_DRAGDROP_ENABLED=1 /DLIB_NDOF=1"
+LL_BUILD_WINDOWS_RELEASEOS="$LL_BUILD_WINDOWS_RELEASE"

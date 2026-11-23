@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+Littlefield Grid FTRLV modified version, 2026-11-22.
+Changes relative to Kokua 7.2.0.61057 are documented in doc/CHANGES-FTRLV.md.
+Existing upstream copyright and license notices are retained.
+-->
+<floater name="price_for_listing" title="ОПУБЛИКОВАТЬ РЕКЛАМУ">
+	<text name="explanation_text">
+		Ваша реклама будет действительна в течение недели с момента публикации.
+
+Позиция объявления определяется уплаченной за него суммой.
+
+Чем выше плата за объявление, тем выше оно расположено в списке и тем легче его найти.
+	</text>
+	<text name="price_text">
+		Цена за объявление:
+	</text>
+	<text name="price_symbol">
+		OS$
+	</text>
+	<button label="ОК" name="set_price_btn"/>
+	<button label="Отмена" name="cancel_btn"/>
+</floater>

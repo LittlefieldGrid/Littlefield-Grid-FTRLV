@@ -1,0 +1,5 @@
+Source: https://github.com/secondlife/cef/blob/9522e46a765a5eedc4bbe238896da5f7845bbf72/build-cmd.sh
+Retrieved original content hash is in FOLLOWUP-RETRIEVAL.json. Full wrapper script is not republished here.
+Facts: branch 5993; proprietary-codec support enabled; official build enabled;
+Chromium FFmpeg branding set to Chrome. Windows batch builder receives the same
+proprietary-codec setting. A moving branch alone is not a reproducible source pin.

@@ -1,0 +1,332 @@
+[
+  {
+    "OriginalFilename": "wixstdba.dll",
+    "FileVersion": "3.14.1.8722",
+    "CompanyName": ".NET Foundation",
+    "sha256": "e921f69b9fb4b5ad4691809d06896c5f1d655ab75e0ce94a372319c243c56d4e"
+  },
+  {
+    "OriginalFilename": "MFC140.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "c37ca5afa090d9be3a95c88c404cb911a04fec00f6087a23c697c009c49d0b08"
+  },
+  {
+    "OriginalFilename": "MFC140CHS.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "e47896538f77f4f1e98d9b5a750e3faa8325faf8c64be160574347e30c72caa9"
+  },
+  {
+    "OriginalFilename": "MFC140CHT.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "a71546f002ae4cf54404d83d666d8c9af4a5e1012e229f9f12085f27c40eae56"
+  },
+  {
+    "OriginalFilename": "MFC140DEU.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "fbd9a15f1c8bc4356a7b1d8e2a3639ac80eef77606f5ff8a41fc18ade70deebb"
+  },
+  {
+    "OriginalFilename": "MFC140ENU.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "aec73fecde36ff72d4247c16f31e61a88f14eee386ec56ba225f9a678d2af36d"
+  },
+  {
+    "OriginalFilename": "MFC140ESN.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "7e3dcebfb48eb53332b0ada5caab4a2e8c884b8b56b5107555720db01acca308"
+  },
+  {
+    "OriginalFilename": "MFC140FRA.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "35b9dc9aaed6890e7e18ba7b210c8a277b908fc89fa94e597bc3be31486f5980"
+  },
+  {
+    "OriginalFilename": "MFC140ITA.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "8e03721c78b866896878b4d4d13e95b8694c83506ce209b8fb6b2f168a19ed72"
+  },
+  {
+    "OriginalFilename": "MFC140JPN.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "fa2f94395680adc08a554f219c91a192cd044b859c6a12f4793c5aec94ad2473"
+  },
+  {
+    "OriginalFilename": "MFC140KOR.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "1689f77764013596b213d42c133f0e99805e17721ab907b378c63b21b8f3b730"
+  },
+  {
+    "OriginalFilename": "MFC140RUS.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "5b0c8ec7d9b7cb220a179ff41e8ae6d8061eea86129e1993df0d5230ddd909fa"
+  },
+  {
+    "OriginalFilename": "MFC140U.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "13e800455cd723159edc954082b25ab89e203e5f028b11b81d434dd8c2e7422b"
+  },
+  {
+    "OriginalFilename": "MFCM140.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "26102d81b1760235108a784a350754390b892aa05720c9f305902fbefb5c62ea"
+  },
+  {
+    "OriginalFilename": "MFCM140U.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "42746459eebed5182c756ab538c9f48074fc593c4024c2f90aa97bbace6357f5"
+  },
+  {
+    "OriginalFilename": "concrt140.dll",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "5a36fff29270b6bed8529cfaa9d4804895b03ef69c894f4520d8344ba6d0eb91"
+  },
+  {
+    "OriginalFilename": "MFC140.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "40e22ee6d1a10063f2b78545ace122ac5f05a971354bfcd8918fe3c8b5ac8e00"
+  },
+  {
+    "OriginalFilename": "MFC140CHS.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "f397b2d2e064924055a2b07313f140ab9fb9a7a8b1eec80f212fe116981de1a7"
+  },
+  {
+    "OriginalFilename": "MFC140CHT.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "0ac54b118da7b70ba7bb053f05f53c1f664ef83e22069ecce1efd5b783402f79"
+  },
+  {
+    "OriginalFilename": "MFC140DEU.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "7929baed741910953e3af9e41ee75d01ff5f0385a469870a16d0da43687be216"
+  },
+  {
+    "OriginalFilename": "MFC140ENU.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "2a864200c8ab7f863ce61f5a6d2b7dd97038f10324ccada8ed91e7cb4330edbd"
+  },
+  {
+    "OriginalFilename": "MFC140ESN.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "60cacd223872e3b97f79fc25a41705da658b61f07cd88d181bc0c0ebe26b0075"
+  },
+  {
+    "OriginalFilename": "MFC140FRA.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "93e74e87f63df49a03cb8a374e48ed875e25a2e30b4c1969ce6ea73981e8df3e"
+  },
+  {
+    "OriginalFilename": "MFC140ITA.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "eb2ad7cf5e798b815ebf3923625e941baa0603db22e2b45bd82ee2dd573765c1"
+  },
+  {
+    "OriginalFilename": "MFC140JPN.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "6bbf7a8da13bf56fd58a1846e8b147318cc1b9e78a5ff9395c2facbaf5bcb739"
+  },
+  {
+    "OriginalFilename": "MFC140KOR.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "624a9b27d3ceff48a7d2022e6092f60e9a1a54eccb0181bf3def838ea6f3f3ba"
+  },
+  {
+    "OriginalFilename": "MFC140RUS.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "e30354f9f1a0a8b750c8dc919eaa8fcb8b7e5cf315d0757901aef7dc2f24748d"
+  },
+  {
+    "OriginalFilename": "MFC140U.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "6726a2f6f2788ae9c5387c0a612d78b25ded2afbd8c0aef8b8c5a0a892ba4ad2"
+  },
+  {
+    "OriginalFilename": "MFCM140.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "26102d81b1760235108a784a350754390b892aa05720c9f305902fbefb5c62ea"
+  },
+  {
+    "OriginalFilename": "MFCM140U.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "42746459eebed5182c756ab538c9f48074fc593c4024c2f90aa97bbace6357f5"
+  },
+  {
+    "OriginalFilename": "MFCM140U.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "ad01d0e7e43ca35e004d54bbc8de270f4c78d779f4e71b3e69804c0749b4d87b"
+  },
+  {
+    "OriginalFilename": "MFCM140.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "60e995d31665ebb0e9b67adc8d45545f1a541f16c1377180d1e047ce5a7ac74c"
+  },
+  {
+    "OriginalFilename": "msvcp140.dll",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "a7e89c59986607f06e0e2089da757b928ab98374f6fa7e67126a1d54e0ed5d91"
+  },
+  {
+    "OriginalFilename": "msvcp140_1.dll",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "8a57e9e55018aa5252448409ea99ae04c6f3d52a4dae9afa36673a218b4a6976"
+  },
+  {
+    "OriginalFilename": "msvcp140_2.dll",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "0d2c83596f72f8bd7dcdb83624c97d46f4ee0b39ab187cbfde671799ba525498"
+  },
+  {
+    "OriginalFilename": "msvcp140_atomic_wait.dll",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "6b808d89a4a5db1e5ecfdb8300a659f96f14a51b1a897f5534378147f8dfa2e0"
+  },
+  {
+    "OriginalFilename": "msvcp140_codecvt_ids.dll",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "34e5a61d2b7ed9ad5e97bcc395ba1985f2b4ad6f5f6241df2cec0e31dc729da0"
+  },
+  {
+    "OriginalFilename": "VCAMP140.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "ed68eed9660c5a26085ac1c721c5be2439ec99c1820c0483f631f2a82d47a977"
+  },
+  {
+    "OriginalFilename": "vccorlib140.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "29845b0a32ffb8c123c7cb02f6b4303e5885e8a1ee42936583d5b839bf4d665d"
+  },
+  {
+    "OriginalFilename": "VCOMP140.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "49e628b226e7b7d51c9b7e9d11d85efefb5996d577951a347e6299cde2a0d8f0"
+  },
+  {
+    "OriginalFilename": "vcruntime140.dll",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "c600aff0ed497ae5c0e4e5cc515b31e0c694f01e893b1b1038441235a037f7f3"
+  },
+  {
+    "OriginalFilename": "vcruntime140_1.dll",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "8aff83cdb6989d2ab849429c9b08d9af0623d7c403149a7d4393ac559a4d741e"
+  },
+  {
+    "OriginalFilename": "vcruntime140_threads.dll",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "60058e7ff82ec151b820851d128f5799126f9a973001316b259b338fdfa0a7d5"
+  },
+  {
+    "OriginalFilename": "concrt140.dll",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "8efda0374a4b4df975feeefbea3d86cafdd36802a0144c3d261295bd268071c7"
+  },
+  {
+    "OriginalFilename": "msvcp140.dll",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "59d325227321d52b9a523ea401ce6787a5d59f78229a0ff3a6f124e5d3445685"
+  },
+  {
+    "OriginalFilename": "msvcp140_1.dll",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "1c6522f4d005539109aa040f063659704bfda94a224142f50942573cfbcf7ec9"
+  },
+  {
+    "OriginalFilename": "msvcp140_2.dll",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "56318c983acc3914f8523be61f6b1f1c91e6c1ae4b6c531169882aa59baaec6b"
+  },
+  {
+    "OriginalFilename": "msvcp140_atomic_wait.dll",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "8b10c6bd4c3c427ce7c8be96ef0fef0f8187bc236962be62a03caef834b37dcd"
+  },
+  {
+    "OriginalFilename": "msvcp140_codecvt_ids.dll",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "695dbb4921cc1536429d238488cbee73581357a2fa05bb5c87b0f6ae48efcaca"
+  },
+  {
+    "OriginalFilename": "VCAMP140.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "5f8760c808e0e56b80d8884072007703ae48494e91f37e4ec986bcfd6632cff6"
+  },
+  {
+    "OriginalFilename": "vccorlib140.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "d247b63cf9b93a5769b5ac205e10fe29029c8ddce1b800159dc6061a36a1c149"
+  },
+  {
+    "OriginalFilename": "VCOMP140.DLL",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "294397f642d824a97de354aa625f993a97f34d729eca1bde56d5a897ae574888"
+  },
+  {
+    "OriginalFilename": "vcruntime140.dll",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "eb1ee979bf02324712346e5bdbfc59c785388bc50d18cc2688aae4b0734915a0"
+  },
+  {
+    "OriginalFilename": "vcruntime140_1.dll",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "a14b4a42a2c6df04d6d53a8340816023d953406f7f3d94996c7cab30c414ff63"
+  },
+  {
+    "OriginalFilename": "vcruntime140_threads.dll",
+    "FileVersion": "14.52.37029.0",
+    "CompanyName": "Microsoft Corporation",
+    "sha256": "44a0a0b925242699f2b31bf40a43b54ab3513584dfe7869521d1983e40ea1f06"
+  }
+]

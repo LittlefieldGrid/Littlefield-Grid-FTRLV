@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+Littlefield Grid FTRLV modified version, 2026-11-22.
+Changes relative to Kokua 7.2.0.61057 are documented in doc/CHANGES-FTRLV.md.
+Existing upstream copyright and license notices are retained.
+-->
+<floater name="Give Money">
+	<string name="payee_group">Gruba Öde</string>
+	<string name="payee_resident">Sakine Öde</string>
+	<text name="paying_text">Ödeyeceğiniz miktar:</text>
+	<text name="payee_name">Ericacita Moostopolison</text>
+	<text name="object_name_label">Nesne yoluyla:</text>
+	<icon name="icon_object" tool_tip="Nesneler"/>
+	<text name="object_name_text">Harika nesnem gerçekten uzun bir adla</text>
+	<panel label="Ara" name="PatternsPanel">
+		<button label="1 OS$ Öde" label_selected="1 OS$ Öde" name="fastpay 1"/>
+		<button label="5 OS$ Öde" label_selected="5 OS$ Öde" name="fastpay 5"/>
+		<button label="10 OS$ Öde" label_selected="10 OS$ Öde" name="fastpay 10"/>
+		<button label="20 OS$ Öde" label_selected="20 OS$ Öde" name="fastpay 20"/>
+	</panel>
+	<panel label="Ara" name="InputPanel">
+		<text name="amount text">Diğer bir tutar:</text>
+		<button label="Öde" label_selected="Öde" name="pay btn"/>
+		<button label="İptal" label_selected="İptal" name="cancel btn"/>
+	</panel>
+</floater>

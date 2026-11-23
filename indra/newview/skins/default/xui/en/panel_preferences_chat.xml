@@ -1,0 +1,1304 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel
+ border="true"
+ follows="all"
+ height="408"
+ layout="topleft"
+ left="1"
+ top="1"
+ width="517"
+ label="Text Chat"
+ name="chat">
+
+<tab_container
+ label="Firestorm Prefs"
+ layout="topleft"
+ follows="all"
+ top="5"
+ bottom="-1"
+ left="1"
+ right="-1"
+ name="tabs"
+ tab_min_width="50"
+ tab_position="top" >
+
+        <!-- Chat: General -->
+        <panel
+         top_pad="1"
+         bottom="-1"
+         left="1"
+         right="-1"
+         follows="all"
+         label="General"
+         name="ChatGeneral" >
+
+  <check_box
+      control_name="ChatAutocompleteGestures"
+      height="14"
+      initial_value="true"
+      label="Auto-complete gestures in nearby chat"
+      layout="topleft"
+      top="10"
+      left="20"
+      name="auto_complete_gestures"
+      width="330">
+  </check_box>
+    <check_box
+        control_name="AutoCloseOOC"
+        height="14"
+        label="Auto-complete OOC"
+        layout="topleft"
+	      left="20"
+        name="auto_close_ooc"
+        width="330">
+    </check_box>
+    <check_box
+        control_name="AllowMUpose"
+        height="14"
+        label="Convert :MUpose to emotes"
+        layout="topleft"
+	      left="20"
+        name="convert_mupose"
+        width="330">
+    </check_box>
+    <check_box
+        control_name="PlayTypingAnim"
+        height="14"
+        initial_value="true"
+        label="Play typing animation when chatting"
+        layout="topleft"
+	      left="20"
+        name="play_typing_animation"
+        width="330">
+    </check_box>
+    <check_box
+        control_name="PlainTextChatHistory"
+        height="14"
+        initial_value="false"
+        label="Display plain text chat"
+        layout="topleft"
+        name="plain_test_chat_history"
+        width="330">
+    </check_box>
+    <check_box
+        enabled="false"
+        height="14"
+        label="Only friends and groups can call or IM me"
+        layout="topleft"
+        name="voice_call_friends_only_check"
+        width="350">     
+    </check_box>
+    <text
+        layout="topleft"
+        follows="left|top"
+        left="24"
+        top_pad="10"
+        height="12"
+        name="font_size"
+        width="120">
+      Font size:
+    </text>
+    <combo_box
+        control_name="ChatFontSize"
+        height="23"
+        layout="topleft"
+        follows="left|top"
+        left="80"
+        name="chat_font_size"
+        top_pad="-18"
+        width="100">
+      <item
+          label="Small"
+          name="Small"
+          value="0"/>
+      <item
+          label="Medium"
+          name="Medium"
+          value="1"/>
+      <item
+          label="Large"
+          name="Large"
+          value="2"/>  
+    </combo_box>
+    <check_box
+        control_name="UseChatBubbles"
+        height="14"
+        label="Bubble Chat"
+        follows="top|left"
+        layout="topleft"
+        top_pad="4"
+        left="20"
+        name="bubble_text_chat"
+        width="330">
+    </check_box>
+    <check_box
+        control_name="KokuaSuppressBubbleChatOverridingToasts"
+        height="14"
+        label="Bubble Chat does not suppress nearby avatar chat notifications"
+        follows="top|left"
+        layout="topleft"
+        top_pad="4"
+        left="20"
+        name="kokua_suppress_bubble_chat_overriding_toasts"
+        width="330">
+    </check_box>
+    <check_box
+        control_name="CloseChatOnReturn"
+        height="14"
+        label="Conversations:Nearby Chat/Chat Bar release keyboard focus after sending a line of chat"
+        follows="top|left"
+        layout="topleft"
+        top_pad="4"
+        left="20"
+        name="close_chat_on_return"
+        width="330">
+    </check_box>
+    <check_box
+        control_name="KokuaCloseChatBarOnReturn"
+        height="14"
+        label="Close the Chat Bar after sending a line of chat"
+        follows="top|left"
+        layout="topleft"
+        top_pad="4"
+        left="20"
+        name="kokua_close_chat_bar_on_return"
+        width="330">
+    </check_box>
+    <check_box
+        control_name="KokuaReopenChatBarAtLogin"
+        height="14"
+        label="Always open the Chat Bar at login"
+        follows="top|left"
+        layout="topleft"
+        top_pad="4"
+        left="20"
+        name="kokua_reopen_chat_bar_at_login"
+        width="330">
+    </check_box>
+    <check_box
+        control_name="KokuaPreventChatShout"
+        height="14"
+        label="Disable the CTRL to shout feature in chat entry fields"
+        follows="top|left"
+        layout="topleft"
+        top_pad="4"
+        left="20"
+        name="kokua_prevent_chat"
+        width="330">
+    </check_box>
+    <text
+        layout="topleft"
+        left="24"
+        name="play_sound"
+        width="60"
+        follows="top|left"
+        top_pad="6"
+        visible="true">
+      Play sound:
+    </text>
+    <check_box
+        control_name="PlaySoundNewConversation"
+        height="14"
+        label="New conversation"
+        layout="topleft"
+        left_pad="5"
+        top_pad="-8"
+        name="new_conversation"
+        width="100" />
+    <check_box
+        control_name="PlaySoundIncomingVoiceCall"
+        height="14"
+        label="Incoming voice call"
+        layout="topleft"
+        top_pad="4"
+        name="incoming_voice_call"
+        width="100" />
+    <check_box
+        control_name="PlaySoundTeleportOffer"
+        height="14"
+        label="Teleport offer"
+        layout="topleft"
+        left_pad="18"
+        top_pad="-32"
+        name="teleport_offer"
+        width="100" />
+    <check_box
+        control_name="PlaySoundInventoryOffer"
+        height="14"
+        label="Inventory offer"
+        layout="topleft"
+        top_pad="4"
+        name="inventory_offer"
+        width="100" />
+    <check_box
+        control_name="PlaySoundChatMention"
+        height="14"
+        label="Chat mention"
+        layout="topleft"
+        left_pad="7"
+        top_pad="-32"
+        name="chat_mention"
+        width="130" />
+    <text
+        name="logging_label"
+        layout="topleft"
+        left="24"
+        follows="top|left"
+        top_pad="26"
+        height="12"
+        width="55">
+        Save:
+    </text>
+    <combo_box
+        enabled="false"
+        control_name="KeepConversationLogTranscripts"
+        height="23"
+        layout="topleft"
+        follows="top|left"
+        left_pad="0"
+        top_pad="-16"
+        name="conversation_log_combo"
+        width="165">
+        <item
+            name="log_and_transcripts"
+            label="Log and transcripts"
+            value="2"/>
+        <item
+            name="log_only"
+            label="Log only"
+            value="1"/>
+        <item
+            name="no_log_or_transcript"
+            label="No log or transcripts"
+            value="0"/>
+    </combo_box>
+    <button
+        enabled="false"
+        height="23"
+        label="Clear log..."
+        layout="topleft"
+        follows="top|left"
+        left_pad="5"
+        name="clear_log"
+        width="110">
+        <commit_callback
+            function="Pref.ClearLog" />
+    </button>  
+    <button
+        enabled="false"
+        height="23"
+        label="Delete transcripts..."
+        layout="topleft"
+        left_pad="5"
+        follows="top|left"
+        name="delete_transcripts"
+        width="147">
+        <button.commit_callback
+            function="Pref.DeleteTranscripts" />
+    </button> 
+    <text
+        name="log_location_label"
+        layout="topleft"
+        follows="top|left"
+        left="24"
+        height="12"
+        top_pad="15"
+        width="55">
+        Location:
+    </text>  
+    <line_editor
+        control_name="InstantMessageLogPath"
+        border_style="line"
+        border_thickness="1"
+        font="SansSerif"
+        height="23"
+        layout="topleft"
+        follows="top|left"
+        left_pad="55"
+        max_length_bytes="4096"
+        name="log_path_string"
+        top_delta="-5"
+        width="185">
+    </line_editor> 
+    <button
+        enabled="false"
+        follows="left|top"
+        height="23"
+        label="Browse..."
+        label_selected="Browse"
+        layout="topleft"
+        left_pad="5"
+        name="log_path_button"
+        top_delta="0"
+        width="112">
+      <commit_callback function="Pref.LogPath" />
+    </button>
+  
+  <button
+      height="23"
+      label="Translation..."
+      layout="topleft"
+      left="9"
+      name="ok_btn"
+      top="-29"
+      width="170">
+    <commit_callback
+        function="Pref.TranslationSettings" />
+  </button>
+  <button
+      height="23"
+      layout="topleft"
+      top_pad="-23"
+      left_pad="5"
+      name="autoreplace_showgui"
+      commit_callback.function="Pref.AutoReplace"
+      label="Auto-Replace..."
+      width="150">
+  </button>
+  <button
+      height="23"
+      layout="topleft"
+      top_pad="-23"
+      left_pad="5"
+      name="spellcheck_showgui"
+      commit_callback.function="Pref.SpellChecker"
+      label="Spell Checking..."
+      width="150">
+  </button>
+         
+        </panel>
+        <!-- Chat: IM -->
+        <panel
+         top_pad="1"
+         bottom="-1"
+         left="1"
+         right="-1"
+         follows="all"
+         label="IM"
+         name="ChatIM" >
+
+    <check_box
+        control_name="KokuaIsTypingNotificationInConversationsTabs"
+        height="14"
+        label="Add a typing indication in Conversations Floater when other party is typing in IM"
+        follows="top|left"
+        layout="topleft"
+        top="10"
+        left="20"
+        name="kokua_is_typing_notification_in_conversations_tabs"
+        width="330">
+    </check_box>
+    <check_box
+        control_name="KokuaIgnoreNonFriendAdHocGroupIM"
+        height="14"
+        label="Suppress ad-hoc group IM sessions unless started by a friend"
+        follows="top|left"
+        layout="topleft"
+        top_pad="8"
+        left="20"
+        name="kokua_ignore_nonfriend_ad_hoc_session"
+        width="330">
+    </check_box>
+    <text
+       font="SansSerifSmall"
+       height="14"
+       layout="topleft"
+       follows="top|left"
+       length="1"       
+       name="email_settings"
+       skip_link_underline="true"
+       left="24"
+       top_pad="8"
+       type="string"
+       width="350">
+      [https://accounts.secondlife.com/change_email Click here to change offline IM settings]
+    </text>         
+        </panel>
+
+
+        <!-- Chat: Notifications -->
+        <panel
+         top_pad="1"
+         bottom="-1"
+         left="1"
+         right="-1"
+         follows="all"
+         label="Notifications"
+         name="ChatNotifications" >
+ 
+     <text
+        layout="topleft"
+        height="12"
+        name="friend_ims"
+        width="90"
+        follows="left|top"
+        left="20"
+        top_pad="20">
+      Friend IMs:
+    </text>
+    <combo_box
+        control_name="NotificationFriendIMOptions"
+        height="23"
+        layout="topleft"
+        left_pad="5"
+        top_delta="-6"
+        name="FriendIMOptions"
+        width="280">
+      <item
+          label="Open Conversations window"
+          name="OpenConversationsWindow"
+          value="openconversations"/>      
+      <item
+          label="Pop up the message if window is obscured"
+          name="PopUpMessage"
+          value="toast"/>
+      <item
+          label="Always pop up the message"
+          name="AlwaysPopUpMessage"
+          value="alwaystoast"/>
+      <item
+          label="Flash toolbar button"
+          name="FlashToolbarButton"
+          value="flash"/>
+      <item
+          label="No action"
+          name="NoAction"
+          value="noaction"/>
+    </combo_box>
+    <check_box
+        control_name="PlaySoundFriendIM"
+        height="23"
+        label="Play sound"
+        layout="topleft"
+        name="play_sound_friend_im"
+        left_pad="7"
+        top_delta="-3"
+        width="28">
+    </check_box>
+    <text
+        layout="topleft"
+        height="12"
+        name="non_friend_ims"
+        width="90"
+        follows="left|top"
+        left="20"
+        top_pad="11">
+      Non-friend IMs:
+    </text>
+    <combo_box
+        control_name="NotificationNonFriendIMOptions"
+        height="23"
+        layout="topleft"
+        left_pad="5"
+        top_delta="-6"
+        name="NonFriendIMOptions"
+        width="280">
+      <item
+          label="Open Conversations window"
+          name="OpenConversationsWindow"
+          value="openconversations"/>
+      <item
+          label="Pop up the message if window is obscured"
+          name="PopUpMessage"
+          value="toast"/>
+      <item
+          label="Always pop up the message"
+          name="AlwaysPopUpMessage"
+          value="alwaystoast"/>
+      <item
+          label="Flash toolbar button"
+          name="FlashToolbarButton"
+          value="flash"/>
+      <item
+          label="No action"
+          name="NoAction"
+          value="noaction"/>
+    </combo_box>
+    <check_box
+        control_name="PlaySoundNonFriendIM"
+        height="23"
+        label="Play sound"
+        layout="topleft"
+        name="play_sound_non_friend_im"
+        left_pad="7"
+        top_delta="-3"
+        width="28">
+    </check_box>
+    <text
+        layout="topleft"
+        follows="left|top"
+        left="20"
+        height="13"
+        name="conference_ims"
+        width="90"
+        top_pad="11">
+      Conference IMs:
+    </text>
+    <combo_box
+        control_name="NotificationConferenceIMOptions"
+        height="23"
+        layout="topleft"
+        left_pad="5"
+        top_delta="-6"
+        name="ConferenceIMOptions"
+        width="280">
+      <item
+          label="Open Conversations window"
+          name="OpenConversationsWindow"
+          value="openconversations"/>
+      <item
+          label="Pop up the message if window is obscured"
+          name="PopUpMessage"
+          value="toast"/>
+      <item
+          label="Always pop up the message"
+          name="AlwaysPopUpMessage"
+          value="alwaystoast"/>
+      <item
+          label="Flash toolbar button"
+          name="FlashToolbarButton"
+          value="flash"/>
+      <item
+          label="No action"
+          name="NoAction"
+          value="noaction"/>
+    </combo_box>
+    <check_box
+        control_name="PlaySoundConferenceIM"
+        height="23"
+        label="Play sound"
+        layout="topleft"
+        name="play_sound_conference_im"
+        left_pad="7"
+        top_delta="-3"
+        width="28">
+    </check_box>
+    <text
+        layout="topleft"
+        follows="left|top"
+        left="20"
+        height="13"
+        name="group_chat"
+        width="90"
+        top_pad="11">
+      Group chat:
+    </text>
+    <combo_box
+        control_name="NotificationGroupChatOptions"
+        height="23"
+        layout="topleft"
+        left_pad="5"
+        top_delta="-6"
+        name="GroupChatOptions"
+        width="280">
+      <item
+          label="Open Conversations window"
+          name="OpenConversationsWindow"
+          value="openconversations"/>
+      <item
+          label="Pop up the message if window is obscured"
+          name="PopUpMessage"
+          value="toast"/>
+      <item
+          label="Always pop up the message"
+          name="AlwaysPopUpMessage"
+          value="alwaystoast"/>
+      <item
+          label="Flash toolbar button"
+          name="FlashToolbarButton"
+          value="flash"/>
+      <item
+          label="No action"
+          name="NoAction"
+          value="noaction"/>
+    </combo_box>
+    <check_box
+        control_name="PlaySoundGroupChatIM"
+        height="23"
+        label="Play sound"
+        layout="topleft"
+        name="play_sound_group_chat_im"
+        left_pad="7"
+        top_delta="-3"
+        width="28">
+    </check_box>
+    <text
+        layout="topleft"
+        follows="left|top"
+        left="20"
+        height="12"
+        name="nearby_chat"
+        width="90"
+        top_pad="11">
+      Nearby avatars:
+    </text>
+    <combo_box
+        control_name="NotificationNearbyChatOptions"
+        height="23"
+        layout="topleft"
+        left_pad="5"
+        top_delta="-6"
+        name="NearbyChatOptions"
+        width="280">
+      <item
+          label="Open Conversations window"
+          name="OpenConversationsWindow"
+          value="openconversations"/>
+      <item
+          label="Pop up the message if window is obscured"
+          name="PopUpMessage"
+          value="toast"/>
+      <item
+          label="Always pop up the message"
+          name="AlwaysPopUpMessage"
+          value="alwaystoast"/>
+      <item
+          label="Flash toolbar button"
+          name="FlashToolBarButton"
+          value="flash"/>
+      <item
+          label="No action"
+          name="NoAction"
+          value="noaction"/>
+    </combo_box>
+    <check_box
+        control_name="PlaySoundNearbyChatIM"
+        height="23"
+        label="Play sound"
+        layout="topleft"
+        name="play_sound_nearby_chat_im"
+        left_pad="7"
+        top_delta="-3"
+        width="28">
+    </check_box>
+    <text
+        layout="topleft"
+        follows="left|top"
+        left="20"
+        height="12"
+        name="object_ims"
+        width="90"
+        top_pad="11">
+      Object chat/IMs:
+    </text>
+    <combo_box
+        control_name="NotificationObjectIMOptions"
+        height="23"
+        layout="topleft"
+        left_pad="5"
+        top_delta="-6"
+        name="ObjectIMOptions"
+        width="280">
+      <item
+          label="Open Conversations window"
+          name="OpenConversationsWindow"
+          value="openconversations"/>
+      <item
+          label="Pop up the message if window is obscured"
+          name="PopUpMessage"
+          value="toast"/>
+      <item
+          label="Always pop up the message"
+          name="AlwaysPopUpMessage"
+          value="alwaystoast"/>
+      <item
+          label="Flash toolbar button"
+          name="FlashToolBarButton"
+          value="flash"/>
+      <item
+          label="No action"
+          name="NoAction"
+          value="noaction"/>
+    </combo_box>
+    <check_box
+        control_name="PlaySoundObjectIM"
+        height="23"
+        label="Play sound"
+        layout="topleft"
+        name="play_sound_object_im"
+        left_pad="7"
+        top_delta="-3"
+        width="28">
+    </check_box>
+    <text
+        layout="topleft"
+        follows="left|top"
+        left="20"
+        height="13"
+        name="notifications_alert"
+        width="500"
+        top_pad="9"
+        visible="true"
+        text_color="DrYellow">
+      To temporarily stop all notifications, use Communicate &gt; Do Not Disturb.
+    </text>
+        
+        </panel>
+
+	<!-- Chat: Keyword Alerts -->
+	<panel
+	 bottom="-1"
+	 left="1"
+	 right="-1"
+	 follows="all"
+	 label="Keyword Alerts"
+	 name="ChatKeywordAlerts">
+
+		<check_box
+		 enabled="false"
+		 layout="topleft"
+		 follows="left|top"
+		 top="5"
+		 left="20"
+		 width="50"
+		 height="20"
+		 control_name="FSKeywordOn"
+		 name="FSKeywordOn"
+		 label="Enable Keyword Alerts"/>
+		<check_box
+		 enabled="false"
+		 enabled_control="FSKeywordOn"
+		 layout="topleft"
+		 follows="left|top"
+		 top_delta="25"
+		 left="20"
+		 width="50"
+		 height="20"
+		 control_name="FSKeywordInChat"
+		 name="FSKeywordInChat"
+		 label="Look for Keywords In Local Chat"/>
+		<check_box
+		 enabled="false"
+		 enabled_control="FSKeywordOn"
+		 layout="topleft"
+		 follows="left|top"
+		 top_delta="25"
+		 left="20"
+		 width="150"
+		 height="20"
+		 control_name="FSKeywordInIM"
+		 name="FSKeywordInIM"
+		 label="Look for Keywords In IMs and Group Chat"/>
+		<check_box
+		 enabled="false"
+		 enabled_control="FSKeywordOn"
+		 layout="topleft"
+		 follows="left|top"
+		 top_delta="25"
+		 left="20"
+		 width="150"
+		 height="20"
+		 control_name="FSKeywordSpeakersName"
+		 name="FSKeywordSpeakersName"
+		 label="Check sender's name for keywords"/>
+		<check_box
+		 enabled="false"
+		 enabled_control="FSKeywordOn"
+		 layout="topleft"
+		 follows="left|top"
+		 top_delta="25"
+		 left="20"
+		 width="150"
+		 height="20"
+		 control_name="FSKeywordCaseSensitive"
+		 name="FSKeywordCaseSensitive"
+		 label="All Keywords are case-sensitive"/>
+		<check_box
+		 enabled="false"
+		 enabled_control="FSKeywordOn"
+		 layout="topleft"
+		 follows="left|top"
+		 top_delta="25"
+		 left="20"
+		 width="150"
+		 height="20"
+		 control_name="FSKeywordMatchWholeWords"
+		 name="FSKeywordMatchWholeWords"
+		 label="Only match whole words"/>
+		<text
+		 layout="topleft"
+		 follows="left|top"
+		 top_delta="30"
+		 left="20"
+		 height="20"
+		 width="250"
+		 name="textFSKeywords">
+		  Keywords (separated by commas):
+		</text>
+		<text_editor
+		 enabled="false"
+		 border_visible="true"
+		 bg_readonly_color="MouseGray"
+		 enabled_control="FSKeywordOn"
+		 commit_on_focus_lost="true"
+		 follows="left|top"
+		 top_delta="25"
+		 layout="topleft"
+		 left="20"
+		 max_length="20480"
+		 height="55"
+		 name="FSKeywords"
+		 control_name="FSKeywords"
+		 right="-10"
+		 use_ellipses="false"
+		 word_wrap="true"/>
+
+		<check_box
+		 enabled="false"
+		 enabled_control="FSKeywordOn"
+		 layout="topleft"
+		 follows="left|top"
+		 top_pad="10"
+		 left="20"
+		 width="50"
+		 height="20"
+		 control_name="FSKeywordChangeColor"
+		 name="FSKeywordChangeColor"
+		 label="Enable Color Alert"/>
+
+		<color_swatch
+		 enabled="false"
+		 enabled_control="FSKeywordOn"
+		 control_name="FSKeywordColor"
+		 border.border_thickness="0"
+		 label_height="0"
+		 layout="topleft"
+		 follows="left|top"
+		 top_delta="2"
+		 left="150"
+		 height="15"
+		 width="15"
+		 name="colorswatch"
+		 tool_tip="Click to open color picker"/>
+		<check_box
+		 enabled="false"
+		 enabled_control="FSKeywordOn"
+		 layout="topleft"
+		 follows="left|top"
+		 top_delta="23"
+		 left="20"
+		 width="150"
+		 height="20"
+		 control_name="FSKeywordChangeStyle"
+		 name="FSKeywordChangeStyle"
+		 label="Change font style"/>
+		<check_box
+		 enabled="false"
+		 enabled_control="FSKeywordOn"
+		 layout="topleft"
+		 follows="left|top"
+		 top_delta="23"
+		 left="20"
+		 width="50"
+		 height="20"
+		 control_name="PlayModeUISndFSKeywordSound"
+		 name="FSKeywordPlaySound"
+		 label="Play alert sound"/>
+		<check_box
+		 enabled="false"
+		 enabled_control="FSKeywordOn"
+		 layout="topleft"
+		 follows="left|top"
+		 top_delta="25"
+		 left="20"
+		 width="150"
+		 height="20"
+		 control_name="FSKeywordNotifyForVisibleConversation"
+		 name="FSKeywordNotifyVisible"
+		 label="Play alert for current conversation"/>
+		<check_box
+		 enabled="false"
+		 enabled_control="FSKeywordOn"
+		 layout="topleft"
+		 follows="left|top"
+		 top_delta="25"
+		 left="20"
+		 width="150"
+		 height="20"
+		 control_name="FSKeywordNotifyForHiddenConversations"
+		 name="FSKeywordNotifyHidden"
+		 label="Play alert for other conversations"/>
+		<text
+		 layout="topleft"
+		 follows="left|top"
+		 top_delta="30"
+		 left="20"
+		 height="14"
+		 width="120"
+		 name="textFSKeywordSound">
+		  Alert Sound UUID:
+		</text>
+		<line_editor
+		 enabled="false"
+		 enabled_control="PlayModeUISndFSKeywordSound"
+		 follows="left|top"
+		 left_pad="5"
+		 height="20"
+		 max_length_chars="256"
+		 name="FSKeywordSound"
+		 control_name="UISndFSKeywordSound"
+		 width="250"/>
+		<button
+		 enabled="false"
+		 enabled_control="PlayModeUISndFSKeywordSound"
+		 follows="left|top"
+		 name="Prev_UISndFSKeywordSound"
+		 height="20"
+		 label="P"
+		 layout="topleft"
+		 top_delta="-1"
+		 left_pad="1"
+		 width="17"
+		 tool_tip="Preview this sound.">
+			 <button.commit_callback
+			  function="PreviewUISound"
+			  parameter="UISndFSKeywordSound"/>
+		</button>
+		<button
+		 enabled="false"
+		 enabled_control="PlayModeUISndFSKeywordSound"
+		 follows="left|top"
+		 name="Def_UISndFSKeywordSound"
+		 height="20"
+		 label="D"
+		 layout="topleft"
+		 left_pad="1"
+		 width="17"
+		 tool_tip="Reset to the default UUID.">
+			 <button.commit_callback
+			  function="ResetPerAccountControl"
+			  parameter="UISndFSKeywordSound"/>
+		</button>
+		 
+	</panel>
+
+	<!-- Chat: Toasts -->
+	<panel
+	 bottom="-1"
+	 left="1"
+	 right="-1"
+	 follows="all"
+	 label="Toasts"
+	 name="ChatToasts">
+        <text
+         type="string"
+         left="10"
+         top="10"
+         length="1"
+         follows="left|top"
+         height="12"
+         layout="topleft"
+         name="ToastSettings"
+         width="330">
+            Notification Display Settings (popups, console, toasts):
+        </text>
+        <slider
+         control_name="ChannelBottomPanelMargin"
+         decimal_digits="0"
+         follows="left|top"
+         height="14"
+         increment="1"
+         label="Space between lowest Toast and bottom:"
+         tool_tip="Space in pixels between the bottom of the UI and the bottom toast"
+         label_width="250"
+         layout="topleft"
+         left="10"
+         min_val="0"
+         max_val="250"
+         name="ToastSpace"
+         top_pad="10"
+         width="400" />
+        <text
+         type="string"
+         length="1"
+         follows="left|top"
+         height="14"
+         layout="topleft"
+         left_delta="400"
+         name="ToastSpaceText"
+         top_delta="0"
+         width="80">
+            pixels
+        </text>
+        <slider
+         control_name="NotificationToastLifeTime"
+         decimal_digits="0"
+         follows="left|top"
+         height="14"
+         increment="1"
+         initial_value="5"
+         label="Notification Toast life:"
+         tool_tip="Number of seconds that a notification toast is displayed before fading"
+         label_width="250"
+         layout="topleft"
+         left="10"
+         max_val="300"
+         name="ToastLifetime"
+         top_pad="7"
+         width="400" />
+        <text
+         type="string"
+         length="1"
+         follows="left|top"
+         height="14"
+         layout="topleft"
+         left_delta="400"
+         name="ToastLifetimeText"
+         top_delta="0"
+         width="80">
+            seconds
+        </text>
+        <slider
+         control_name="NotificationTipToastLifeTime"
+         decimal_digits="0"
+         follows="left|top"
+         height="14"
+         increment="1"
+         initial_value="5"
+         label="Tip Toast life:"
+         tool_tip="Number of seconds that a tip toast is displayed before fading"
+         label_width="250"
+         layout="topleft"
+         left="10"
+         max_val="30"
+         name="TipToastLifetime"
+         top_pad="7"
+         width="400" />
+        <text
+         type="string"
+         length="1"
+         follows="left|top"
+         height="14"
+         layout="topleft"
+         left_delta="400"
+         name="TipToastLifetimeText"
+         top_delta="0"
+         width="80">
+            seconds
+        </text>
+        <slider
+         control_name="NearbyToastLifeTime"
+         decimal_digits="0"
+         follows="left|top"
+         height="14"
+         increment="1"
+         initial_value="5"
+         label="Nearby Chat Toast life:"
+         tool_tip="Number of seconds that a nearby chat popup is displayed before fading"
+         label_width="250"
+         layout="topleft"
+         left="10"
+         max_val="60"
+         name="NearbyToastLifetime"
+         top_pad="7"
+         width="400" />
+        <text
+         type="string"
+         length="1"
+         follows="left|top"
+         height="14"
+         layout="topleft"
+         left_delta="400"
+         name="NearbyToastLifetimeText"
+         top_delta="0"
+         width="80">
+            seconds
+        </text>
+        <slider
+         control_name="FSNearbyChatToastsOffset"
+         decimal_digits="0"
+         follows="left|top"
+         height="14"
+         increment="1"
+         initial_value="5"
+         label="Nearby Chat Toast z-offset:"
+         tool_tip="Controls the z-offset of nearby chat toasts"
+         label_width="250"
+         layout="topleft"
+         left="10"
+         max_val="60"
+         name="FSNearbyChatToastsOffset"
+         top_pad="7"
+         width="400" />
+        <text
+         type="string"
+         length="1"
+         follows="left|top"
+         height="14"
+         layout="topleft"
+         left_delta="400"
+         name="FSNearbyChatToastsOffsetText"
+         top_delta="0"
+         width="80">
+            pixels
+        </text>
+        <slider
+         control_name="NearbyToastFadingTime"
+         decimal_digits="0"
+         follows="left|top"
+         height="14"
+         increment="1"
+         label="Nearby Chat Toast fade time:"
+         tool_tip="Number of seconds that a nearby chat popup takes to fade completely"
+         label_width="250"
+         layout="topleft"
+         left="10"
+         max_val="10"
+         name="NearbyToastFadingTime"
+         top_pad="7"
+         width="400" />
+        <text
+         type="string"
+         length="1"
+         follows="left|top"
+         height="14"
+         layout="topleft"
+         left_delta="400"
+         name="NearbyToastFadingTimeText"
+         top_delta="0"
+         width="80">
+            seconds
+        </text>
+        <slider
+         control_name="StartUpToastLifeTime"
+         decimal_digits="0"
+         follows="left|top"
+         height="14"
+         increment="1"
+         initial_value="5"
+         label="Startup Toast life:"
+         tool_tip="Number of seconds that a toast is shown on startup before fading"
+         label_width="250"
+         layout="topleft"
+         left="10"
+         max_val="30"
+         name="StartupToastLifetime"
+         top_pad="7"
+         width="400" />
+        <text
+         type="string"
+         length="1"
+         follows="left|top"
+         height="14"
+         layout="topleft"
+         left_delta="400"
+         name="StartupToastLifetimeText"
+         top_delta="0"
+         width="80">
+            seconds
+        </text>
+        <slider
+         control_name="ToastFadingTime"
+         decimal_digits="0"
+         follows="left|top"
+         height="14"
+         increment="1"
+         label="Normal Toast fade time:"
+         tool_tip="Number of seconds that a normal toast is displayed before fading"
+         label_width="250"
+         layout="topleft"
+         left="10"
+         max_val="10"
+         name="ToastFadingTime"
+         top_pad="7"
+         width="400" />
+        <text
+         type="string"
+         length="1"
+         follows="left|top"
+         height="14"
+         layout="topleft"
+         left_delta="400"
+         name="ToastFadingTimeText"
+         top_delta="0"
+         width="80">
+            seconds
+        </text>
+        <slider
+         control_name="ToastGap"
+         decimal_digits="0"
+         follows="left|top"
+         height="14"
+         increment="1"
+         initial_value="5"
+         label="Gap between Toasts:"
+         tool_tip="Gap between adjacent toasts in pixels"
+         label_width="250"
+         layout="topleft"
+         left="10"
+         max_val="30"
+         name="ToastGap"
+         top_pad="7"
+         width="400" />
+        <text
+         type="string"
+         length="1"
+         follows="left|top"
+         height="14"
+         layout="topleft"
+         left_delta="400"
+         name="ToastGapText"
+         top_delta="0"
+         width="80">
+            pixels
+        </text>
+<!-- Not referenced in sources
+        <slider
+         control_name="OverflowToastHeight"
+         decimal_digits="0"
+         follows="left|top"
+         height="14"
+         increment="1"
+         label="Height of Overflow Toast:"
+         tool_tip="Height of an overflow toast in pixels"
+         label_width="250"
+         layout="topleft"
+         left="10"
+         max_val="250"
+         name="OverflowToastHeight"
+         top_pad="7"
+         width="400" />
+        <text
+         type="string"
+         length="1"
+         follows="left|top"
+         height="14"
+         layout="topleft"
+         left_delta="400"
+         name="OverflowToastHeightText"
+         top_delta="0"
+         width="80">
+            pixels
+        </text>
+-->
+        <slider
+         control_name="NearbyToastWidth"
+         decimal_digits="0"
+         follows="left|top"
+         height="14"
+         increment="1"
+         label="Width of Nearby Chat Toast:"
+         tool_tip="Width of a the nearby chat popups in percent of screen width"
+         label_width="250"
+         layout="topleft"
+         left="10"
+         min_val="10"
+         max_val="90"
+         name="NearbyToastWidth"
+         top_pad="7"
+         width="400" />
+        <text
+         type="string"
+         length="1"
+         follows="left|top"
+         height="14"
+         layout="topleft"
+         left_delta="400"
+         name="NearbyToastWidthText"
+         top_delta="0"
+         width="80">
+            %
+        </text>
+        </panel>
+</tab_container>
+</panel>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+Littlefield Grid FTRLV modified version, 2026-11-22.
+Changes relative to Kokua 7.2.0.61057 are documented in doc/CHANGES-FTRLV.md.
+Existing upstream copyright and license notices are retained.
+-->
+<floater name="floater_grid_status" title="Littlefield Grid Status"
+         positioning="cascading" layout="topleft" width="480" height="240"
+         can_resize="false" save_rect="true" save_visibility="true">
+    <floater.string name="session_connected">Viewer session: connected to a region.</floater.string>
+    <floater.string name="session_disconnected">Viewer session: no active region connection.</floater.string>
+    <text name="grid_name" left="20" top="35" width="440" height="22"
+          layout="topleft" font="SansSerifLarge">Littlefield Grid</text>
+    <text name="connection_state" left="20" top="70" width="440" height="22"
+          layout="topleft"/>
+    <text name="status_notice" left="20" top="105" width="440" height="70"
+          layout="topleft" wrap="true">Grid-wide status is unavailable: no Littlefield Grid status feed is configured. The session indicator describes this viewer's connection only. Visit the existing LFGrid welcome page for published grid information.</text>
+    <button name="open_portal" label="Open LFGrid Welcome" left="20" top="190"
+            width="200" height="24" layout="topleft"/>
+</floater>

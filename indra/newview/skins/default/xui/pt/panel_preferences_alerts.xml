@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+Littlefield Grid FTRLV modified version, 2026-11-22.
+Changes relative to Kokua 7.2.0.61057 are documented in doc/CHANGES-FTRLV.md.
+Existing upstream copyright and license notices are retained.
+-->
+<panel label="Popups" name="popups" title="Popups">
+	<text name="tell_me_label">
+		Avisar:
+	</text>
+	<check_box label="Quando eu gastar OS$" name="notify_money_spend_checkbox"/>
+	<check_box label="Quando meus amigos entram e saem" name="friends_online_notify_checkbox"/>
+	<check_box label="Quando eu receber OS$" name="notify_money_received_checkbox"/>
+	<text name="show_label">
+		Mostrar sempre:
+	</text>
+	<text name="dont_show_label">
+		Nunca mostrar:
+	</text>
+</panel>

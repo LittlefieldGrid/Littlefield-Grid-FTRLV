@@ -1,0 +1,6 @@
+Source: https://github.com/chromium/chromium/blob/118.0.5993.54/DEPS
+Retrieved original hash is in FOLLOWUP-RETRIEVAL.json. This file records facts rather than the entire DEPS file.
+Chromium source: tag 118.0.5993.54.
+FFmpeg repository: https://chromium.googlesource.com/chromium/third_party/ffmpeg
+FFmpeg revision: 0ba37733400593b162e5ae9ff26b384cff49c250
+The complete pinned Chromium DEPS file specifies the other dependency checkouts.

@@ -1,0 +1,41 @@
+#!/bin/bash
+CWD=$(pwd)
+NPROC=$(nproc)
+
+if [ -z "$ARCH" ]; then
+  case "$( uname -m )" in
+    i?86) ARCH=i486 ;;
+    arm*) ARCH=arm ;;
+       *) ARCH=$( uname -m ) ;;
+  esac
+fi
+
+if [ "$ARCH" = "i486" ]; then
+  OSARCH=""
+elif [ "$ARCH" = "i686" ]; then
+  OSARCH=""
+elif [ "$ARCH" = "x86_64" ]; then
+  OSARCH="64"
+else
+  SLKCFLAGS="-O2"
+  LIBDIRSUFFIX=""
+fi
+
+set -e
+
+if [ -d $CWD/viewer-build-variables ]
+then
+export AUTOBUILD_VARIABLES_FILE=$CWD/viewer-build-variables/variables
+
+else
+  hg clone https://bitbucket.org/kokua/viewer-build-variables &
+  wait
+  export AUTOBUILD_VARIABLES_FILE=$CWD/viewer-build-variables/variables
+fi
+
+
+autobuild configure  -A $OSARCH -c ReleaseOS --  --platform linux$OSARCH  -DLL_TESTS:BOOL=FALSE -DFMODEX:BOOL=ON -DOPENAL:BOOL=OFF -DVIEWER_CHANNEL="Kokua Test $OSARCH" &
+wait
+autobuild build -A $OSARCH --no-configure -c ReleaseOS -- -j$NPROC  &
+wait
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+Littlefield Grid FTRLV modified version, 2026-11-22.
+Changes relative to Kokua 7.2.0.61057 are documented in doc/CHANGES-FTRLV.md.
+Existing upstream copyright and license notices are retained.
+-->
+<floater name="publish_classified" title="Publicerer annoncer">
+	<text name="explanation_text">
+		Din annonce vil blive vist i en uge fra den dato den publiceres.
+
+Husk, annonceomkostninger kan ikke refunderes.
+	</text>
+	<spinner label="Pris: OS$" name="price_for_listing" tool_tip="Pris for optagelse af annonce." value="50"/>
+	<text name="l$_text" value="OS$"/>
+	<text name="more_info_text">
+		Mere info (link til hjælp om annoncer)
+	</text>
+	<button label="Publicér" name="publish_btn"/>
+	<button label="Annullér" name="cancel_btn"/>
+</floater>

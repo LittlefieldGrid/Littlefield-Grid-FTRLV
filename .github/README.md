@@ -1,0 +1,1 @@
+No inherited GitHub Actions workflows are enabled in this snapshot. Upstream workflows using Second Life infrastructure, signing secrets, automatic releases, CLA storage, and self-hosted deployment/QA were excluded. Publication and CI remain pending explicit approval.

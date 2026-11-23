@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+Littlefield Grid FTRLV modified version, 2026-11-22.
+Changes relative to Kokua 7.2.0.61057 are documented in doc/CHANGES-FTRLV.md.
+Existing upstream copyright and license notices are retained.
+-->
+<floater name="publish_classified" title="İlan Yayınlama">
+	<text name="explanation_text">
+		Seri ilanınız yayına verildiği günden itibaren bir hafta boyunca yayında kalacaktır.
+        
+Unutmayın, İlan ücretleri iade edilmez.
+	</text>
+	<spinner label="Fiyat: OS$" name="price_for_listing" tool_tip="İlan ücreti." value="50"/>
+	<button label="Yayınla" name="publish_btn"/>
+	<button label="İptal" name="cancel_btn"/>
+</floater>

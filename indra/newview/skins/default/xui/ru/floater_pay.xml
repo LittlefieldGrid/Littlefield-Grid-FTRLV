@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+Littlefield Grid FTRLV modified version, 2026-11-22.
+Changes relative to Kokua 7.2.0.61057 are documented in doc/CHANGES-FTRLV.md.
+Existing upstream copyright and license notices are retained.
+-->
+<floater name="Give Money">
+	<string name="payee_group">
+		Заплатить группе
+	</string>
+	<string name="payee_resident">
+		Заплатить жителю
+	</string>
+	<text name="paying_text">
+		Вы платите:
+	</text>
+	<text name="payee_name">
+		Слишком длинное тестовое имя для проверки обрезания
+	</text>
+	<text name="payment_message_label">
+		Описание (не обязательно):
+	</text>
+	<panel label="Поиск" name="PatternsPanel">
+		<button label="Оплатить OS$ 1" label_selected="Оплатить OS$ 1" name="fastpay 1"/>
+		<button label="Оплатить OS$ 5" label_selected="Оплатить OS$ 5" name="fastpay 5"/>
+		<button label="Оплатить OS$ 10" label_selected="Оплатить OS$ 10" name="fastpay 10"/>
+		<button label="Оплатить OS$ 20" label_selected="Оплатить OS$ 20" name="fastpay 20"/>
+	</panel>
+	<panel label="Поиск" name="InputPanel">
+		<text name="amount text">
+			Другая сумма:
+		</text>
+		<button label="Оплатить" label_selected="Оплатить" name="pay btn"/>
+		<button label="Отмена" label_selected="Отмена" name="cancel btn"/>
+	</panel>
+</floater>

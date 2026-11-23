@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+Littlefield Grid FTRLV modified version, 2026-11-22.
+Changes relative to Kokua 7.2.0.61057 are documented in doc/CHANGES-FTRLV.md.
+Existing upstream copyright and license notices are retained.
+-->
+<menu name="menu_inventory_add">
+	<menu label="Hochladen" name="upload">
+		<menu_item_call label="Bild ([COST] OS$)..." name="Upload Image"/>
+		<menu_item_call label="Sound ([COST] OS$)..." name="Upload Sound"/>
+		<menu_item_call label="Animation ([COST] OS$)..." name="Upload Animation"/>
+		<menu_item_call label="Modell..." name="Upload Model"/>
+		<menu_item_call label="Mehrfach-Upload ([COST] OS$ pro Datei)..." name="Bulk Upload"/>
+	</menu>
+	<menu_item_call label="Neuer Ordner" name="New Folder"/>
+	<menu_item_call label="Neues Skript" name="New Script"/>
+	<menu_item_call label="Neue Notizkarte" name="New Note"/>
+	<menu_item_call label="Neue Geste" name="New Gesture"/>
+	<menu label="Neue Kleider" name="New Clothes">
+		<menu_item_call label="Neues Hemd" name="New Shirt"/>
+		<menu_item_call label="Neue Hose" name="New Pants"/>
+		<menu_item_call label="Neue Schuhe" name="New Shoes"/>
+		<menu_item_call label="Neue Socken" name="New Socks"/>
+		<menu_item_call label="Neue Jacke" name="New Jacket"/>
+		<menu_item_call label="Neuer Rock" name="New Skirt"/>
+		<menu_item_call label="Neue Handschuhe" name="New Gloves"/>
+		<menu_item_call label="Neues Unterhemd" name="New Undershirt"/>
+		<menu_item_call label="Neue Unterhose" name="New Underpants"/>
+		<menu_item_call label="Neues Alpha" name="New Alpha"/>
+		<menu_item_call label="Neue Tätowierung" name="New Tattoo"/>
+		<menu_item_call label="Neues Universal" name="New Universal"/>
+		<menu_item_call label="Neue Physik" name="New Physics"/>
+	</menu>
+	<menu label="Neue Körperteile" name="New Body Parts">
+		<menu_item_call label="Neue Form/Gestalt" name="New Shape"/>
+		<menu_item_call label="Neue Haut" name="New Skin"/>
+		<menu_item_call label="Neues Haar" name="New Hair"/>
+		<menu_item_call label="Neue Augen" name="New Eyes"/>
+	</menu>
+	<menu label="Neue Einstellungen" name="New Settings">
+		<menu_item_call label="Neuer Himmel" name="New Sky"/>
+		<menu_item_call label="Neues Wasser" name="New Water"/>
+		<menu_item_call label="Neuer Tageszyklus" name="New Day Cycle"/>
+	</menu>
+</menu>
